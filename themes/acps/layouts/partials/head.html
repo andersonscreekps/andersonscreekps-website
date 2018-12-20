@@ -1,0 +1,9 @@
+{{ $style := resources.Get "bootstrap/scss/bootstrap.scss" | toCSS | minify | fingerprint }} 
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+{{ $style := resources.Get "acps.scss" | toCSS | minify | fingerprint }} 
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
