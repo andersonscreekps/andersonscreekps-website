@@ -1,3 +1,17 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.andersonscreekps.org/"
+languageCode = "en-AU"
+theme = "acps"
+uglyURLs = false
+disableHugoGeneratorInject = true
+#disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+timeout = "300000"
+
+[permalinks]
+  events = "/events/:year/:month/:title/"
+  news = "/news/:year/:month/:title/"
+
+title = "Andersonʼs Creek Primary School"
+
+[params]
+  name = "Anderson’s Creek Primary School"
+  description ="Anderson’s Creek Primary School is situated 30 kms northeast of Melbourne at Warrandyte, adjacent to Anderson's Creek. We have a school population of 350 students."
