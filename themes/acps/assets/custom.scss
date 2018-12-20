@@ -1,3 +1,10 @@
+/** Custom Bootstrap theming **/
+
+$theme-colors: (
+  "primary": #2A5DB0,
+);
+
+
 /** Standard Bootstrap imports **/
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
