@@ -4,6 +4,7 @@ theme = "acps"
 uglyURLs = false
 disableHugoGeneratorInject = true
 #disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 timeout = "300000"
 
 [permalinks]
