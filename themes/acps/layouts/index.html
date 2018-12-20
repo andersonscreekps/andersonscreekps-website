@@ -1,0 +1,9 @@
+<html>
+<head>
+	{{ $styles := resources.Get "bootstrap/scss/bootstrap.scss" | toCSS | postCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+</head>
+<body>
+<h1>Default bootstrap index page</h1>
+</body>
+</html>
