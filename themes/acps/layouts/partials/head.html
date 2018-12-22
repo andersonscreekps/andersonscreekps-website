@@ -15,10 +15,10 @@
 
   {{ $options := (dict "targetPath" "/css/bootstrap.css" "outputStyle" "compressed") }}
   {{ $style := resources.Get "custom.scss" | resources.ToCSS $options | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}"  integrity="{{ $style.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}"  integrity="{{ $style.Data.Integrity }}">
   {{ $options := (dict "targetPath" "/css/acps.css"  "outputStyle" "compressed") }}
   {{ $style := resources.Get "acps.scss" | resources.ToCSS $options | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}"  integrity="{{ $style.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}"  integrity="{{ $style.Data.Integrity }}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
 
