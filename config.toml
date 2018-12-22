@@ -1,7 +1,7 @@
 baseURL = "https://www.andersonscreekps.org/"
 languageCode = "en-AU"
 theme = "acps"
-uglyURLs = false
+uglyURLs = true 
 disableHugoGeneratorInject = true
 #disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 disableKinds = ["taxonomy", "taxonomyTerm"]
