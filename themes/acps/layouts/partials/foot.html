@@ -5,3 +5,5 @@
 {{ $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint  }}
 
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+<script src="/js/bootstrap-4-navbar.js"></script>

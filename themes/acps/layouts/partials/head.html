@@ -14,15 +14,19 @@
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   {{ $options := (dict "targetPath" "/css/bootstrap.css" "outputStyle" "compressed") }}
-  {{ $style := resources.Get "custom.scss" | resources.ToCSS $options | minify | fingerprint }} 
+  {{ $style := resources.Get "custom.scss" | resources.ToCSS $options | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}"  integrity="{{ $style.Data.Integrity }}">
   {{ $options := (dict "targetPath" "/css/acps.css"  "outputStyle" "compressed") }}
-  {{ $style := resources.Get "acps.scss" | resources.ToCSS $options | minify | fingerprint }} 
+  {{ $style := resources.Get "acps.scss" | resources.ToCSS $options | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}"  integrity="{{ $style.Data.Integrity }}">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/bootstrap-4-navbar.css">
+
+
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/gqdmtaegmix3/image/upload/v1544847458/acps/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/gqdmtaegmix3/image/upload/v1544847458/acps/favicon-32x32.png">
@@ -32,4 +36,3 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{ end }}
 </head>
-
