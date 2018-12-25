@@ -6,4 +6,7 @@
 
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-<script src="/js/bootstrap-4-navbar.js"></script>
+{{ $bs4nav := resources.Get "js/vendor/bootstrap-4-navbar.js" }}
+{{ $js := slice $bs4nav | resources.Concat "js/bs4nav.js" | resources.Minify | resources.Fingerprint }}
+
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
