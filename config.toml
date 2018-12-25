@@ -1,3 +1,4 @@
+title = "Andersonʼs Creek Primary School"
 baseURL = "https://www.andersonscreekps.org/"
 languageCode = "en-AU"
 theme = "acps"
@@ -11,7 +12,6 @@ timeout = "300000"
   events = "/events/:year/:month/:title/"
   news = "/news/:year/:month/:title/"
 
-title = "Andersonʼs Creek Primary School"
 
 [params]
   name = "Anderson’s Creek Primary School"
