@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row" style="margin-bottom: 60px;">
       <div class="col-12 col-lg-8 mx-auto">
-	<h2 class="text-center mb-4">Why choose our school?</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat.</p><p>Curabitur euismod fringilla molestie. Cras sit amet fermentum augue, sit amet dictum ipsum. Sed nec mi id libero luctus maximus. Praesent dapibus mauris augue, non accumsan dui viverra at. Praesent vehicula quam tellus, sit amet finibus turpis iaculis nec. Nam ac dictum risus.</p>
+        <h2 class="text-center mb-4">{{ .Params.why_title }}</h2>
+        {{ .Params.why_description | markdownify }}
       </div>
     </div>
     <div class="row text-center">
