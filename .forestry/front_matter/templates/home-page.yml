@@ -13,6 +13,9 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    date_format: DD/MM/YYYY
+    required: true
 - name: description
   label: Description
   type: text
