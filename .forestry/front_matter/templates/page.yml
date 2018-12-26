@@ -15,3 +15,5 @@ fields:
   default: ''
   config:
     date_format: DD/MM/YYYY
+pages:
+- content/newsletters/index.md

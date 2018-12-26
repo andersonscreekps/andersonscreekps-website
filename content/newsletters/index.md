@@ -1,7 +1,8 @@
 +++
+date = "2018-12-01T00:00:00+11:00"
 title = "Newsletters"
-+++
 
++++
 <h2>School newsletters</h2>
 
 <h3>2018</h3>
