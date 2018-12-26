@@ -17,4 +17,5 @@ fields:
     date_format: DD/MM/YYYY
 pages:
 - content/newsletters/index.md
+- content/learning/vision.md
 - content/our-school/our-story.md
