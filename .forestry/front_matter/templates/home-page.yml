@@ -38,6 +38,18 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: welcome_button_1
+  label: Welcome button 1
+  description: Welcome button 1
+  config:
+    required: true
+- type: text
+  name: welcome_button_2
+  label: Welcome button 2
+  description: Welcome button 2
+  config:
+    required: true
 - type: file
   name: events_news_image_1
   label: Events News image 1
