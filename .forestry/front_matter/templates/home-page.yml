@@ -38,18 +38,40 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: text
+- type: field_group
   name: welcome_button_1
   label: Welcome button 1
   description: Welcome button 1
-  config:
-    required: true
-- type: text
+  fields:
+  - type: text
+    name: title
+    label: Button title
+    description: Welcome button title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: Button URL
+    description: Welcome button URL
+    config:
+      required: true
+- type: field_group
   name: welcome_button_2
   label: Welcome button 2
   description: Welcome button 2
-  config:
-    required: true
+  fields:
+  - type: text
+    name: title
+    label: Button title
+    description: Welcome button title
+    config:
+      required: true
+  - type: text
+    name: url
+    label: Button URL
+    description: Welcome button URL
+    config:
+      required: true
 - type: file
   name: events_news_image_1
   label: Events News image 1
