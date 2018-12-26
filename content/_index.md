@@ -9,6 +9,18 @@ keywords = ["Primary school", "Anderson’s Creek Primary School", "ACPS", "Warr
 title = "Welcome"
 [[features]]
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "building"
+title = "Our facilities"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "leaf"
+title = "Our sustainability"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "thumbs-up"
+title = "Our values"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
 icon = "user-graduate"
 title = "Our students"
 [[features]]
