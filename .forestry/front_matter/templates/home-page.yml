@@ -69,5 +69,8 @@ fields:
   description: Why choose our school description
   config:
     required: true
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - content/_index.md
