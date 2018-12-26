@@ -24,7 +24,7 @@ fields:
   hidden: false
   default: ''
 - type: file
-  name: events_news_1
+  name: events_news_image_1
   label: Events News image 1
   description: First image for Events and News section
 - type: file
