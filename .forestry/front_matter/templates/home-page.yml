@@ -57,5 +57,17 @@ fields:
     description: Feature description
     config:
       required: true
+- type: text
+  name: why_title
+  label: Why title
+  description: Why choose our school title
+  config:
+    required: true
+- type: textarea
+  label: Why description
+  name: why_description
+  description: Why choose our school description
+  config:
+    required: true
 pages:
 - content/_index.md
