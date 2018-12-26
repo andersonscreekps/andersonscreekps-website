@@ -11,6 +11,12 @@ welcome_text = "Welcome to a school that is an integral part of the local Warran
 welcome_title = "Welcome to Anderson's Creek Primary School"
 why_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat. Curabitur euismod fringilla molestie.\n\nCras sit amet fermentum augue, sit amet dictum ipsum. Sed nec mi id libero luctus maximus. Praesent dapibus mauris augue, non accumsan dui viverra at. Praesent vehicula quam tellus, sit amet finibus turpis iaculis nec. Nam ac dictum risus."
 why_title = "Why choose our school?"
+[welcome_button_1]
+title = "Read our story"
+url = "/our-school/our-story.html"
+[welcome_button_2]
+title = "Enrol now"
+url = "/community/enrolments.html"
 [[collage]]
 image = "/v1544840491/acps/20180810-090920.jpg"
 [[collage]]
