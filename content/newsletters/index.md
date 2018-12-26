@@ -1,6 +1,6 @@
----
-title: Newsletters
----
++++
+title = "Newsletters"
++++
 
 <h2>School newsletters</h2>
 

@@ -1,5 +1,5 @@
----
-title: Principal's welcome 
----
++++
+title = "Principal's welcome"
++++
 
 Welcome from the Principal.

@@ -1,6 +1,6 @@
----
-title: Our story 
----
++++
+title = "Our story"
++++
 
 Anderson's Creek Primary School is committed to the highest possible standards of teaching and learning at every level. High academic achievement in Numeracy and Literacy is our key focus. We also believe in providing a broad range of learning opportunities for our students in all curriculum areas which include Science and Technology, Performing and Visual Arts, Health and Physical Education, L.O.T.E. (Italian), Music, Reading Recovery, Student Leadership Programs, Intervention Programs. We strongly believe in differentiating the curriculum for every child.
 
