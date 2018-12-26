@@ -1,7 +1,7 @@
 <section id="news-events" class="bg-light">
   <div class="container-fluid p-0 m-0">
     <div class="row no-gutters">
-      <div class="col-lg-6  order-lg-2 my-0 py-0" style="background-image: url('https://res.cloudinary.com/gqdmtaegmix3/image/upload/c_fill,g_auto,q_auto,f_auto,w_600,e_sharpen/v1544837886/acps/20180810-092410.jpg'); min-height:45rem; background-size: cover;"></div>
+      <div class="col-lg-6  order-lg-2 my-0 py-0" style="background-image: url('{{ .Site.Params.cloudinary_base_url }}/c_fill,g_auto,q_auto,f_auto,w_600,e_sharpen{{ .Params.events_news_image_1 }}'); min-height:45rem; background-size: cover;" /></div>
       <div class="col-lg-6 p-4 order-lg-1">
 	<h2 class="text-center pt-4 pb-2">Upcoming events</h2>
 	<ul class="timeline timeline-simple">
@@ -49,7 +49,7 @@
 	    </div>
 	  </li>
 	</ul></div>
-	<div class="col-lg-6 my-0 py-0 order-lg-3" style="background-image: url('https://res.cloudinary.com/gqdmtaegmix3/image/upload/c_fill,g_auto,q_auto,f_auto,w_600,e_sharpen/v1544837717/acps/20180526-083159.jpg'); min-height:45rem; background-size: cover;"></div>
+	<div class="col-lg-6 my-0 py-0 order-lg-3" style="background-image: url('{{ .Site.Params.cloudinary_base_url }}/c_fill,g_auto,q_auto,f_auto,w_600,e_sharpen{{ .Params.events_news_image_2 }}'); min-height:45rem; background-size: cover;"></div>
 	<div class="col-lg-6 p-4 order-lg-4">
 	  <h2 class="text-center pt-4 pb-2">Latest news</h2>
 	  <ul class="timeline timeline-simple">
