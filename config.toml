@@ -14,6 +14,6 @@ timeout = "300000"
 
 
 [params]
-  cloudinary_base_url = "https://res.cloudinary.com/gqdmtaegmix3/image/upload/"
+  cloudinary_base_url = "https://res.cloudinary.com/gqdmtaegmix3/image/upload"
   name = "Anderson’s Creek Primary School"
   description ="Anderson’s Creek Primary School is situated 30 kms northeast of Melbourne at Warrandyte, adjacent to Anderson's Creek. We have a school population of 350 students."
