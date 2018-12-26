@@ -11,7 +11,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content
-  label: Pages
+  label: Home
   create: all
   match: "*"
 upload_dir: ''
