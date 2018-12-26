@@ -15,6 +15,7 @@ fields:
   default: ''
   config:
     date_format: DD/MM/YYYY
+    required: true
 pages:
 - content/our-school/principals-welcome.md
 - content/newsletters/index.md
