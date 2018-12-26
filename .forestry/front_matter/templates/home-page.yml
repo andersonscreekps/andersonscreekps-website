@@ -31,5 +31,31 @@ fields:
   name: events_news_image_2
   label: Events News Image 2
   description: Second image for Events and News section
+- type: field_group_list
+  name: features
+  label: Features
+  description: Feature listing
+  config:
+    min: '3'
+    max: '9'
+  fields:
+  - type: text
+    name: title
+    label: Title
+    description: Feature title
+    config:
+      required: true
+  - type: text
+    name: icon
+    label: Icon
+    description: Feature icon
+    config:
+      required: true
+  - type: textarea
+    label: Description
+    name: description
+    description: Feature description
+    config:
+      required: true
 pages:
 - content/_index.md
