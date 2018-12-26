@@ -23,6 +23,21 @@ fields:
   type: list
   hidden: false
   default: ''
+- type: text
+  name: welcome_title
+  label: Welcome title
+  description: Welcome title
+  config:
+    required: true
+- type: textarea
+  name: welcome_text
+  label: Welcome text
+  description: Welcome text
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: file
   name: events_news_image_1
   label: Events News image 1
