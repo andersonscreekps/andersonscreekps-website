@@ -72,5 +72,17 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: field_group_list
+  name: collage
+  label: Collage
+  description: Collage images
+  config:
+    min: '3'
+    max: '9'
+  fields:
+  - type: file
+    name: image
+    label: Image
+    description: Image link
 pages:
 - content/_index.md
