@@ -7,5 +7,17 @@ events_news_image_2 = "/v1544837717/acps/20180526-083159.jpg"
 hero = "/v1544847175/acps/20180526-083013.jpg"
 keywords = ["Primary school", "Anderson’s Creek Primary School", "ACPS", "Warrandyte"]
 title = "Welcome"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "users"
+title = "Our community"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "chalkboard-teacher"
+title = "Our staff"
+[[features]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
+icon = "user-graduate"
+title = "Our students"
 
 +++
