@@ -1,18 +1,16 @@
 {{ "<!-- Collage -->" | safeHTML }}
 <section class="collage bg-white">
-  <!-- https://stackoverflow.com/questions/49362289/sizes-attribute-for-bootstrap-responsive-breakpoints
-    <picture>
-    <source srcset="https://acc02.mdbootstrap.com/img/Mockups/Horizontal/6-col/bootstrap-extra.jpg" media="(min-width: 1200px)" />
-    <source srcset="https://acc02.mdbootstrap.com/img/Mockups/Horizontal/6-col/bootstrap-large.jpg" media="(min-width: 992px)" />
-    <source srcset="https://acc02.mdbootstrap.com/img/Mockups/Horizontal/6-col/bootstrap-medium.jpg " media="(min-width: 768px)" />
-    <source srcset="https://acc02.mdbootstrap.com/img/Mockups/Horizontal/6-col/bootstrap-small.jpg" media="(min-width: 576px)" />
-    <img src="https://acc02.mdbootstrap.com/img/Mockups/Horizontal/6-col/bootstrap-extra-small.jpg" class="img-fluid" />
-    </picture> -->
     <div class="container-fluid p-0">
       <div class="row no-gutters">
                 {{ range .Params.collage }}
        <div class="col-md-6 col-lg-4 p-0">
-         <a href="{{ $.Site.Params.cloudinary_base_url }}/{{ .image }}"><img src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,h_400,e_sharpen{{ .image }}" style="width: 100%; height: 100%"></a>
+    <picture>
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1200,e_sharpen{{ .image }}" media="(min-width: 1200px)" />
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_992,e_sharpen{{ .image }}" media="(min-width: 992px)" />
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_768,e_sharpen{{ .image }}" media="(min-width: 768px)" />
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_576,e_sharpen{{ .image }}" media="(min-width: 576px)" />
+    <img src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,h_400,e_sharpen{{ .image }}" class="img-fluid" />
+    </picture>
        </div>
        {{  end }}
       </div>
