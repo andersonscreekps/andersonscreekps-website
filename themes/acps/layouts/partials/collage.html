@@ -5,6 +5,8 @@
                 {{ range .Params.collage }}
        <div class="col-sm-6 col-lg-4 p-0">
     <picture>
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_960,e_sharpen{{ .image }}" media="(min-width: 1920px)" />
+    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_800,e_sharpen{{ .image }}" media="(min-width: 1600px)" />
     <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,e_sharpen{{ .image }}" media="(min-width: 1200px)" />
     <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,e_sharpen{{ .image }}" media="(min-width: 992px)" />
     <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_496,e_sharpen{{ .image }}" media="(min-width: 768px)" />
