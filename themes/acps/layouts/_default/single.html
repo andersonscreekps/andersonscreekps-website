@@ -1,7 +1,14 @@
- {{ define "main" }}
+{{ define "main" }}
 
- <h1>{{ .Title }}</h1>
+<section id="content" class="py-4 my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9 mx-auto" >
+        <h1 class="mb-4 text-center">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
 
- {{ .Content }}
-
- {{ end }}
+{{ end }}
