@@ -7,11 +7,26 @@ disableHugoGeneratorInject = true
 #disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 disableKinds = ["taxonomy", "taxonomyTerm"]
 timeout = "300000"
+disableAliases = true
 
 [permalinks]
   events = "/events/:year/:month/:title/"
   news = "/news/:year/:month/:title/"
 
+[outputs]
+  home = ["HTML", "RSS", "REDIRECTS"]
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes = [""]
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.REDIRECTS]
+    mediatype = "text/netlify"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
 
 [params]
   cloudinary_base_url = "https://res.cloudinary.com/gqdmtaegmix3/image/upload"
