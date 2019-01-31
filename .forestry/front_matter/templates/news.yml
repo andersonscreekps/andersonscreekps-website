@@ -28,3 +28,4 @@ fields:
   description: News content.  Optional and will be displayed in single event.
 pages:
 - content/news/book-pack-collection.md
+- content/news/first-day-of-school.md
