@@ -2,8 +2,8 @@
 date = "2018-12-27T06:47:13+11:00"
 description = "Welcome to the home of Anderson’s Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
-events_news_image_1 = "/v1544837886/acps/20180810-092410.jpg"
-events_news_image_2 = "/v1544837717/acps/20180526-083159.jpg"
+events_news_image_1 = "/v1548900504/20180810-092410.jpg"
+events_news_image_2 = "/v1548900561/20180526-083159.jpg"
 keywords = ["Primary school", "Anderson’s Creek Primary School", "ACPS", "Warrandyte"]
 title = "Welcome"
 welcome_text = "Welcome to a school that is an integral part of the local Warrandyte  Community. Every day at Anderson's Creek is a great learning experience  for children as they are empowered to be their best through strong  relationships between teachers, peers and the community.\n\nAt Anderson's Creek we believe in every child, every day. Children  are nurtured and cared for in a quality learning environment. Our whole  school Values Program focuses on Respect, Optimism, Honesty and  Integrity, creating a positive and happy school that children can thrive  in."
