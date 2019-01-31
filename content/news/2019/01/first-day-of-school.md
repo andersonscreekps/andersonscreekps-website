@@ -5,3 +5,4 @@ description = "Welcome back to school everyone (except preps)."
 title = "First day of school"
 
 +++
+First day went well.  Nothing else to report.
