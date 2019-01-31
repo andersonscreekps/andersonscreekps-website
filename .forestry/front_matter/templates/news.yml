@@ -26,3 +26,5 @@ fields:
   name: content
   label: Content
   description: News content.  Optional and will be displayed in single event.
+pages:
+- content/news/book-pack-collection.md
