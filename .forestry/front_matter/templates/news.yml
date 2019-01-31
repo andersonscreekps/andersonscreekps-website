@@ -1,0 +1,28 @@
+---
+label: News
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: News title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: News date
+  config:
+    date_format: DD/MM/YYYY
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: Short description of news. Will be displayed in summary view.
+  config:
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  description: News content.  Optional and will be displayed in single event.
