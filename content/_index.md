@@ -17,17 +17,17 @@ url = "/our-school/our-story.html"
 title = "Enrol now"
 url = "/community/enrolments.html"
 [[collage]]
-image = "/v1544840491/acps/20180810-090920.jpg"
+image = "/v1548900307/20180810-090920.jpg"
 [[collage]]
-image = "/v1546945608/acps/20180527-080323.jpg"
+image = "/v1548900269/20180527-080323.jpg"
 [[collage]]
-image = "/v1544840484/acps/20180810-093315.jpg"
+image = "/v1548900486/20180810-093315.jpg"
 [[collage]]
-image = "/v1544840464/acps/20180810-094819.jpg"
+image = "/v1548900804/20180810-094819.jpg"
 [[collage]]
-image = "/v1544836741/acps/20180526-083050.jpg"
+image = "/v1548900417/20180526-083050.jpg"
 [[collage]]
-image = "/v1544840492/acps/20180810-094200.jpg"
+image = "/v1548900716/20180810-094200.jpg"
 [[features]]
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
 icon = "chalkboard-teacher"
