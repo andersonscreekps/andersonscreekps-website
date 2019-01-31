@@ -53,53 +53,7 @@
 	<div class="col-lg-6 my-0 py-0 order-lg-3" style="background-image: url('{{ .Site.Params.cloudinary_base_url }}/c_fill,g_auto,q_auto,f_auto,w_600,e_sharpen{{ .Params.events_news_image_2 }}'); min-height:45rem; background-size: cover;"></div>
 	<div class="col-lg-6 p-4 order-lg-4">
 	  <h2 class="text-center pt-4 pb-2">Latest news</h2>
-	  <ul class="timeline timeline-simple">
-
-	    <li class="timeline-inverted">
-	      <div class="timeline-badge bg-primary primary">
-		<i class="fa fa-newspaper"></i>
-	      </div>
-	      <div class="timeline-panel">
-		<div class="timeline-heading">
-		  <span class="badge badge-primary">7 days ago</span>
-		</div>
-		<h5><a href="#">Grade 5 and 6 surf day</a></h5>
-		<div class="timeline-body">
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat.</p>
-		</div>
-	      </div>
-	    </li>
-	    <li class="timeline-inverted">
-	      <div class="timeline-badge bg-primary primary">
-		<i class="fa fa-newspaper"></i>
-	      </div>
-	      <div class="timeline-panel">
-		<div class="timeline-heading">
-		  <span class="badge badge-primary">3 weeks ago</span>
-		</div>
-		<h5><a href="#">Bop til you drop disco</a></h5>
-		<div class="timeline-body">
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat.</p>
-		</div>
-	      </div>
-	    </li>
-	    <li class="timeline-inverted">
-	      <div class="timeline-badge bg-primary primary">
-		<i class="fa fa-newspaper"></i>
-	      </div>
-	      <div class="timeline-panel">
-		<div class="timeline-heading">
-		  <span class="badge badge-primary">1 month ago</span>
-		</div>
-		<h5><a href="#">Prep orientation</a></h5>
-		<div class="timeline-body">
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat.</p>
-		</div>
-	      </div>
-	    </li>
-	  </ul>
-
-
+     {{- partial "latest-news.html" . -}}
 	</div>
     </div>
   </div>
