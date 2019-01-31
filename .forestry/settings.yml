@@ -25,6 +25,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
   path: content/newsletters
   label: Newsletters
   create: all
