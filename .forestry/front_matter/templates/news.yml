@@ -22,10 +22,6 @@ fields:
   description: Short description of news. Will be displayed in summary view.
   config:
     required: true
-- type: textarea
-  name: content
-  label: Content
-  description: News content.  Optional and will be displayed in single event.
 pages:
 - content/news/2019/01/first-day-of-school.md
 - content/news/2019/01/second-day-of-school.md
