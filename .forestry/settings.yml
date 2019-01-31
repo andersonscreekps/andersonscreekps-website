@@ -34,6 +34,11 @@ sections:
   label: Newsletters
   create: all
   match: "**/*"
+- type: directory
+  path: content/events
+  label: Events
+  create: all
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
