@@ -25,6 +25,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
   path: content/news
   label: News
   create: all
@@ -32,11 +37,6 @@ sections:
 - type: directory
   path: content/newsletters
   label: Newsletters
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/events
-  label: Events
   create: all
   match: "**/*"
 upload_dir: ''
