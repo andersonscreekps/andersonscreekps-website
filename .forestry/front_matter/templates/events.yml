@@ -18,3 +18,5 @@ fields:
   name: description
   label: Description
   description: Short description (optional)
+pages:
+- content/events/2019/01/first-day-of-school.md
