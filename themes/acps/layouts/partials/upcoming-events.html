@@ -1,0 +1,52 @@
+<ul class="timeline timeline-simple">
+  {{ $events := (where .Site.RegularPages "Section" "events").Reverse }}
+  {{ $events := $events | intersect (where $events "Date" "ge" now) | first 3 }}
+  {{- range $events -}}
+	<li class="timeline-inverted">
+		<div class="timeline-badge bg-primary primary">
+			<i class="fa fa-calendar-alt"></i>
+		</div>
+		<div class="timeline-panel">
+			<div class="timeline-heading">
+				<span class="badge badge-primary">
+					<!-- Calculate the time to event in days, weeks and months (based on 30 day months) -->
+					{{ $ageDays := div (sub .Date.Unix now.Unix) 86400 }}
+					{{ $ageWeeks := div (sub .Date.Unix now.Unix) 604800 }}
+					{{ $ageMonths := div (sub .Date.Unix now.Unix) 2592000 }}
+
+					<!-- To be held today -->
+					{{ if eq $ageDays 0 }}
+
+					Today
+
+					<!-- To be held in next 13 days -->
+					{{ else if le $ageDays 13 }}
+
+          In 
+					{{ $ageDays }}
+					{{ cond (eq $ageDays 1) "day" "days"}}
+
+					<!-- To be held in between 14 and 27 days -->
+					{{ else if (and (le $ageDays 27) (ge $ageDays 14))  }}
+
+          In 
+					{{ $ageWeeks }}
+					{{ cond (eq $ageWeeks 1) "week" "weeks"}}
+					<!-- Published month(s) ago -->
+					{{ else }}
+
+          In 
+					{{ $ageMonths }}
+					{{ cond (eq $ageMonths 1) "month" "months" }}
+
+					{{ end }}
+				</span>
+			</div>
+      <h5>{{ if .Content }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h5>
+			<div class="timeline-body">
+				<p>{{ .Params.description }}</p>
+			</div>
+		</div>
+	</li>
+	{{ end }}
+</ul>

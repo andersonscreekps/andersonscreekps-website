@@ -8,6 +8,7 @@ disableHugoGeneratorInject = true
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 timeout = "300000"
 disableAliases = true
+buildFuture = true
 
 [permalinks]
   events = "/events/:year/:month/:title/"
