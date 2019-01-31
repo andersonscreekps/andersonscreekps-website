@@ -1,5 +1,5 @@
 ---
-label: Events
+label: Event
 hide_body: false
 is_partial: false
 fields:
@@ -17,6 +17,8 @@ fields:
 - type: textarea
   name: description
   label: Description
-  description: Short description (optional)
+  description: Short description
+  config:
+    required: true
 pages:
 - content/events/2019/01/first-day-of-school.md
