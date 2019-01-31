@@ -2,10 +2,10 @@ title = "Andersonʼs Creek Primary School"
 baseURL = "https://www.andersonscreekps.org/"
 languageCode = "en-AU"
 theme = "acps"
-uglyURLs = true 
+uglyURLs = true
 disableHugoGeneratorInject = true
 #disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 timeout = "300000"
 disableAliases = true
 
