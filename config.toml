@@ -29,6 +29,32 @@ buildFuture = true
     isPlainText = true
     notAlternative = true
 
+[menu]
+  [[menu.main]]
+    pre = "info-circle"
+    name = "Our school"
+    weight = 10
+
+  [[menu.main]]
+    pre = "user-graduate"
+    name = "Learning"
+    weight = 20
+
+  [[menu.main]]
+    pre = "users"
+    name = "Community"
+    weight = 30
+
+  [[menu.main]]
+    pre = "calendar-alt"
+    name = "Events"
+    weight = 40
+
+  [[menu.main]]
+    pre = "newspaper"
+    name = "News"
+    weight = 50
+
 [params]
   cloudinary_base_url = "https://res.cloudinary.com/andersonscreekps"
   name = "Anderson’s Creek Primary School"
