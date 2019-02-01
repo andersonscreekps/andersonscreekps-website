@@ -1,5 +1,7 @@
 <ul class="timeline timeline-simple">
-	{{ range first 3 (where .Site.RegularPages.ByDate "Section" "news").Reverse }}
+  {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
+  {{ $news := $news | intersect (where $news "Date" "le" now) | first 4 }}
+  {{- range $news -}}
 	<li class="timeline-inverted">
 		<div class="timeline-badge bg-primary primary">
 			<i class="fa fa-newspaper"></i>
@@ -7,30 +9,38 @@
 		<div class="timeline-panel">
 			<div class="timeline-heading">
 				<span class="badge badge-primary">
-					<!-- Calculate the age in days and months -->
-					{{ $ageDays := div (sub now.Unix .Date.Unix) 86400 }}
-					{{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
+           <!-- Calculate the age of news in days, weeks and months (based on 30 day months) -->
+           <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!>
+           {{ $d := .Date.Format "2006-01-02" }}
+           {{ $n := now.Format "2006-01-02" }}
+           {{ $td := time $d }}
+           {{ $tn := time $n }}
 
-					<!-- Published today -->
-					{{ if eq $ageDays 0 }}
+           {{ $ageDaysd := div (sub $tn.Unix $td.Unix) 86400 }}
+           {{ $ageWeeksd := div (sub $tn.Unix $td.Unix) 604800 }}
+           {{ $ageMonthsd := div (sub $tn.Unix $td.Unix) 2592000 }}
 
-					Today
+           <!-- News is today -->
+           {{ if eq $ageDaysd 0 }}
+           Today
 
-					<!-- Published in the last 31 days -->
-					{{ else if lt $ageDays 31 }}
+           <!-- News was yesterday -->
+           {{ else if eq $ageDaysd 1 }}
+           Yesterday
 
-					{{ $ageDays }}
-					{{ cond (eq $ageDays 1) "day" "days"}}
-					ago
+           <!-- Less than 2 weeks -->
+           {{ else if le $ageDaysd 13 }}
+           {{ $ageDaysd }} days ago
 
-					<!-- Published month(s) ago -->
-					{{ else }}
+           <!-- Less than 30 days -->
+           {{ else if le $ageDaysd 29  }}
+           {{ $ageWeeksd }} weeks ago
 
-					{{ $ageMonths }}
-					{{ cond (eq $ageMonths 1) "month" "months" }}
-					ago
+           <!-- Month(s) away -->
+           {{ else }}
+           {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }} ago
 
-					{{ end }}
+           {{ end }}
 				</span>
 			</div>
       <h5>{{ if .Content }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h5>
