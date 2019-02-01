@@ -1,7 +1,7 @@
 <!-- Static navbar -->
 <nav class="navbar fixed-top navbar-expand-md navbar-dark navigation-clean">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><img src="{{ $.Site.Params.cloudinary_base_url }}/logos/acps-logo-white.svg" height="60" width="60"alt="Home" /></a>
+    <a class="navbar-brand" href="/"><img src="{{ $.Site.Params.cloudinary_base_url }}/logos/acps-logo-white.svg" height="60" width="60" alt="Home" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,6 +12,23 @@
           <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
             <i class="fa fa-info-circle mr-1"></i> Our school</a>
           <ul class="dropdown-menu">
+
+                  {{ range .Site.Menus.main }}
+                  <i class="fa fa-{{ .Pre }} mr-1"></i><li class="dropdown">
+                    {{ if .HasChildren }}
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      {{ range .Children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                      {{ end }}
+                    </ul>
+                    {{ else }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end  }}
+                  </li>
+                  {{ end }}
+
+
             <li><a class="dropdown-item" role="presentation" href="/our-school/our-story/">Our story</a></li>
             <li><a class="dropdown-item" role="presentation" href="/our-school/principals-welcome/">Principal's welcome</a></li>
             <li><a class="dropdown-item" role="presentation" href="/our-school/facilities/">Facilities</a></li>
@@ -109,3 +126,23 @@
     </div>
   </div>
 </nav>
+
+<div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  {{ range .Site.Menus.main }}
+                  <li class="dropdown">
+                    {{ if .HasChildren }}
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      {{ range .Children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                      {{ end }}
+                    </ul>
+                    {{ else }}
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end  }}
+                  </li>
+                  {{ end }}
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
