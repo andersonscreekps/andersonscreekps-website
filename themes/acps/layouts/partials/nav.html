@@ -8,121 +8,22 @@
     <h5 class="text-light d-none d-xl-block ">Anderson's Creek Primary School</h5>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="nav navbar-nav ml-auto">
+      {{ range .Site.Menus.main }}
         <li class="dropdown nav-item mr-2 mr-lg-4">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
-            <i class="fa fa-info-circle mr-1"></i> Our school</a>
-          <ul class="dropdown-menu">
-
-                  {{ range .Site.Menus.main }}
-                  <i class="fa fa-{{ .Pre }} mr-1"></i><li class="dropdown">
-                    {{ if .HasChildren }}
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                      {{ end }}
-                    </ul>
-                    {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
-                    {{ end  }}
-                  </li>
-                  {{ end }}
-
-
-            <li><a class="dropdown-item" role="presentation" href="/our-school/our-story/">Our story</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/principals-welcome/">Principal's welcome</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/facilities/">Facilities</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/school-council/">School Council</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/enrolments/">Enrolments</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/publications/">Publications</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/grounds-map/">Grounds map</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/term-dates/">Term dates</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/our-school/contact-us/">Contact us</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item mr-2 mr-lg-4">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
-            <i class="fa fa-user-graduate mr-1"></i> Learning</a>
+          {{ if .HasChildren }}
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
+            <i class="fa fa-{{ .Pre}} mr-1"></i> {{ .Name }}</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" role="presentation" href="/learning/vision/">Vision</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/leadership/">Leadership</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/sustainability/">Sustainability</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/preps/">Preps</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/grades-1-2/">Grades 1&2</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/grades-3-4/">Grades 3&4</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/grades-5-6/">Grades 5&6</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/learning/naplan/">NAPLAN</a></li>
+              {{ range .Children }}
+                <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ end }}
             </ul>
+          {{ else }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ end  }}
         </li>
-        <li class="nav-item dropdown mr-2 mr-lg-4">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-users mr-1"></i> Community</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item dropdown-toggle" href="#">Students</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/community/student-houses/">Student houses</a></li>
-                  <li><a class="dropdown-item" href="/calendar/">School calendar</a></li>
-                  <li><a class="dropdown-item" href="/newsletters/">Newletters</a></li>
-                  <li><a class="dropdown-item" href="/our-school/contact-us/">Contact us</a></li>
-              </ul>
-            </li>
-            <li>
-              <a class="dropdown-item dropdown-toggle" href="#">Parents</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" role="presentation" href="/community/parental-involvement/">Parental involvement</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/outside-school-hours-care/">Outside school hours care</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/canteen/">Canteen</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/extra-curricular/">Extra-curricular</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/learning/grades-5-6/secondary-transition/">Secondary transition</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/policies/">Policies</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/forms/">Forms</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/our-school/term-dates/">Term dates</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/our-school/contact-us/">Contact us</a></li>
-                </ul>
-              </li>
-              <li>
-                <a class="dropdown-item dropdown-toggle" href="#">Future parents</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" role="presentation" href="/our-school/enrolments/">Enrolments</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/parental-involvement/">Parental involvement</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/learning/preps/prep-transition/">Prep transition</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/outside-school-hours-care/">Outside school hours care</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/community/extra-curricular/">Extra-curricular</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/policies/">Policies</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/forms/">Forms</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/our-school/term-dates/">Term dates</a></li>
-                  <li><a class="dropdown-item" role="presentation" href="/our-school/contact-us/">Contact us</a></li>
-              </ul>
-            </li>
-            <li><a class="dropdown-item dropdown-toggle" href="#">Local community</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://warrandytefestival.org/">Warrandyte Festival</a></li>
-                <li><a class="dropdown-item" href="http://www.lionsclubwarrandyte.org.au/">Lions Club Warrandyte</a></li>
-                <li><a class="dropdown-item" href="http://www.warrandytedonvalerotary.org.au/">Rotary Club Warrandyte Donvale</a></li>
-                <li><a class="dropdown-item" href="https://www.bendigobank.com.au/public/community/our-branches/warrandyte">Warrandyte Community Bank</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item mr-2 mr-lg-4">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
-            <i class="fa fa-calendar-alt mr-1"></i> Events
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" role="presentation" href="/events/">Upcoming events</a></li>
-            <li><a class="dropdown-item" role="presentation" href="/calendar/">Calendar</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item mr-2 mr-xl-4">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
-            <i class="fa fa-newspaper mr-1"></i> News</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" role="presentation" href="/news/">Latest news</a></li>
-              <li><a class="dropdown-item" role="presentation" href="/newsletters/">Newsletters</a></li>
-            </ul>
-        </li>
-      </ul>
+    {{ end }}
+    </ul>
     </div>
   </div>
 </nav>
