@@ -1,6 +1,6 @@
 <ul class="timeline timeline-simple">
   {{ $events := (where .Site.RegularPages "Section" "events").Reverse }}
-  {{ $events := $events | intersect (where $events "Date" "ge" now) | first 3 }}
+  {{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
   {{- range $events -}}
 	<li class="timeline-inverted">
 		<div class="timeline-badge bg-primary primary">
@@ -10,34 +10,35 @@
 			<div class="timeline-heading">
 				<span class="badge badge-primary">
 					<!-- Calculate the time to event in days, weeks and months (based on 30 day months) -->
-					{{ $ageDays := div (sub .Date.Unix now.Unix) 86400 }}
-					{{ $ageWeeks := div (sub .Date.Unix now.Unix) 604800 }}
-					{{ $ageMonths := div (sub .Date.Unix now.Unix) 2592000 }}
+          <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!> 
+          {{ $d := .Date.Format "2006-01-02" }}
+          {{ $n := now.Format "2006-01-02" }}
+          {{ $td := time $d }}
+          {{ $tn := time $n }}
 
-					<!-- To be held today -->
-					{{ if eq $ageDays 0 }}
+          {{ $ageDaysd := div (sub $td.Unix $tn.Unix) 86400 }}
+					{{ $ageWeeksd := div (sub $td.Unix $tn.Unix) 604800 }}
+					{{ $ageMonthsd := div (sub $td.Unix $tn.Unix) 2592000 }}
 
+					<!-- Event is today -->
+					{{ if eq $ageDaysd 0 }} 
 					Today
 
-					<!-- To be held in next 13 days -->
-					{{ else if le $ageDays 13 }}
+					<!-- Event is tomorrow -->
+					{{ else if eq $ageDaysd 1 }}
+					Tomorrow
 
-          In 
-					{{ $ageDays }}
-					{{ cond (eq $ageDays 1) "day" "days"}}
+					<!-- Less than 2 weeks -->
+					{{ else if le $ageDaysd 13 }}
+          In {{ $ageDaysd }} days
 
-					<!-- To be held in between 14 and 27 days -->
-					{{ else if (and (le $ageDays 27) (ge $ageDays 14))  }}
+					<!-- Less than 30 days -->
+					{{ else if le $ageDaysd 29  }}
+          In {{ $ageWeeksd }} weeks
 
-          In 
-					{{ $ageWeeks }}
-					{{ cond (eq $ageWeeks 1) "week" "weeks"}}
-					<!-- Published month(s) ago -->
+					<!-- Month(s) away -->
 					{{ else }}
-
-          In 
-					{{ $ageMonths }}
-					{{ cond (eq $ageMonths 1) "month" "months" }}
+          In {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }}
 
 					{{ end }}
 				</span>
