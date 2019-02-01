@@ -21,6 +21,7 @@ fields:
   config:
     required: true
 pages:
+- content/events/2019/02/practice-fire-drill.md
 - content/events/2019/02/district-swimming-carnival.md
 - content/events/2019/02/prep-working-bee.md
 - content/events/2019/12/term-4-ends.md
@@ -30,6 +31,5 @@ pages:
 - content/events/2019/02/school-photos.md
 - content/events/2019/02/today-test-event.md
 - content/events/2019/01/yesterday-test.md
-- content/events/2019/02/practice-fire-drill.md
 - content/events/2019/02/taekwondo-classes-start.md
 - content/events/2019/02/school-leaders-badge-presentations.md
