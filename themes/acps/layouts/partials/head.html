@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>{{ .Title }}{{ if .IsHome }} — {{ .Site.Title }}{{ end }}</title>
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
@@ -25,11 +25,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+  <link rel="shortcut icon" href="{{ $.Site.Params.cloudinary_base_url }}/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ $.Site.Params.cloudinary_base_url }}/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $.Site.Params.cloudinary_base_url }}/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ $.Site.Params.cloudinary_base_url }}/favicon-16x16.png">
-
-  {{ range .AlternativeOutputFormats }}
-  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-  {{ end }}
 </head>
