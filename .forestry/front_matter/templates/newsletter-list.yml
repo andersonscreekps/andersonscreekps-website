@@ -3,6 +3,11 @@ label: Newsletter list
 hide_body: false
 is_partial: false
 fields:
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
 - type: field_group
   name: school_newsletters
   label: School newsletters
