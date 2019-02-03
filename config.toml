@@ -9,6 +9,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 timeout = "300000"
 disableAliases = true
 buildFuture = true
+paginatePath = ""
 
 [permalinks]
   events = "/events/:year/:month/:day/:title/"
