@@ -4,5 +4,11 @@ title = "Newsletters"
 [school_newsletters]
 newsletter = "/v1548900878/newsletters/2018/21_December_2018.pdf"
 title = "December 21, 2018"
+[[newsletter_type]]
+description = "School-wide newsletter"
+title = "School newsletter"
+[[newsletter_type.newsletters]]
+link = "/v1548900687/newsletters/2018/14_December_2018.pdf"
+title = "December 14, 2018"
 
 +++
