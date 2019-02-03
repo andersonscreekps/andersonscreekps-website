@@ -11,8 +11,8 @@ disableAliases = true
 buildFuture = true
 
 [permalinks]
-  events = "/events/:year/:month/:title/"
-  news = "/news/:year/:month/:title/"
+  events = "/events/:year/:month/:day/:title/"
+  news = "/news/:year/:month/:day/:title/"
 
 [outputs]
   home = ["HTML", "RSS", "REDIRECTS"]
@@ -63,3 +63,4 @@ buildFuture = true
   email = "andersons.creek.ps@edumail.vic.gov.au"
   address = "36-42 Drysdale Rd, Warrandyte VIC 3113"
   DateForm = "2.1.2006"
+
