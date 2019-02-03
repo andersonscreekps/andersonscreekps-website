@@ -3,22 +3,28 @@ label: Newsletter list
 hide_body: false
 is_partial: false
 fields:
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-- type: field_group
-  name: school_newsletters
-  label: School newsletters
+- type: field_group_list
+  name: newsletter_type
+  label: Newsletter type
+  description: "(e.g. School newsletter, class newsletter)"
   fields:
   - type: text
     name: title
     label: Title
     config:
       required: true
-  - type: file
-    name: newsletter
-    label: newsletter
+  - type: textarea
+    name: description
+    label: Description
+  - type: field_group_list
+    name: newsletters
+    label: Newsletters
+    fields:
+    - type: text
+      name: title
+      label: Title
+    - type: file
+      name: link
+      label: Link
 pages:
 - content/newsletters/index.md
