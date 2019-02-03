@@ -20,3 +20,5 @@ fields:
   - type: file
     name: newsletter
     label: newsletter
+pages:
+- content/newsletters/index.md
