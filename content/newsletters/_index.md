@@ -8,9 +8,9 @@ weight = 20
 description = "School-wide newsletter"
 title = "School newsletter"
 [[newsletter_type.newsletters]]
-date = "2018-11-30T00:00:00+11:00"
-link = "/v1548900863/newsletters/2018/30_November_2018.pdf"
-title = "November 30, 2018"
+date = "2018-11-23T00:00:00+11:00"
+link = "/v1548900920/newsletters/2018/23_November_2018.pdf"
+title = "November 23, 2018"
 [[newsletter_type.newsletters]]
 date = "2018-12-21T00:00:00+11:00"
 link = "/v1548900878/newsletters/2018/21_December_2018.pdf"
@@ -23,5 +23,9 @@ title = "December 14, 2018"
 date = "2018-12-07T00:00:00+11:00"
 link = "/v1548900858/newsletters/2018/7_December_2018.pdf"
 title = "December 7, 2018"
+[[newsletter_type.newsletters]]
+date = "2018-11-30T00:00:00+11:00"
+link = "/v1548900863/newsletters/2018/30_November_2018.pdf"
+title = "November 30, 2018"
 
 +++
