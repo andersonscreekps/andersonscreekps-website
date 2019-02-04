@@ -1,6 +1,9 @@
 +++
 date = "2018-12-01T00:00:00+11:00"
 title = "Newsletters"
+ [menu.main]
+   parent = "News"
+   weight = 20
 [[newsletter_type]]
 description = "School-wide newsletter"
 title = "School newsletter"
