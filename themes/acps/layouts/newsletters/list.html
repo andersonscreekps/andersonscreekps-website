@@ -5,14 +5,17 @@
         <div class="col-12 col-lg-9 mx-auto" >
           <h1 class="mb-4 text-center">{{ .Title }}</h1>
           {{ .Content }}
-          {{ range .Params.newsletter_type }}
-          <h2>{{ .title }}</h2>
-          <ul>
-            {{ range .newsletters }}
-            <li><a href="{{ $.Site.Params.cloudinary_base_url }}{{ .link }}">{{ .title }}</a></li>
-            {{ end }}
-          </ul>
+
+    {{ $news := (where .Site.RegularPages "Section" "newsletters").GroupByDate "January 2006" }}
+    {{ range $news }}
+    <h4 class="mb-2 mt-4">{{ .Key }}</h4>
+  <ul class="my-2">
+  {{ range .Pages.ByDate.Reverse }}
+
+  <li><a href="{{ $.Site.Params.cloudinary_base_url }}/{{ .Params.link }}">{{ .Params.type}} for {{ .Params.title }}</a></li>
           {{  end }}
+          </ul>
+          {{ end }}
         </div>
       </div>
     </div>
