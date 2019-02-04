@@ -31,6 +31,7 @@ fields:
   name: link
   label: Link
 pages:
+- content/newsletters/2018/12/december-7-2018.md
 - content/newsletters/2018/12/december-21-2018.md
 - content/newsletters/2019/02/february-1-2019.md
 - content/newsletters/2018/12/december-14-2018.md
