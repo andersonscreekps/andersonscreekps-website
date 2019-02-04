@@ -32,3 +32,5 @@ fields:
     - type: file
       name: link
       label: Link
+pages:
+- content/newsletters/_index.md
