@@ -43,6 +43,8 @@ sections:
   label: Newsletters
   create: all
   match: "**/*"
+  templates:
+  - newsletter
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
