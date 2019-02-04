@@ -12,10 +12,10 @@ why_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae
 why_title = "Why choose our school?"
 [welcome_button_1]
 title = "Read our story"
-url = "/our-school/our-story.html"
+url = "/our-school/our-story/"
 [welcome_button_2]
 title = "Enrol now"
-url = "/community/enrolments.html"
+url = "/our-school/enrolments/"
 [[collage]]
 image = "/v1548900307/20180810-090920.jpg"
 [[collage]]
