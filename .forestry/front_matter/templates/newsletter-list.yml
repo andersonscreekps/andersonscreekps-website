@@ -23,8 +23,12 @@ fields:
     - type: text
       name: title
       label: Title
+    - type: datetime
+      name: date
+      label: Date
+      config:
+        date_format: DD/MM/YYYY
+        required: true
     - type: file
       name: link
       label: Link
-pages:
-- content/newsletters/index.md
