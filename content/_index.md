@@ -15,7 +15,7 @@ title = "Read our story"
 url = "/our-school/our-story/"
 [welcome_button_2]
 title = "Enrol now"
-url = "/our-school/enrolments/"
+url = "/community/enrolments/"
 [[collage]]
 image = "/v1548900307/20180810-090920.jpg"
 [[collage]]
