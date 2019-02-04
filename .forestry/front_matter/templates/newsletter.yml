@@ -1,0 +1,32 @@
+---
+label: Newsletter
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
+    required: true
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - School newsletter
+    - " Class newsletter"
+    - " Specialist newsletter"
+  label: Type
+  name: type
+  description: Newsletter type
+  default: School newsletter
+- type: file
+  name: link
+  label: Link
