@@ -1,109 +1,95 @@
 {{ define "main" }}
-
-  {{ $posts := (where .Site.RegularPages "Section" "events").Reverse }}
-  {{ $posts := $posts | intersect (where $posts "Date" "ge" now) }}
-  {{ $posts := .Paginate $posts }}
-
-
-  <section id="content" class="py-4 my-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-9 mx-auto" >
-          <h1 class="mb-4 text-center">{{ .Title }}</h1>
-          {{ .Content }}
-          <ul class="timeline timeline-simple">
-  {{- range $posts.Pages -}}
-	<li class="timeline-inverted">
-		<div class="timeline-badge bg-primary primary">
-			<i class="fa fa-calendar-alt"></i>
-		</div>
-		<div class="timeline-panel">
-			<div class="timeline-heading">
-        <span class="badge badge-primary mr-1">{{ .Date.Format "Monday, January 2" }}</span>
-			 	<span class="badge badge-primary ml-1">
-					<!-- Calculate the time to event in days, weeks and months (based on 30 day months) -->
-          <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!>
-          {{ $d := .Date.Format "2006-01-02" }}
-          {{ $n := now.Format "2006-01-02" }}
-          {{ $td := time $d }}
-          {{ $tn := time $n }}
-
-          {{ $ageDaysd := div (sub $td.Unix $tn.Unix) 86400 }}
-					{{ $ageWeeksd := div (sub $td.Unix $tn.Unix) 604800 }}
-					{{ $ageMonthsd := div (sub $td.Unix $tn.Unix) 2592000 }}
-
-					<!-- Event is today -->
-					{{ if eq $ageDaysd 0 }}
-					Today
-
-					<!-- Event is tomorrow -->
-					{{ else if eq $ageDaysd 1 }}
-					Tomorrow
-
-					<!-- Less than 2 weeks -->
-					{{ else if le $ageDaysd 13 }}
-          In {{ $ageDaysd }} days
-
-					<!-- Less than 30 days -->
-					{{ else if le $ageDaysd 29  }}
-          In {{ $ageWeeksd }} weeks
-
-					<!-- Month(s) away -->
-					{{ else }}
-          In {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }}
-
-					{{ end }}
-				</span>
-			</div>
-      <h5>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h5>
-			<div class="timeline-body">
-				<p>{{ .Params.description }}</p>
-			</div>
-		</div>
-	</li>
-	{{ end }}
-</ul>
-
-<!-- https://code.luasoftware.com/tutorials/hugo/hugo-smart-pagination-template/ -->
-{{ $pag := $.Paginator }}
-{{ if gt $pag.TotalPages 1 }}
-{{ $.Scratch.Set "dot_rendered" false }}
-    <ul class="pagination justify-content-end">
-        <!-- Don't show on 1st and 2nd page -->
-        {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
-        <li class="page-item"><a href="{{ $pag.First.URL }}" rel="first" class="page-link">« First</a></li>
-        {{ end }}
-
-        {{ if $pag.HasPrev  }}
-        <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">‹ Prev</a></li>
-        {{ end }}
-
-        {{ range $pag.Pagers }}
-            {{ if eq . $pag }} <!-- Current Page -->
-            <li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
-            {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
-            {{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
-            <li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
-            {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
-            {{ $.Scratch.Set "dot_rendered" true }}
-            <li class="page-item disabled"><a class="page-link">...</a></li>
-            {{ end }}
-        {{ end }}
-
-        {{ if $pag.HasNext }}
-        <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link">Next ›</a></li>
-        {{ end }}
-
-        <!-- Don't show on last and 2nd last page -->
-        {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
-        <li class="page-item"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link">Last »</a></li>
-        {{ end }}
-    </ul>
-{{ end }}
-
+{{ $posts := (where .Site.RegularPages "Section" "events").Reverse }}
+{{ $posts := $posts | intersect (where $posts "Date" "ge" now) }}
+{{ $posts := .Paginate $posts }}
+<section id="content" class="py-4 my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9 mx-auto" >
+        <h1 class="mb-4 text-center">{{ .Title }}</h1>
+        {{ .Content }}
+        <ul class="timeline timeline-simple">
+          {{- range $posts.Pages -}}
+          <li class="timeline-inverted">
+            <div class="timeline-badge bg-primary primary">
+              <i class="fa fa-calendar-alt"></i>
             </div>
-        </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <span class="badge badge-primary mr-1">{{ .Date.Format "Monday, January 2" }}</span>
+                <span class="badge badge-primary ml-1">
+                  <!-- Calculate the time to event in days, weeks and months (based on 30 day months) -->
+                  <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!>
+                    {{ $d := .Date.Format "2006-01-02" }}
+                    {{ $n := now.Format "2006-01-02" }}
+                    {{ $td := time $d }}
+                    {{ $tn := time $n }}
+                    
+                    {{ $ageDaysd := div (sub $td.Unix $tn.Unix) 86400 }}
+                    {{ $ageWeeksd := div (sub $td.Unix $tn.Unix) 604800 }}
+                    {{ $ageMonthsd := div (sub $td.Unix $tn.Unix) 2592000 }}
+                    
+                    <!-- Event is today -->
+                  {{ if eq $ageDaysd 0 }}
+                  Today
+                  <!-- Event is tomorrow -->
+                  {{ else if eq $ageDaysd 1 }}
+                  Tomorrow
+                  <!-- Less than 2 weeks -->
+                  {{ else if le $ageDaysd 13 }}
+                  In {{ $ageDaysd }} days
+                  <!-- Less than 30 days -->
+                  {{ else if le $ageDaysd 29  }}
+                  In {{ $ageWeeksd }} weeks
+                  <!-- Month(s) away -->
+                  {{ else }}
+                  In {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }}
+                  {{ end }}
+                </span>
+              </div>
+              <h5>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h5>
+              <div class="timeline-body">
+                <p>{{ .Params.description }}</p>
+              </div>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+        <!-- https://code.luasoftware.com/tutorials/hugo/hugo-smart-pagination-template/ -->
+        {{ $pag := $.Paginator }}
+        {{ if gt $pag.TotalPages 1 }}
+        {{ $.Scratch.Set "dot_rendered" false }}
+        <ul class="pagination justify-content-end">
+          <!-- Don't show on 1st and 2nd page -->
+          {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
+          <li class="page-item"><a href="{{ $pag.First.URL }}" rel="first" class="page-link">« First</a></li>
+          {{ end }}
+          {{ if $pag.HasPrev  }}
+          <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">‹ Prev</a></li>
+          {{ end }}
+          {{ range $pag.Pagers }}
+          {{ if eq . $pag }} <!-- Current Page -->
+          <li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+          {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
+          {{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
+          <li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+          {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
+          {{ $.Scratch.Set "dot_rendered" true }}
+          <li class="page-item disabled"><a class="page-link">...</a></li>
+          {{ end }}
+          {{ end }}
+          {{ if $pag.HasNext }}
+          <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link">Next ›</a></li>
+          {{ end }}
+          <!-- Don't show on last and 2nd last page -->
+          {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
+          <li class="page-item"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link">Last »</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
       </div>
     </div>
-  </section>
+  </div>
+  </div>
+</section>
 {{ end }}
