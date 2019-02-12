@@ -17,7 +17,7 @@ paginatePath = ""
   news = "/news/:year/:month/:day/:title/"
 
 [outputs]
-  home = ["HTML", "RSS", "REDIRECTS"]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 [mediaTypes]
   [mediaTypes."text/netlify"]
@@ -28,6 +28,12 @@ paginatePath = ""
   [outputFormats.REDIRECTS]
     mediatype = "text/netlify"
     baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+
+  [outputFormats.HEADERS]
+    mediatype = "text/netlify"
+    baseName = "_headers"
     isPlainText = true
     notAlternative = true
 
