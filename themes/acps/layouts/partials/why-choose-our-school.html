@@ -8,16 +8,18 @@
       </div>
     </div>
     <div class="row text-center">
-       {{ range .Params.features}}
+      {{ range .Params.features}}
       <div class="col-md-6 col-lg-4">
-	<div class="mx-auto features-icons-item mb-5">
-    <div class="d-flex features-icons-icon"><i class="fas fa-{{ .icon }} m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
-    <h4>{{ .title }}</h4>
-    <p class="mb-0">{{ .description }}</p>
-	</div>
+        <div class="mx-auto features-icons-item mb-5">
+          <div class="d-flex features-icons-icon"><i class="fas fa-{{ .icon }} m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+          <h4>{{ .title }}</h4>
+          <p class="mb-0">{{ .description }}</p>
+        </div>
       </div>
       {{  end }}
-      </div>
     </div>
+  </div>
 </section>
 {{ "<!-- End Why choose our school -->" | safeHTML }}
+
+
