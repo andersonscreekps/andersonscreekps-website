@@ -3,13 +3,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{{ .Title }}{{ if .IsHome }} — {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ if .Page.Title -}}{{- .Page.Title }} — {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ .Title }}{{ if .IsHome }} — {{ .Site.Title }}{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ if .Page.Title -}}{{- .Page.Title }} — {{ .Site.Title   }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
