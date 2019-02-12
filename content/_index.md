@@ -1,6 +1,6 @@
 +++
 date = "2018-12-27T06:47:13+11:00"
-description = "Welcome to the home of Anderson’s Creek Primary School."
+description = "Welcome to Anderson’s Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1548900504/20180810-092410.jpg"
 events_news_image_2 = "/v1548900561/20180526-083159.jpg"
