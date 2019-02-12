@@ -8,21 +8,21 @@
     <h5 class="text-light d-none d-xl-block "><a class="text-light" href="/">Anderson's Creek Primary School</a></h5>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="nav navbar-nav ml-auto">
-      {{ range .Site.Menus.main }}
+      {{- range .Site.Menus.main }}
         <li class="dropdown nav-item mr-2 mr-lg-4">
-          {{ if .HasChildren }}
+          {{- if .HasChildren -}}
             <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
             <i class="fa fa-{{ .Pre}} mr-1"></i> {{ .Name }}</a>
             <ul class="dropdown-menu">
-              {{ range .Children }}
+              {{- range .Children }}
                 <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
+              {{- end }}
             </ul>
-          {{ else }}
+          {{- else -}}
             <a href="{{ .URL }}">{{ .Name }}</a>
-          {{ end  }}
+          {{- end }}
         </li>
-    {{ end }}
+    {{- end }}
     </ul>
     </div>
   </div>
