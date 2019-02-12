@@ -1,6 +1,6 @@
 {{ $jquery := resources.Get "js/vendor/jquery-3.3.1.slim.js" }}
 {{ $popperjs := resources.Get "js/vendor/popper.js" }}
-{{ $bootstrap := resources.Get "js/vendor/bootstrap.js" }}
+{{ $bootstrap := resources.Get "bootstrap/4.3.0/js/bootstrap.js" }}
 
 {{ $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint  }}
 
