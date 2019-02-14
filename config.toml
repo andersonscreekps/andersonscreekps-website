@@ -14,18 +14,6 @@ uglyURLs = false
 delimiter = ""
 suffixes = [""]
 [[menu.main]]
-name = "Forms"
-parent = "Our school"
-weight = 6
-[[menu.main]]
-name = "Policies"
-parent = "Our school"
-weight = 5
-[[menu.main]]
-name = "School calendar"
-parent = "Events"
-weight = 2
-[[menu.main]]
 name = "News"
 pre = "newspaper"
 weight = 5
