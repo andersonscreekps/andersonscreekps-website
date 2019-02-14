@@ -1,7 +1,8 @@
 +++
 date = "2019-01-01T00:00:00+11:00"
 title = "Grades 3&4"
- [menu.main]
-   parent = "Learning"
-   weight = 60
+[menu.main]
+parent = "Learning"
+weight = 6
+
 +++

@@ -4,6 +4,6 @@ newsletter_type = []
 title = "Newsletters"
 [menu.main]
 parent = "News"
-weight = 20
+weight = 2
 
 +++

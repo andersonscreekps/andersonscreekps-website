@@ -1,6 +1,9 @@
 +++
 date = "2019-01-01T00:00:00+11:00"
 title = "Our curriculum"
+[menu.main]
+parent = "Learning"
+weight = 1
 
 +++
 Sections or subpages - will be linked to from class pages.

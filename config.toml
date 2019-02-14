@@ -1,75 +1,71 @@
-title = "Andersonʼs Creek Primary School"
 baseURL = "https://www.andersonscreekps.org/"
-languageCode = "en-AU"
-theme = "acps"
-uglyURLs = false
-disableHugoGeneratorInject = true
-#disableKinds options  ["page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-timeout = "300000"
-disableAliases = true
 buildFuture = true
+disableAliases = true
+disableHugoGeneratorInject = true
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+languageCode = "en-AU"
 paginate = 5
 paginatePath = ""
-
-[permalinks]
-  events = "/events/:year/:month/:day/:title/"
-  news = "/news/:year/:month/:day/:title/"
-
+theme = "acps"
+timeout = "300000"
+title = "Andersonʼs Creek Primary School"
+uglyURLs = false
+[mediaTypes."text/netlify"]
+delimiter = ""
+suffixes = [""]
+[[menu.main]]
+name = "Forms"
+parent = "Our school"
+weight = 6
+[[menu.main]]
+name = "Policies"
+parent = "Our school"
+weight = 5
+[[menu.main]]
+name = "School calendar"
+parent = "Events"
+weight = 2
+[[menu.main]]
+name = "News"
+pre = "newspaper"
+weight = 5
+[[menu.main]]
+name = "Events"
+pre = "calendar-alt"
+weight = 4
+[[menu.main]]
+name = "Community"
+pre = "users"
+weight = 3
+[[menu.main]]
+name = "Learning"
+pre = "user-graduate"
+weight = 2
+[[menu.main]]
+name = "Our school"
+pre = "info-circle"
+weight = 1
+[outputFormats.HEADERS]
+baseName = "_headers"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
 [outputs]
-  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-
-[mediaTypes]
-  [mediaTypes."text/netlify"]
-    suffixes = [""]
-    delimiter = ""
-
-[outputFormats]
-  [outputFormats.REDIRECTS]
-    mediatype = "text/netlify"
-    baseName = "_redirects"
-    isPlainText = true
-    notAlternative = true
-
-  [outputFormats.HEADERS]
-    mediatype = "text/netlify"
-    baseName = "_headers"
-    isPlainText = true
-    notAlternative = true
-
-[menu]
-  [[menu.main]]
-    pre = "info-circle"
-    name = "Our school"
-    weight = 10
-
-  [[menu.main]]
-    pre = "user-graduate"
-    name = "Learning"
-    weight = 20
-
-  [[menu.main]]
-    pre = "users"
-    name = "Community"
-    weight = 30
-
-  [[menu.main]]
-    pre = "calendar-alt"
-    name = "Events"
-    weight = 40
-
-  [[menu.main]]
-    pre = "newspaper"
-    name = "News"
-    weight = 50
-
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 [params]
-  cloudinary_base_url = "https://res.cloudinary.com/andersonscreekps"
-  name = "Anderson’s Creek Primary School"
-  description ="Anderson’s Creek Primary School is situated 30 kms northeast of Melbourne at Warrandyte, adjacent to Anderson's Creek. We have a school population of 350 students."
-  phone = "03 9844 2757"
-  email = "andersons.creek.ps@edumail.vic.gov.au"
-  address = "36-42 Drysdale Rd, Warrandyte VIC 3113"
-  mapLink = "https://goo.gl/maps/ze1F3q9gQP82"
-  DateForm = "2.1.2006"
-
+DateForm = "2.1.2006"
+address = "36-42 Drysdale Rd, Warrandyte VIC 3113"
+cloudinary_base_url = "https://res.cloudinary.com/andersonscreekps"
+description = "Anderson’s Creek Primary School is situated 30 kms northeast of Melbourne at Warrandyte, adjacent to Anderson's Creek. We have a school population of 350 students."
+email = "andersons.creek.ps@edumail.vic.gov.au"
+mapLink = "https://goo.gl/maps/ze1F3q9gQP82"
+name = "Anderson’s Creek Primary School"
+phone = "03 9844 2757"
+[permalinks]
+events = "/events/:year/:month/:day/:title/"
+news = "/news/:year/:month/:day/:title/"
