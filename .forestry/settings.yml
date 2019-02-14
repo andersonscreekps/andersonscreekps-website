@@ -45,6 +45,13 @@ sections:
   match: "**/*"
   templates:
   - newsletter
+- type: directory
+  path: content/publications
+  label: Publications
+  create: all
+  match: "**/*"
+  templates:
+  - page
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
