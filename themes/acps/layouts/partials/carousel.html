@@ -1,0 +1,36 @@
+{{ "<!-- Collage -->" | safeHTML }}
+<section id="collage" class="bg-white">
+{{ "<!-- End Collage -->" | safeHTML }}
+
+    {{ $slides := .Params.carousel }}
+<div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+            {{ range $key, $value := $slides }}
+              {{ $active := "" }}
+              {{ if eq $key 0 }}
+                {{ $active = "active" }}
+              {{ end }}
+              <li data-target="#carouselIndicators" data-slide-to="{{ $key }}" class="{{ $active }}"></li>
+            {{ end }}
+          </ol>
+  <div class="carousel-inner">
+              {{ range $key, $value := $slides }}
+            {{ $active := "" }}
+            {{ if eq $key 0 }}
+              {{ $active = "active" }}
+            {{ end }}
+            <div class="carousel-item {{ $active }}">
+              <img class="d-block w-100" srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_576{{ .src}} 576w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_768{{ .src}} 768w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1024{{ .src}} 1024w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1600{{ .src}} 1600w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1920{{ .src}} 1920w"
+sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1600{{ .src}}" alt="{{ .title }}">
+    </div>
+    {{ end }}
+  </div>
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

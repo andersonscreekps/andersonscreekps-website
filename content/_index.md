@@ -52,5 +52,22 @@ title = "Our sustainability"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
 icon = "building"
 title = "Our facilities"
-
+[[carousel]]
+src = "/v1548900307/20180810-090920.jpg"
+title = "Slide 1"
+[[carousel]]
+src = "/v1548900269/20180527-080323.jpg"
+title = "Slide 2"
+[[carousel]]
+src = "/v1548900486/20180810-093315.jpg"
+title = "Slide 3"
+[[carousel]]
+src = "/v1548900804/20180810-094819.jpg"
+title = "Slide 4"
+[[carousel]]
+src = "/v1548900417/20180526-083050.jpg"
+title = "Slide 5"
+[[carousel]]
+src = "/v1548900716/20180810-094200.jpg"
+title = "Slide 6"
 +++
