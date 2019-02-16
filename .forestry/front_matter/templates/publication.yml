@@ -19,3 +19,5 @@ fields:
 - type: file
   name: link
   label: Link
+pages:
+- content/publications/2017-annual-report.md
