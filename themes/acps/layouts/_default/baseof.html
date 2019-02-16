@@ -3,7 +3,9 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "nav.html" . -}}
-    {{- partial "header.html" . -}}
+    {{if not .IsHome}}
+      {{- partial "header.html" . -}}
+    {{end}}
     <main>{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
     {{- partial "foot.html" . -}}
