@@ -61,3 +61,6 @@ phone = "03 9844 2757"
 [permalinks]
 events = "/events/:year/:month/:day/:title/"
 news = "/news/:year/:month/:day/:title/"
+forms = "/forms/:title/"
+policies ="/policies/:title/"
+reports = "/reports/:title/"

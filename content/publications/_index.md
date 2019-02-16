@@ -8,6 +8,6 @@ weight = 7
 +++
 Includes:
 
-* [Forms](/publications/forms/)
-* [Policies](/publications/policies/)
-* [Reports](/publications/reports/)
+* [Forms](/forms/)
+* [Policies](/policies/)
+* [Reports](/reports/)
