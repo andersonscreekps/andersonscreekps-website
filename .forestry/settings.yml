@@ -48,7 +48,6 @@ sections:
 - type: document
   path: content/publications/_index.md
   label: Publications
-  match: "**/*"
 - type: directory
   path: content/forms
   label: Forms
