@@ -1,0 +1,21 @@
+---
+label: Publication
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
+- type: file
+  name: link
+  label: Link
