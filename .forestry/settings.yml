@@ -64,6 +64,8 @@ sections:
   label: Publications
   create: all
   match: "**/*"
+  templates:
+  - publication
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
