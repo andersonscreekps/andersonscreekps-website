@@ -22,3 +22,5 @@ fields:
 - type: file
   name: link
   label: Link
+pages:
+- content/policies/electronic-funds-management-policy.md
