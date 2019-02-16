@@ -60,6 +60,8 @@ sections:
   label: Policies
   create: all
   match: "**/*"
+  templates:
+  - policy
 - type: directory
   path: content/reports
   label: Reports
