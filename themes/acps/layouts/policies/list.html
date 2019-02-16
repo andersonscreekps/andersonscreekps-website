@@ -8,7 +8,7 @@
     {{ $forms:= (where .Site.RegularPages "Section" "policies") }}
     <ul>
     {{ range $forms }}
-    <li><a href="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.link }}">{{ .Params.title }}</a>{{ if .Params.description }} - {{ .Params.description }}{{ end }}</li>
+    <li><a href="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.link }}">{{ .Params.title }}</a>{{ with .Params.description }} - {{ . }}{{ end }}</li>
           {{ end }}
     </ul>
         </div>
