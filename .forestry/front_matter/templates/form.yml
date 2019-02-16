@@ -22,3 +22,5 @@ fields:
 - type: file
   name: link
   label: Link
+pages:
+- content/forms/student-enrolment-form.md
