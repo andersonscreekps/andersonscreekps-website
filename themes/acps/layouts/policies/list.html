@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <section id="content" class="py-4 my-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9 mx-auto" >
+          <h1 class="mb-4 text-center">{{ .Title }}</h1>
+          {{ .Content }}
+    {{ $forms:= (where .Site.RegularPages "Section" "policies") }}
+    <ul>
+    {{ range $forms }}
+    <li><a href="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.link }}">{{ .Params.title }}</a>{{ if .Params.description }} - {{ .Params.description }}{{ end }}</li>
+          {{ end }}
+    </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
