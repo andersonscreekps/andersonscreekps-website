@@ -6,8 +6,5 @@ parent = "Our school"
 weight = 9
 
 +++
-Includes:
 
-* [Forms](/forms/)
-* [Policies](/policies/)
-* [Reports](/reports/)
+Publication listing goes here.
