@@ -53,6 +53,8 @@ sections:
   label: Forms
   create: all
   match: "**/*"
+  templates:
+  - form
 - type: directory
   path: content/policies
   label: Policies
