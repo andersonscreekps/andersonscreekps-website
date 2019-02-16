@@ -45,16 +45,6 @@ sections:
   match: "**/*"
   templates:
   - newsletter
-- type: document
-  path: content/publications/_index.md
-  label: Publications
-- type: directory
-  path: content/forms
-  label: Forms
-  create: all
-  match: "**/*"
-  templates:
-  - form
 - type: directory
   path: content/policies
   label: Policies
@@ -63,8 +53,15 @@ sections:
   templates:
   - policy
 - type: directory
-  path: content/reports
-  label: Reports
+  path: content/forms
+  label: Forms
+  create: all
+  match: "**/*"
+  templates:
+  - form
+- type: directory
+  path: content/publications
+  label: Publications
   create: all
   match: "**/*"
 upload_dir: ''
