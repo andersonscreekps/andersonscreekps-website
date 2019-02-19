@@ -22,8 +22,9 @@
             {{ end }}
             <div class="carousel-item {{ $active }}">
               <img class="d-block w-100" srcset="
-               {{ range $imageBreakpoints }}
-               {{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_{{ . }}{{ $value.src }} {{ . }}w, {{ end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_1600{{ .src}}" alt="{{ .title }}">
+               {{- range $i, $e := $imageBreakpoints -}}
+               {{- if $i -}}, {{ end -}}
+               {{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_{{ . }}{{ $value.src }} {{ . }}w{{ end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_1600{{ .src}}" alt="{{ .title }}">
     </div>
     {{ end }}
   </div>
