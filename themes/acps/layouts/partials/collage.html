@@ -7,7 +7,7 @@
     <div class="row no-gutters">
     {{ range $key, $value := .Params.collage }}
       <div class="col-sm-6 col-lg-4 p-0">
-        <a href="{{ $.Site.Params.cloudinary_base_url }}{{ $value.image }}">
+        <a href="{{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }}{{ $value.image }}">
         <img class="img-fluid" srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
