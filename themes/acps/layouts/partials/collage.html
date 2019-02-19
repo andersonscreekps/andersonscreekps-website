@@ -1,21 +1,20 @@
+{{ $cloudinaryOptions := "q_auto,f_auto,e_sharpen" }}
+{{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }}
+
 {{ "<!-- Collage -->" | safeHTML }}
 <section id="collage" class="bg-white">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      {{ range .Params.collage }}
+    {{ range $key, $value := .Params.collage }}
       <div class="col-sm-6 col-lg-4 p-0">
-        <picture>
-          <a href="{{ $.Site.Params.cloudinary_base_url }}{{ .image }}">
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_960,e_sharpen{{ .image }}"  media="(min-width: 1920px)" />
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_800,e_sharpen{{ .image }}"  media="(min-width: 1600px)" />
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,e_sharpen{{ .image }}"  media="(min-width: 1200px)" />
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,e_sharpen{{ .image }}"  media="(min-width: 992px)" />
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_496,e_sharpen{{ .image }}"  media="(min-width: 768px)" />
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_384,e_sharpen{{ .image }}"  media="(min-width: 576px)" />
-          <img src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_600,e_sharpen{{ .image }}"        class="img-fluid" /></a>
-        </picture>
+        <a href="{{ $.Site.Params.cloudinary_base_url }}{{ $value.image }}">
+        <img class="img-fluid" srcset="
+          {{- range $i, $e := $imageBreakpoints -}}
+          {{- if $i -}}, {{ end -}}
+          {{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_{{ . }}{{ $value.image }}
+          {{- end }}" sizes="(min-width: 992px) 33vw, (min-width: 576 px) 50vw, 100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }}, w_600{{ .src}}" alt="{{ .title }}"></a>
       </div>
-      {{  end }}
+      {{ end }}
     </div>
   </div>
 </section>
