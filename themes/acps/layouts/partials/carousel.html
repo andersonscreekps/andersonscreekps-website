@@ -1,7 +1,8 @@
-{{ "<!-- Collage -->" | safeHTML }}
-<section id="collage" class="bg-white">
-{{ "<!-- End Collage -->" | safeHTML }}
+{{ $cloudinaryOptions := "c_fill,g_auto,f_auto,e_sharpen" }}
+{{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }} 
 
+{{ "<!-- Carousel -->" | safeHTML }}
+<section id="carousel" class="bg-white">
     {{ $slides := .Params.carousel }}
 <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -20,8 +21,9 @@
               {{ $active = "active" }}
             {{ end }}
             <div class="carousel-item {{ $active }}">
-              <img class="d-block w-100" srcset="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_576{{ .src}} 576w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_768{{ .src}} 768w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_992{{ .src}} 992w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1200{{ .src}} 1200w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1600{{ .src}} 1600w, {{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1920{{ .src}} 1920w"
-sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,w_1600{{ .src}}" alt="{{ .title }}">
+              <img class="d-block w-100" srcset="
+               {{- range $imageBreakpoints -}}
+               {{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_{{ . }}{{- $value.src }} {{ . }}w, {{ end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,e_sharpen,w_1600{{ .src}}" alt="{{ .title }}">
     </div>
     {{ end }}
   </div>
@@ -34,3 +36,5 @@ sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/c_fill,g_auto,f_auto,
     <span class="sr-only">Next</span>
   </a>
 </div>
+</section>
+{{ "<!-- End Carousel -->" | safeHTML }}
