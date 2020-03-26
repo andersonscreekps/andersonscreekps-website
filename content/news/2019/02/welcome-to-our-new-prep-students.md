@@ -1,5 +1,5 @@
 +++
-date = "2019-02-08T00:00:00+11:00"
+date = 2019-02-08T00:00:00Z
 description = "We warmly welcome our new Prep students who completed their Prep Entry Testing last week and commenced school on Monday."
 title = "Welcome to our new Prep students"
 
