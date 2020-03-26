@@ -1,7 +1,6 @@
 ---
 label: Newsletter
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -31,14 +30,14 @@ fields:
   name: link
   label: Link
 pages:
-- content/newsletters/2018/03/term-1-physical-education.md
-- content/newsletters/2018/03/term-1-music.md
-- content/newsletters/2018/12/december-7-2018.md
-- content/newsletters/2018/12/december-21-2018.md
-- content/newsletters/2019/02/february-1-2019.md
 - content/newsletters/2018/03/term-1-art.md
-- content/newsletters/2018/12/december-14-2018.md
+- content/newsletters/2018/03/term-1-music.md
+- content/newsletters/2018/03/term-1-physical-education.md
 - content/newsletters/2018/11/november-23-2018.md
-- content/newsletters/2019/02/february-8-2019.md
-- content/newsletters/2019/02/february-15-2019.md
 - content/newsletters/2018/11/november-30-2018.md
+- content/newsletters/2018/12/december-14-2018.md
+- content/newsletters/2018/12/december-21-2018.md
+- content/newsletters/2018/12/december-7-2018.md
+- content/newsletters/2019/02/february-1-2019.md
+- content/newsletters/2019/02/february-15-2019.md
+- content/newsletters/2019/02/february-8-2019.md

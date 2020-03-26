@@ -1,7 +1,6 @@
 ---
 label: Publication
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -20,5 +19,5 @@ fields:
   name: link
   label: Link
 pages:
-- content/publications/2017-annual-report.md
 - content/publications/2015-18-strategic-plan.md
+- content/publications/2017-annual-report.md

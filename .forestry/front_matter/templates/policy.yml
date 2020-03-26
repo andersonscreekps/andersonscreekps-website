@@ -1,7 +1,6 @@
 ---
 label: Policy
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -23,8 +22,8 @@ fields:
   name: link
   label: Link
 pages:
+- content/policies/asthma-policy.md
+- content/policies/class-formation-policy.md
+- content/policies/complaints-policy.md
 - content/policies/electronic-funds-management-policy.md
 - content/policies/esmart-policy.md
-- content/policies/asthma-policy.md
-- content/policies/complaints-policy.md
-- content/policies/class-formation-policy.md
