@@ -12,6 +12,8 @@ fields:
   label: Date
   config:
     required: true
+    date_format: DD/MM/YYYY
+    export_format: DD/MM/YYYY
 - type: text
   name: description
   label: Description
