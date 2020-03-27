@@ -6,6 +6,7 @@ parent = "Our school"
 weight = 5
 
 +++
+## Meeting schedule
 
 The School Council meeting schedule for 2020 is as follows.  All meetings start at 7:00pm.
 
@@ -32,6 +33,8 @@ The School Council meeting schedule for 2020 is as follows.  All meetings start 
 
 All parents and legal guardians are welcome to attend as observers at School Council meeetings.  Please contact the Principal Sue Dyos or Business Manager Deidre Prior if you would like to attend.
 
+## About School Councils
+
 All school councils in Victoria operate under the Education and Training Reform Act 2006.
 
 Each school council is established by an Order of the Minister for Education, which specifies:
@@ -44,9 +47,9 @@ Each school council is established by an Order of the Minister for Education, wh
 
 More information on the roles and responsibilities of school councils can be found at [https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx](https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx "https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx").
 
-### 2020 School Council members
+## 2020 School Council members
 
-#### Department of Education and Training representatives
+### Department of Education and Training representatives
 
 Department employees include staff members at the school. Members of this category may make up no more than one third of the total membership of school council. As the executive officer, the principal of the school is automatically one of these members. 
 
@@ -55,7 +58,7 @@ Department employees include staff members at the school. Members of this catego
 * Jake Laurie - Acting Assistant Principal, DEET representative
 * Deidre Prior, DEET representative
 
-#### Parent representatives
+### Parent representatives
 
 Parent members must comprise more than one-third of council's total membership. Department employees are eligible to be parent members at their child's school, as long as they do not work at the particular school.
 
@@ -70,7 +73,7 @@ Parent members must comprise more than one-third of council's total membership. 
 * Danielle Ramak, parent representative
 * Lucy Rogers, parent representative
 
-##### 2020 School Council sub-committees
+### 2020 School Council sub-committees
 
 * Finance - Nick Austin, Sue Dyos, Jimmy Harris, De Prior
 * Buildings and grounds - Sue Dyos, Nick Austin, Dave Greenstreet, Matt West 
