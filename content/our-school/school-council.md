@@ -53,25 +53,25 @@ More information on the roles and responsibilities of school councils can be fou
 
 Department employees include staff members at the school. Members of this category may make up no more than one third of the total membership of school council. As the executive officer, the principal of the school is automatically one of these members. 
 
-* Sue Dyos - School Principal, Executive Officer, DEET representative
-* Amanda Callaway, DEET representative
-* Jake Laurie - Acting Assistant Principal, DEET representative
-* Deidre Prior, DEET representative
+* Sue Dyos - School Principal, Executive Officer
+* Amanda Callaway
+* Jake Laurie - Acting Assistant Principal
+* Deidre Prior
 
 ### Parent representatives
 
 Parent members must comprise more than one-third of council's total membership. Department employees are eligible to be parent members at their child's school, as long as they do not work at the particular school.
 
-* Jimmy Harris - President, parent representative
-* Matt West - Vice-President, parent representative
-* Nick Austin - Treasurer, parent representative
-* Debbie Fiorenza - Minute Secretary, 
-* Dave Greenstreet, parent representative
-* Sarah Hodgson, parent representative
-* Volkan Ozturk, parent representative
-* Emmaline Paterson, parent representative
-* Danielle Ramak, parent representative
-* Lucy Rogers, parent representative
+* Jimmy Harris - President
+* Matt West - Vice-President
+* Nick Austin - Treasurer
+* Debbie Fiorenza - Minute Secretary 
+* Dave Greenstreet
+* Sarah Hodgson
+* Volkan Ozturk
+* Emmaline Paterson
+* Danielle Ramak
+* Lucy Rogers
 
 ### 2020 School Council sub-committees
 
