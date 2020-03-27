@@ -6,9 +6,8 @@ parent = "Our school"
 weight = 5
 
 +++
-All school councils in Victoria operate under the Education and Training Reform Act 2006.
 
-The School Counil meeting schedule for 2020 is as follows.  All meetings start at 7:00pm.
+The School Council meeting schedule for 2020 is as follows.  All meetings start at 7:00pm.
 
 **Term 1**
 
@@ -32,6 +31,8 @@ The School Counil meeting schedule for 2020 is as follows.  All meetings start a
  * December 8 - Final meeting and council dinner
 
 All parents and legal guardians are welcome to attend as observers at School Council meeetings.  Please contact the Principal Sue Dyos or Business Manager Deidre Prior if you would like to attend.
+
+All school councils in Victoria operate under the Education and Training Reform Act 2006.
 
 Each school council is established by an Order of the Minister for Education, which specifies:
 
