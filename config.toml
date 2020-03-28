@@ -49,6 +49,7 @@ home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 DateForm = "2.1.2006"
 address = "36-42 Drysdale Rd, Warrandyte VIC 3113"
 cloudinary_base_url = "https://res.cloudinary.com/andersonscreekps"
+front_page_transforms = "q_60,f_auto,e_sharpen"
 description = "Anderson’s Creek Primary School is situated 30 kms northeast of Melbourne at Warrandyte, adjacent to Anderson's Creek. We have a school population of 350 students."
 email = "andersons.creek.ps@edumail.vic.gov.au"
 mapLink = "https://goo.gl/maps/ze1F3q9gQP82"

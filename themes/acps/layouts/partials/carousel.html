@@ -1,4 +1,3 @@
-{{ $cloudinaryOptions := "q_70,f_auto,e_sharpen" }}
 {{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }} 
 
 {{ "<!-- Carousel -->" | safeHTML }}
@@ -24,7 +23,7 @@
               <img class="d-block w-100" srcset="
                {{- range $i, $e := $imageBreakpoints -}}
                {{- if $i -}}, {{ end -}}
-               {{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_{{ . }}{{ $value.src }} {{ . }}w{{ end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $cloudinaryOptions }},w_1600{{ .src}}" alt="{{ .title }}">
+               {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.src }} {{ . }}w{{ end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_1600{{ .src}}" alt="{{ .title }}">
     </div>
     {{ end }}
   </div>
