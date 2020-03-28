@@ -1,6 +1,9 @@
 {{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }}
 
 {{ "<!-- Collage -->" | safeHTML }}
+<style>
+img[data-sizes="auto"] { display: block; width: 100%; }
+</style>
 <section id="collage" class="bg-white">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
@@ -11,7 +14,7 @@
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
           {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
-          {{- end }}" sizes="(min-width: 992px) 33.33vw, (min-width: 576px) 50vw, 100vw" data-src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_600{{ $value.image }}" alt="{{ .title }}"></a>
+          {{- end }}" data-sizes="auto" data-src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_600{{ $value.image }}" alt="{{ .title }}"></a>
         <noscript>
         <a href="{{ $.Site.Params.cloudinary_base_url }}/{{ $value.image }}">
         <img class="img-fluid" srcset="
