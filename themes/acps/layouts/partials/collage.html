@@ -7,11 +7,19 @@
     {{ range $key, $value := .Params.collage }}
       <div class="col-sm-6 col-lg-4 p-0">
         <a href="{{ $.Site.Params.cloudinary_base_url }}/{{ $value.image }}">
+        <img class="img-fluid lazyload" data-srcset="
+          {{- range $i, $e := $imageBreakpoints -}}
+          {{- if $i -}}, {{ end -}}
+          {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
+          {{- end }}" sizes="(min-width: 992px) 33.33vw, (min-width: 576px) 50vw, 100vw" data-src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_600{{ $value.image }}" alt="{{ .title }}"></a>
+        <noscript>
+        <a href="{{ $.Site.Params.cloudinary_base_url }}/{{ $value.image }}">
         <img class="img-fluid" srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
           {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
           {{- end }}" sizes="(min-width: 992px) 33.33vw, (min-width: 576px) 50vw, 100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_600{{ $value.image }}" alt="{{ .title }}"></a>
+        </noscript>
       </div>
       {{ end }}
     </div>

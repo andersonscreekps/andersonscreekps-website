@@ -1,3 +1,7 @@
+{{ $lazysizes := resources.Get "js/vendor/lazysizes.js" }}
+{{ $lazy := $lazysizes | resources.Minify | resources.Fingerprint  }}
+<script src="{{ $lazy.RelPermalink }}" integrity="{{ $lazy.Data.Integrity }}"></script>
+
 {{ $jquery := resources.Get "js/vendor/jquery-3.3.1.slim.js" }}
 {{ $popperjs := resources.Get "js/vendor/popper.js" }}
 {{ $bootstrap := resources.Get "bootstrap/4.3.0/js/bootstrap.js" }}
