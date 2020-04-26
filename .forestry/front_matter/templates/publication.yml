@@ -7,6 +7,7 @@ fields:
   label: Title
   config:
     required: true
+  description: The title of the publication.
 - type: datetime
   name: date
   label: Date
@@ -14,12 +15,16 @@ fields:
     required: true
     date_format: DD/MM/YYYY
     export_format: DD/MM/YYYY
+  description: The date will be used to order the listing of publications from newest
+    to oldest.
 - type: text
   name: description
   label: Description
+  description: A description of the publication.
 - type: file
   name: link
   label: Link
+  description: This will link to the publication.
 pages:
 - content/publications/2015-18-strategic-plan.md
 - content/publications/2017-annual-report.md
