@@ -15,7 +15,7 @@
 
   {{ $options := (dict "targetPath" "/css/bootstrap.css" "outputStyle" "compressed") -}}
   {{- $style := resources.Get "custom.scss" | resources.ToCSS $options | fingerprint -}}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }} crossorigin="anonymous">
   {{- $acps := resources.Get "acps.scss" }}
   {{- $options := (dict "targetPath" "/css/acps.css" "outputStyle" "compressed") }}
   {{- $style := $acps | resources.ExecuteAsTemplate "acps.scss" . | resources.ToCSS $options | resources.Fingerprint }}
