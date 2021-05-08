@@ -1,4 +1,7 @@
-User-agent: Algolia Crawler
-Allow: /
 User-agent: *
 Disallow: /
+
+User-agent: Algolia Crawler
+Allow: /
+
+https://www.andersonscreekps.org/sitemap.xml
