@@ -27,27 +27,15 @@
     </div>
   </div>
 </nav>
-<!-- Search input -->
-<input type="search" id="search-input" placeholder="Search..." autocomplete="off">
-<!-- Load Algolia scripts -->
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
-<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-<!-- Initialise search -->
-<script>
-  var client = algoliasearch("YourApplicationID","YourSearchOnlyAPIKey");
-  var index = client.initIndex("YourIndex");
-  autocomplete('#search-input', { hint: false }, [
-    {
-      source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-        displayKey: 'title',
-        templates: {
-            suggestion: function(suggestion) {
-              return suggestion._highlightResult.title.value;
-            }
-          }
-      }
-    ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
-      console.log(event, suggestion, dataset, context);
-    });
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'TQXXJ7TFII',
+    apiKey: 'a5b73d460a11c3bd320920ca5ec0a088',
+    siteId: '090ab04b-c214-42b8-b076-45521e0175ac',
+    branch: 'algolia-search',
+    selector: 'div#search',
+  });
 </script>
 
