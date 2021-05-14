@@ -25,6 +25,7 @@
     </div>
   </div>
 </nav>
+
 <!-- Search input -->
 <input type="search" id="search-input" placeholder="Search..." autocomplete="off">
 <!-- Load Algolia scripts -->
@@ -32,7 +33,7 @@
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 <!-- Initialise search -->
 <script>
-  var client = algoliasearch(""TQXXJ7TFII,"a5b73d460a11c3bd320920ca5ec0a088");
+  var client = algoliasearch("TQXXJ7TFII","a5b73d460a11c3bd320920ca5ec0a088");
   var index = client.initIndex("netlify_090ab04b-c214-42b8-b076-45521e0175ac_master_all");
   autocomplete('#search-input', { hint: false }, [
     {
@@ -48,3 +49,4 @@
       console.log(event, suggestion, dataset, context);
     });
 </script>
+
