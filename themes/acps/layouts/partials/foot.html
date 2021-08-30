@@ -1,8 +1,49 @@
-{{- $lazysizes := resources.Get "js/vendor/lazysizes.js" }}
-{{- $lazy := $lazysizes | resources.Minify | resources.Fingerprint  }}
-<script src="{{ $lazy.RelPermalink }}" integrity="{{ $lazy.Data.Integrity }}" async="" crossorigin="anonymous"></script>
-{{- $jquery := resources.Get "js/vendor/jquery-3.3.1.slim.js" }}
-{{- $popperjs := resources.Get "js/vendor/popper.js" }}
-{{- $bootstrap := resources.Get "bootstrap/4.4.1/js/bootstrap.js" }}
-{{- $js := slice $jquery $popperjs $bootstrap | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint  }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+<!-- JS Global Compulsory  -->
+<script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+<script src="/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+<script src="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- JS Front -->
+<script src="/assets/js/theme.min.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  (function () {
+    // INITIALIZATION OF GO TO
+    // =======================================================
+    new HSGoTo(".js-go-to");
+
+    // INITIALIZATION OF MEGA MENU
+    // =======================================================
+    new HSMegaMenu(".js-mega-menu", {
+      desktop: {
+        position: "left",
+      },
+    });
+    // INITIALIZATION OF SWIPER
+    // =======================================================
+    var autoplay = new Swiper(".js-swiper-autoplay", {
+      spaceBetween: 30,
+      effect: "fade",
+      speed: 1500,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".js-swiper-autoplay-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".js-swiper-autoplay-button-next",
+        prevEl: ".js-swiper-autoplay-button-prev",
+      },
+    });
+  })();
+</script>
