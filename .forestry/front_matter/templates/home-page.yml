@@ -144,8 +144,7 @@ fields:
     label: Image
     description: Image link
 - name: any_questions
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: title
     type: text
@@ -170,6 +169,10 @@ fields:
       schema:
         format: markdown
     label: Icon SVG
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Any questions
 pages:
 - content/_index.md
