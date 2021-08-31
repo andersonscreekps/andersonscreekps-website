@@ -143,5 +143,33 @@ fields:
     name: image
     label: Image
     description: Image link
+- name: any_questions
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: icon_svg
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Icon SVG
+  label: Any questions
 pages:
 - content/_index.md
