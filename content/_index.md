@@ -7,7 +7,7 @@ events_news_image_2 = "/v1548900561/20180526-083159.jpg"
 keywords = ["Primary school", "Anderson’s Creek Primary School", "ACPS", "Warrandyte"]
 title = "Welcome"
 welcome_text = "Welcome to a school that is an integral part of the local Warrandyte  Community. Every day at Anderson's Creek is a great learning experience  for children as they are empowered to be their best through strong  relationships between teachers, peers and the community.\n\nAt Anderson's Creek we believe in every child, every day. Children  are nurtured and cared for in a quality learning environment. Our whole  school Values Program focuses on Respect, Optimism, Honesty and  Integrity, creating a positive and happy school that children can thrive  in."
-welcome_title = "Welcome to Anderson's Creek Primary School"
+welcome_title = "Anderson's Creek Primary School"
 why_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat. Curabitur euismod fringilla molestie.\n\nCras sit amet fermentum augue, sit amet dictum ipsum. Sed nec mi id libero luctus maximus. Praesent dapibus mauris augue, non accumsan dui viverra at. Praesent vehicula quam tellus, sit amet finibus turpis iaculis nec. Nam ac dictum risus."
 why_title = "Why choose our school?"
 [welcome_button_1]
