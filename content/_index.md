@@ -1,5 +1,5 @@
 +++
-date = "2018-12-27T06:47:13+11:00"
+date = 2018-12-26T19:47:13Z
 description = "Welcome to Anderson’s Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1548900504/20180810-092410.jpg"
@@ -11,11 +11,29 @@ welcome_title = "Welcome to Anderson's Creek Primary School"
 why_description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et lacinia eros, non mollis tellus. Nunc eleifend pellentesque suscipit. Phasellus aliquam efficitur purus, ac sodales mauris facilisis consequat. Curabitur euismod fringilla molestie.\n\nCras sit amet fermentum augue, sit amet dictum ipsum. Sed nec mi id libero luctus maximus. Praesent dapibus mauris augue, non accumsan dui viverra at. Praesent vehicula quam tellus, sit amet finibus turpis iaculis nec. Nam ac dictum risus."
 why_title = "Why choose our school?"
 [welcome_button_1]
-title = "Read our story"
-url = "/our-school/our-story/"
+title = "Book a tour"
+url = "/our-school/tours/"
 [welcome_button_2]
 title = "Enrol now"
 url = "/community/enrolments/"
+[[carousel]]
+src = "/v1548900307/20180810-090920.jpg"
+title = "Slide 1"
+[[carousel]]
+src = "/v1548900269/20180527-080323.jpg"
+title = "Slide 2"
+[[carousel]]
+src = "/v1548900486/20180810-093315.jpg"
+title = "Slide 3"
+[[carousel]]
+src = "/v1548900804/20180810-094819.jpg"
+title = "Slide 4"
+[[carousel]]
+src = "/v1548900417/20180526-083050.jpg"
+title = "Slide 5"
+[[carousel]]
+src = "/v1548900716/20180810-094200.jpg"
+title = "Slide 6"
 [[collage]]
 image = "/v1548900307/20180810-090920.jpg"
 [[collage]]
@@ -52,22 +70,5 @@ title = "Our sustainability"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus finibus egestas. Cras ut justo urna."
 icon = "building"
 title = "Our facilities"
-[[carousel]]
-src = "/v1548900307/20180810-090920.jpg"
-title = "Slide 1"
-[[carousel]]
-src = "/v1548900269/20180527-080323.jpg"
-title = "Slide 2"
-[[carousel]]
-src = "/v1548900486/20180810-093315.jpg"
-title = "Slide 3"
-[[carousel]]
-src = "/v1548900804/20180810-094819.jpg"
-title = "Slide 4"
-[[carousel]]
-src = "/v1548900417/20180526-083050.jpg"
-title = "Slide 5"
-[[carousel]]
-src = "/v1548900716/20180810-094200.jpg"
-title = "Slide 6"
+
 +++
