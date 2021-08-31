@@ -109,6 +109,13 @@ fields:
     description: Feature description
     config:
       required: true
+  - name: icon_svg
+    type: text
+    config:
+      required: true
+    label: Icon SVG
+    description: Icon SVG as copied from <a href="https://icons.getbootstrap.com/"
+      title="https://icons.getbootstrap.com/" target="_blank">https://icons.getbootstrap.com/</a>
 - type: text
   name: why_title
   label: Why title
