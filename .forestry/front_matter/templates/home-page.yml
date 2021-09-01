@@ -171,11 +171,11 @@ fields:
 - name: swiper
   type: field_group_list
   fields:
-  - name: image_title
+  - name: title
     type: text
     config:
       required: false
-    label: Image title
+    label: title
     description: Image title - used for "alt" HTML description.
   - name: image
     type: file
