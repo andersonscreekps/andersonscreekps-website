@@ -91,5 +91,8 @@ title = "Our facilities"
 [[swiper]]
 image = "/v1630320797/assets/img/1920x1080/20201029-122618.jpg"
 title = "20201029-122618.jpg"
+[[swiper]]
+image = "/v1630320796/assets/img/1920x1080/20201105-115737.jpg"
+title = "20201105-115737.jpg"
 
 +++
