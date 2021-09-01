@@ -93,7 +93,7 @@ image = "/v1630320796/assets/img/1920x1080/20190807-104641.jpg"
 title = "Girls athletics ribbons"
 [[swiper]]
 image = "/v1630320797/assets/img/1920x1080/20180810-095841.jpg"
-title = "20180810-095841.jpg"
+title = "Boys writing"
 [[swiper]]
 image = "/v1630320797/assets/img/1920x1080/20201029-122618.jpg"
 title = "20201029-122618.jpg"
