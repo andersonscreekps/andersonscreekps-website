@@ -90,7 +90,6 @@ icon_svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"
 title = "Our facilities"
 [[swiper]]
 image = "/v1630320797/assets/img/1920x1080/20201029-122618.jpg"
-image_title = "20201029-122618.jpg"
 title = "20201029-122618.jpg"
 
 +++
