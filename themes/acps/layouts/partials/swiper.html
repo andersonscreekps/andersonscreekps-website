@@ -1,30 +1,19 @@
+{{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }}
+
+{{ "<!-- Swiper -->" | safeHTML }}
+
 <!-- Swiper -->
 <div class="js-swiper-autoplay swiper-container">
   <div class="swiper-wrapper">
+    {{ range $key, $value := .Params.swiper }}
     <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20201029-122618.jpg" alt="Image Description">
+        <img class="img-fluid w-100" srcset="
+          {{- range $i, $e := $imageBreakpoints -}}
+          {{- if $i -}}, {{ end -}}
+          {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
+          {{- end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_1920{{ $value.image }}" alt="{{ .title }}">
     </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20201105-115737.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20180810-095841.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20190807-104641.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20180810-090920.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20190911-191925.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20190912-114206.jpg" alt="Image Description">
-    </div>
-    <div class="swiper-slide">
-      <img class="img-fluid w-100" src="https://res.cloudinary.com/andersonscreekps/q_60,f_auto,e_sharpen/v1548900307/assets/img/1920x1080/20200610-104725.jpg" alt="Image Description">
-    </div>
+    {{ end }}
   </div>
 
   <!-- Arrows -->
@@ -36,3 +25,5 @@
 <!-- Swiper Pagination -->
 <div class="js-swiper-autoplay-pagination swiper-pagination">
 </div>
+
+{{ "<!-- End Swiper -->" | safeHTML }}
