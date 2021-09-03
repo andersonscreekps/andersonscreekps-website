@@ -133,6 +133,11 @@ fields:
     min: '3'
     max: '9'
   fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
   - type: file
     name: image
     label: Image
