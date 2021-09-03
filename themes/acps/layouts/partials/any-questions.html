@@ -10,15 +10,18 @@
     {{ range .Params.any_questions}}
     <div class="col-lg-4 p-4">
       <!-- Card -->
-      <a class="card card-sm card-transition h-100" href="#">
+      <div class="card card-sm card-transition h-100" href="#">
         <div class="card-body">
           <span class="svg-icon text-primary text-center mb-3">
             {{.icon_svg | safeHTML}}
           </span>
           <h2 class="card-title text-center mb-3">{{.title}}</h2>
           <div class="card-text text-body">{{.description | markdownify}}</div>
+          <div class="text-center pt-4 pb-2">
+          <a href="{{.button_url}}" class="btn btn-primary"><i class="{{.button_icon}} pe-3"></i>{{.button_text}}</a> 
+          </div>
         </div>
-      </a>
+      </div>
       <!-- End Card -->
     </div>
     <!-- End Col -->
