@@ -27,7 +27,7 @@ title = "Phone"
 button_icon = "bi bi-envelope"
 button_text = "Email us"
 button_url = "mailto:andersons.creek.ps@education.vic.gov.au"
-description = "Prefer to send an email? That's no problem either. We'll get back to you as soon as possible.\n\n<a href=\"mailto:andersons.creek.ps@education.vic.gov.au\"><i class=\"bi bi-envelope pe-1\"></i> Email us</a>"
+description = "Prefer to send an email? That's no problem either. We'll get back to you as soon as possible."
 icon_svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-envelope-fill\" viewBox=\"0 0 16 16\">\n  <path d=\"M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z\"/>\n</svg>"
 title = "Email"
 [[any_questions]]
