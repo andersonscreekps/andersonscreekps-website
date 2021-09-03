@@ -163,6 +163,27 @@ fields:
       schema:
         format: markdown
     label: Icon SVG
+  - name: button_icon_svg
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Button icon SVG
+  - name: button_text
+    type: text
+    config:
+      required: true
+    label: Button text
+    description: Text to be displayed in the action button at the bottom of the card.
+  - name: button_url
+    type: text
+    config:
+      required: true
+    label: Button URL
+    description: Link for the action button at the bottom of the card.
   config:
     min: 
     max: 
