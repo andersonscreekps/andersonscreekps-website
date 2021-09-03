@@ -163,15 +163,11 @@ fields:
       schema:
         format: markdown
     label: Icon SVG
-  - name: button_icon_svg
-    type: textarea
-    default: ''
+  - name: button_icon
+    type: text
     config:
       required: true
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Button icon SVG
+    label: Button icon
   - name: button_text
     type: text
     config:
