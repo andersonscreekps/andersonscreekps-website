@@ -20,7 +20,7 @@ url = "/community/enrolments/"
 button_icon = "bi-telephone"
 button_text = "Call us"
 button_url = "tel:0398442757"
-description = "Would you like to speak to someone to find out more about our school? Give our friendly office a call."
+description = "Would you like to speak to someone to find out more about our school? Give our office a call."
 icon_svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-telephone-fill\" viewBox=\"0 0 16 16\">\n  <path fill-rule=\"evenodd\" d=\"M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z\"/>\n</svg>"
 title = "Phone"
 [[any_questions]]
@@ -57,16 +57,22 @@ src = "/v1548900716/20180810-094200.jpg"
 title = "Slide 6"
 [[collage]]
 image = "/v1548900307/20180810-090920.jpg"
+title = "Children painting"
 [[collage]]
 image = "/v1548900269/20180527-080323.jpg"
+title = "Aerial view of school"
 [[collage]]
 image = "/v1548900486/20180810-093315.jpg"
+title = "Three girls on laptops"
 [[collage]]
 image = "/v1548900804/20180810-094819.jpg"
+title = "Two girls reading"
 [[collage]]
 image = "/v1548900417/20180526-083050.jpg"
+title = "Platypus mural"
 [[collage]]
 image = "/v1548900716/20180810-094200.jpg"
+title = "Classroom scene"
 [[features]]
 description = "Our staff are enthusiastic and postive educators and take pride in their ability to bring out the best in every child. They work hard every day to provide a positive learning environment where children feel safe and comfortable."
 icon = "chalkboard-teacher"
