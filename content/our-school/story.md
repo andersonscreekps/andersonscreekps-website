@@ -1,5 +1,5 @@
 +++
-date = "2018-12-27T00:00:13+11:00"
+date = 2018-12-26T13:00:13Z
 title = "Our story"
 [menu.main]
 parent = "Our school"
