@@ -28,3 +28,9 @@ The students also use individual ipad technology. Literacy and Mathematics apps 
 In Term 4, Specific apps such as Google Earth, Atlas and Bugs were used for our Inquiry Units, captivating our students.
 
 Students also visit Aquarena, in Term 4, for ten sessions over two weeks to enhance their swimming skills. It is always great to see their skills develop and the enjoyment they receive from participating in this intensive two week program with their peers.
+
+Mini Lit and Multi Lit are school based early literacy intervention programs that provide a second opportunity for students who, after one year at school, have not yet established effective reading and writing processes.  
+   
+Click the link below for more information on Reading Recovery
+
+[http://www.readingrecovery.org/](http://www.readingrecovery.org "http://www.readingrecovery.org")
