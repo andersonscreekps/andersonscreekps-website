@@ -8,7 +8,7 @@ weight = 1
 +++
 We pride ourselves for offering a curriculum that helps students meet their full potential.
 
-Using the Victorian Essential Learning Standards as a framework, we recognise that the three components of any curriculum necessary to enable students to meet the demands of a modern, globalised world are: 
+Using the Victorian Essential Learning Standards as a framework, we recognise that the three components of any curriculum necessary to enable students to meet the demands of a modern, globalised world are:
 
 * the processes of physical, personal and social development and growth;
 * the branches of learning reflected in the traditional disciplines (such as literacy and numeracy);
@@ -16,7 +16,7 @@ Using the Victorian Essential Learning Standards as a framework, we recognise th
 
 Our curriculum includes:
 
-* Values Education
+* [Values Education](values-education/ "Values education")
 * Health and PE
 * ICT
 * Library
