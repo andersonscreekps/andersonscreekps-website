@@ -31,8 +31,23 @@ weight = 10
 
 ## 2022
 
-| --- | --- |
-| Term One | 28 January - school teachers start (students start on 31 January) to 8 April |
-| Term Two | 26 April to 24 June |
-| Term Three | 11 July to 16 September |
-| Term Four | 3 October to 20 December |
+<table>
+  <tr>
+    <th>Term One</th>
+    <th>28 January - school teachers start<br>(students start on 31 January) to 8 April</th>
+  </tr>
+<tbody>
+  <tr>
+    <td>Term Two</td>
+    <td>26 April to 24 June</td>
+  </tr>
+  <tr>
+    <td>Term Three</td>
+    <td>11 July to 16 September</td>
+  </tr>
+  <tr>
+    <td>Term Four</td>
+    <td>3 October to 20 December</td>
+  </tr>
+</tbody>
+</table>
