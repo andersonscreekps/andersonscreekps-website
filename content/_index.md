@@ -1,5 +1,5 @@
 +++
-date = 2018-12-26T19:47:13Z
+date = 2021-09-01T00:00:00Z
 description = "Welcome to Anderson’s Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1548900504/20180810-092410.jpg"
@@ -15,7 +15,7 @@ title = "Book a tour"
 url = "/our-school/tours/"
 [welcome_button_2]
 title = "Enrol now"
-url = "/community/enrolments/"
+url = "/our-school/enrolments/"
 [[any_questions]]
 button_icon = "bi-telephone"
 button_text = "Call us"
