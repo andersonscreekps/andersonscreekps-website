@@ -1,5 +1,5 @@
 +++
-date = 2018-12-31T13:00:00Z
+date = 2021-09-01T00:00:00Z
 title = "Our curriculum"
 [menu.main]
 parent = "Learning"
@@ -16,8 +16,8 @@ Using the Victorian Essential Learning Standards as a framework, we recognise th
 
 Our curriculum includes:
 
-* [Values Education](values-education/ "Values education")
-* Health and PE
+* [Values education](values-education/ "Values education")
+* [Physical education](physical-education/ "Physical education")
 * ICT
 * Library
 * Literacy
