@@ -18,13 +18,11 @@ Our curriculum includes:
 
 * [Values education](values-education/ "Values education")
 * [Physical education](physical-education/ "Physical education")
-* ICT
-* Library
-* Literacy
-* LOTE
-* Numeracy
-* Performing Arts
-* Science
-* Sustainability
-* Visual Arts
-* Assessment
+* [ICT](ict/ "ICT")
+* [Library](library/ "Library")
+* [LOTE](lote/ "LOTE")
+* [Performing arts](performing-arts/ "Performing arts")
+* [Science](science/ "Science")
+* [Sustainability](sustainability/ "Sustainability")
+* [Visual arts](visual-arts "Visual arts")
+* [Assessment](assessment/ "Assessment")
