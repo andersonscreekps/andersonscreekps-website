@@ -22,7 +22,6 @@ Our curriculum includes:
 * [Library](library/ "Library")
 * [LOTE](lote/ "LOTE")
 * [Performing arts](performing-arts/ "Performing arts")
-* [Science](science/ "Science")
 * [Sustainability](sustainability/ "Sustainability")
 * [Visual arts](visual-arts "Visual arts")
 * [Assessment](assessment/ "Assessment")
