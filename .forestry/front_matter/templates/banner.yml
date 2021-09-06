@@ -9,3 +9,5 @@ fields:
   - type: file
     name: banner
     label: banner
+pages:
+- content/learning/_index.md
