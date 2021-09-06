@@ -30,3 +30,4 @@ fields:
   description: Front matter that will cascade down to all pages within the section.
 pages:
 - content/learning/_index.md
+- content/our-school/_index.md
