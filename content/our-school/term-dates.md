@@ -8,49 +8,68 @@ weight = 10
 +++
 ## 2021
 
-### Term 1
-
-**Start date** - 27 January (Students start 28 January in government schools)
-
-**End date** - 1 April
-
-### Term 2
-
-**Start date** - 19 April
-
-**End date** - 25 June
-
-### Term 3
-
-**Start date** - 12 July
-
-**End date** - 17 September
-
-### Term 4
-
-**Start date** - 4 October
-
-**End date** - 17 December
-
-## 2022
-
-<table>
-<tr>
-<th>Term One</th>
-<th>28 January - school teachers start<br>(students start on 31 January) to 8 April</th>
-</tr>
-<tbody>
-<tr>
-<td>Term Two</td>
-<td>26 April to 24 June</td>
-</tr>
-<tr>
-<td>Term Three</td>
-<td>11 July to 16 September</td>
-</tr>
-<tr>
-<td>Term Four</td>
-<td>3 October to 20 December</td>
-</tr>
-</tbody>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Start</th>
+      <th>End</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Term one</td>
+      <td>27 January (students start 28 January)</td>
+      <td>1 April</td>
+    </tr>
+    <tr>
+      <td>Term two</td>
+      <td>19 April</td>
+      <td>25 June</td>
+    </tr>
+    <tr>
+      <td>Term three</td>
+      <td>12 July</td>
+      <td>17 September</td>
+    </tr>
+    <tr>
+      <td>Term four</td>
+      <td>4 October</td>
+      <td>17 December</td>
+    </tr>
+  </tbody>
 </table>
+
+## 2021
+
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Term</th>
+        <th>Start</th>
+        <th>End</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>One</td>
+        <td>28 January (students start 31 January)</td>
+        <td>8 April</td>
+      </tr>
+      <tr>
+        <td>Two</td>
+        <td>26 April</td>
+        <td>24 June</td>
+      </tr>
+      <tr>
+        <td>Three</td>
+        <td>11 July</td>
+        <td>16 September</td>
+      </tr>
+      <tr>
+        <td>Four</td>
+        <td>3 October</td>
+        <td>20 December</td>
+      </tr>
+    </tbody>
+  </table>
