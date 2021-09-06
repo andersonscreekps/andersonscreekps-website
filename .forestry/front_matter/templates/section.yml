@@ -28,3 +28,5 @@ fields:
     description: Banner image displayed for section.
   label: Cascade
   description: Front matter that will cascade down to all pages within the section.
+pages:
+- content/learning/_index.md
