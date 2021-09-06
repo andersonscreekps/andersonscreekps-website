@@ -1,13 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   {{- partial "head.html" . -}}
   <body>
-    {{- partial "nav.html" . -}}
-    {{if not .IsHome}}
-      {{- block "header" . -}}{{- end}}
+    {{- partial "nav.html" . -}} {{if not .IsHome}}
+    <div class="container-fluid px-0">
+      <img
+        class="fluid w-100"
+        src='{{ $.Site.Params.cloudinary_base_url}}{{ $.Param "banner" }}'
+      />
+    </div>
     {{end}}
     <main>{{- block "main" . }}{{- end }}</main>
-    {{- partial "footer.html" . -}}
-    {{- partial "foot.html" . -}}
+    {{- partial "footer.html" . -}} {{- partial "foot.html" . -}}
   </body>
 </html>
