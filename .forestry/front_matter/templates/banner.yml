@@ -1,0 +1,11 @@
+---
+label: Banner
+hide_body: true
+fields:
+- type: field_group
+  name: cascade
+  label: cascade
+  fields:
+  - type: file
+    name: banner
+    label: banner
