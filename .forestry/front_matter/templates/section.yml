@@ -29,5 +29,6 @@ fields:
   label: Cascade
   description: Front matter that will cascade down to all pages within the section.
 pages:
+- content/community/_index.md
 - content/learning/_index.md
 - content/our-school/_index.md
