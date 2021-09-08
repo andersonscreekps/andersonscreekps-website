@@ -1,16 +1,12 @@
 +++
-date = 2018-12-31T13:00:00Z
-title = "Prep"
+date = 2021-09-01T00:00:00Z
+title = "Foundation"
 [menu.main]
 parent = "Learning"
 weight = 4
 
 +++
-* Prep transition
-* Link to relevant "Our curriculum pages"
-* List teachers or link to staff page
-
-**Foundation:**
+{{< vimeo 425817934 >}}
 
 Your child will experience many fun and exciting new things at Anderson’s Creek during their first year at school.
 
