@@ -1,10 +1,10 @@
-footer a,
-footer a:visited,
-footer ul {
+footer#page-footer a,
+footer#page-footer a:visited,
+footer#page-footer ul {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
-footer a:hover {
+footer#page-footer a:hover {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
 }
