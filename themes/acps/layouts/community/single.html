@@ -1,0 +1,18 @@
+{{ define "header" }}
+<div class="container-fluid px-0">
+<img class="fluid w-100" src="https://res.cloudinary.com/andersonscreekps/image/upload/v1630493831/banners/20200520-104049-community.jpg">
+</div>
+{{ end }}
+
+{{ define "main" }}
+<section id="content" class="py-4 my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9 mx-auto" >
+        <h1 class="mb-4 text-center">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
