@@ -34,7 +34,7 @@ Including raised vegetable beds, garden shed and chook shed.
 
 ## Synthetic Oval
 
-{{< image-2 "/assets/img/our-school/20201125-094357.jpg" "Northern goal square of oval" "/image/upload/v1631169581/assets/img/our-school/20201125-094158.jpg" "Southern goal square of oval" >}}
+{{< image-2 "/assets/img/our-school/20201125-094357.jpg" "Northern goal square of oval" "/assets/img/our-school/20201125-094158.jpg" "Southern goal square of oval" >}}
 
 With a perimeter running track.
 
