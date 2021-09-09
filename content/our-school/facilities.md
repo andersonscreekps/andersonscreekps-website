@@ -18,7 +18,7 @@ Our Performing Arts Theatre seats 440 people and has a fully equipped stage. Thi
 
 The Arts Theatre is available for hire for community and business groups.
 
-{{< image-2 "/images/20180527-081010.jpg" "Aerial view of school" "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
+{{< image "/images/20180527-081010.jpg" "Aerial view of school" >}}
 
 ## Computer Lab and iPads
 
