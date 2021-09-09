@@ -1,9 +1,9 @@
 +++
-date = "2019-01-01T00:00:00+11:00"
+date = 2018-12-31T13:00:00Z
 title = "Grounds map"
 [menu.main]
 parent = "Our school"
 weight = 6
 
 +++
-School grounds map.
+{{< image "/assets/img/community/20180527-080112-grounds-map.jpg" "Grounds map" >}}
