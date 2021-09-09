@@ -18,6 +18,8 @@ Our Performing Arts Theatre seats 440 people and has a fully equipped stage. Thi
 
 The Arts Theatre is available for hire for community and business groups.
 
+{{< image "/images/20180527-081010.jpg" "Ariel view of school" >}}
+
 ## Computer Lab and iPads
 
 As well as having computers in every classroom, Anderson's Creek has two fully equipped computer labs and an iPad bank.
