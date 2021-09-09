@@ -12,13 +12,15 @@ Our school has outstanding teaching and learning facilities.
 
 There are two hexagon shaped buildings that house open planned classrooms opening onto shared work spaces.
 
+{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of our classrooms" >}}
+
 ## Performing Arts Theatre
 
 Our Performing Arts Theatre seats 440 people and has a fully equipped stage. This facility is used by all students in their Performing Arts Program and other areas of the curriculum.
 
 The Arts Theatre is available for hire for community and business groups.
 
-{{< image "/images/20180527-081010.jpg" "Aerial view of school" >}}
+{{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
 
 ## Computer Lab and iPads
 
@@ -27,6 +29,8 @@ As well as having computers in every classroom, Anderson's Creek has two fully e
 ## Children's Garden
 
 Including raised vegetable beds, garden shed and chook shed.
+
+{{< "/assets/img/our-school/20180527-080323.jpg" "Children's garden and chook shed" >}}
 
 ## Synthetic Turf Oval
 
