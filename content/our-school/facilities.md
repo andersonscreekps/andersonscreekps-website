@@ -30,7 +30,7 @@ As well as having computers in every classroom, Anderson's Creek has two fully e
 
 Including raised vegetable beds, garden shed and chook shed.
 
-{{< "/assets/img/our-school/20180527-080323.jpg" "Children's garden and chook shed" >}}
+{{< image "/assets/img/our-school/20180527-080323.jpg" "Children's garden and chook shed" >}}
 
 ## Synthetic Turf Oval
 
