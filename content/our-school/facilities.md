@@ -44,6 +44,8 @@ With a perimeter running track.
 
 ## Playgrounds
 
+{{< image-2 "/assets/img/our-school/20180520-110427.jpg" "Spider and playground slides" "/assets/img/our-school/20180526-082436.jpg" "Playground slides and swinging loops" >}}
+
 ## Basketball / Netball Courts
 
 ## Out Of School Hours Care Building
