@@ -3,11 +3,11 @@ date = 2021-09-01T00:00:00Z
 title = "Visual arts"
 
 +++
-{{< image "/assets/img/learning/20200610-102204.jpg" "Welcome to our Arts room" >}}
+{{< image-2 "/assets/img/learning/20200610-102204.jpg" "Welcome to our visual arts classroom" "/assets/img/learning/20200610-102319.jpg" "Our visual arts classroom" >}}
 
-The visual arts are effectively integrated into student experiences in Anderson Creek Primary School. The Arts program is committed to providing quality arts education through experience for all learners.
+The visual arts are effectively integrated into student experiences in Anderson Creek Primary School. The arts program is committed to providing quality arts education through experience for all learners.
 
-{{< image "/assets/img/learning/20200610-102319.jpg" "Our visual arts classroom" >}}
+{{< image-2 "/assets/img/learning/20200610-094947.jpg" "Some of our visual arts materials" "/assets/img/learning/20200610-094725.jpg" "Paint jugs in our visual arts classroom" >}}
 
 ## Grade 6 Art Project
 
