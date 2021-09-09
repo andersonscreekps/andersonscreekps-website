@@ -1,1 +1,1 @@
-<img class="w-75 rounded border border-2 shadow-sm bg-white mx-auto d-block p-1 my-5" src="{{ .Get 0 }}" alt="{{ .Get 1 }}" title="{{ .Get 1 }}">
+<img class="w-75 rounded border border-2 shadow-sm bg-white mx-auto d-block p-1 my-5" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.image_transforms }}{{ .Get 0 }}" alt="{{ .Get 1 }}" title="{{ .Get 1 }}">
