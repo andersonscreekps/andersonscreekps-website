@@ -16,4 +16,6 @@ We believe in "Every Child, Every Day". Anderson's Creek has a strong commitment
 
 The school has 16 classrooms, 3 computer labs, Multi-use Indoor Stadium, Performing Arts Theatre, Synthetic oval, Visual Arts and Library/Resource Centre and Canteen. Out of School Hours program operates 5 days a week. There is a strong partnership between students, parents and staff. We have a high level of participation from parents in the school through School Council, classroom helpers, fundraising and social activities.
 
+{{< image "/images/20180520-083837.jpg" "Image name">}}
+
 Anderson's Creek aims to create a culture of mutual respect for our 342 students in a safe and stimulating learning environment.
