@@ -40,14 +40,22 @@ With a perimeter running track.
 
 ## Indoor Basketball Stadium
 
-## Tennis Courts
+{{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
+
+## Tennis and Multi-purpose Courts
+
+{{< image "/assets/img/our-school/20180526-090730.jpg" "Tennis and multi-purpose courts" >}}
 
 ## Playgrounds
 
 {{< image-2 "/assets/img/our-school/20180520-110427.jpg" "Spider and playground slides" "/assets/img/our-school/20180526-082436.jpg" "Playground slides and swinging loops" >}}
 
-## Basketball / Netball Courts
+## Basketball and Netball Courts
+
+{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in background" >}}
 
 ## Out Of School Hours Care Building
+
+
 
 ## Our Buddy Bench
