@@ -22,5 +22,3 @@ fields:
 - type: file
   name: link
   label: Link
-pages:
-- content/policies/advertising-and-sponsorship-policy.md
