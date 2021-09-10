@@ -8,7 +8,7 @@ weight = 10
 +++
 ## 2020
 
-{{<table "table table-bordered my-5">}}
+{{<table "table table-bordered mt-3 mb-5">}}
 | Term | Start | End |
 |---|---|---|
 | 1 | Wednesday, 27 January (students start 28 January) | Thursday, 1 April |
@@ -19,7 +19,7 @@ weight = 10
 
 ## 2021
 
-{{<table "table table-bordered my-5">}}
+{{<table "table table-bordered mt-3 mb-5">}}
 | Term | Start | End |
 |---|---|---|
 | 1 | 28 January (students start 31 January) | Friday, 8 April |
