@@ -12,12 +12,17 @@ TheirCare provides a stimulating and safe environment for all children and an en
 
  Operation Times
 
-{{<table "table table-striped table-bordered">}}
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Item 1   | Item 2   | Item 3   |
-| Item 1a  | Item 2a  | Item 3a  |
+{{<table "table table-bordered">}}
+|----------|----------|
+| Before school care | 7:00--8:45am |
+| After school care | 3:30--6:30pm |
+| Holiday program | 7:00am--6:30pm |
+| Pupil-free days | 7:00am -- 6:30pm |
 {{</table>}}
+
+Late Booking
+Cancellation Fee	 Within 24 hours
+Cancellation Fee	 Same Day
 
 For more information, go to:
 
