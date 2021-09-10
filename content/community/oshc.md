@@ -12,6 +12,7 @@ TheirCare provides a stimulating and safe environment for all children and an en
 
  Operation Times
 
+{{<table “table table-striped table-bordered">}}
 | --- | --- |
 | Before School Care | 7am - 8:45am |
 | After School Care | 3:30pm - 6:30pm |
@@ -19,6 +20,7 @@ TheirCare provides a stimulating and safe environment for all children and an en
 | Pupil Free Day | 7am - 6:30pm |
 | Late BookingCancellation Fee | Within 24 hours |
 | Cancellation Fee | Same Day |
+{{</table>}}
 
 For more information, go to:
 
