@@ -22,7 +22,7 @@ weight = 10
 {{<table "table table-bordered mt-3 mb-5">}}
 | Term | Start | End |
 |---|---|---|
-| 1 | 28 January (students start 31 January) | Friday, 8 April |
+| 1 | Friday, 28 January (students start 31 January) | Friday, 8 April |
 | 2 | Monday, 26 April | Friday, 24 June |
 | 3 | Monday, 11 July | Friday, 16 September |
 | 4 | Monday, 3 October | Tuesday, 20 December |
