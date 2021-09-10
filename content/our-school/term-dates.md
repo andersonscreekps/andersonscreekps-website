@@ -9,19 +9,12 @@ weight = 10
 ## 2020
 
 {{<table "table table-bordered">}}
-
 | Term | Start | End |
-
 |---|---|---|
-
 | 1 | 27 January (students start 28 January) | 1 April |
-
 | 2 | 19 April | 25 June |
-
 | 3 | 12 July | 17 September |
-
 | 4 | 4 October | 17 December |
-
 {{</table>}}
 
 ## 2021
