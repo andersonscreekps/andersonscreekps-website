@@ -23,6 +23,7 @@ fields:
   name: link
   label: Link
 pages:
+- content/policies/administration-of-medication.md
 - content/policies/child-safe-environment.md
 - content/policies/child-safety-responding-and-reporting-obligations.md
 - content/policies/child-safety.md
