@@ -23,6 +23,7 @@ fields:
   name: link
   label: Link
 pages:
+- content/policies/child-safety-responding-and-reporting-obligations.md
 - content/policies/child-safety.md
 - content/policies/parent-payment-foundation.md
 - content/policies/parent-payment-grade-1.md
