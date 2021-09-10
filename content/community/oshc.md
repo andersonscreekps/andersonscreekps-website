@@ -13,7 +13,6 @@ TheirCare provides a stimulating and safe environment for all children and an en
  Operation Times
 
 {{<table "table table-bordered">}}
-|----------|----------|
 | Before school care | 7:00--8:45am |
 | After school care | 3:30--6:30pm |
 | Holiday program | 7:00am--6:30pm |
