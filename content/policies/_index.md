@@ -1,6 +1,9 @@
 +++
 date = 2019-01-01T00:00:00Z
 title = "Policies"
+description = "Front matter for the /policies section of the site."
+[cascade]
+banner = "/banners/20200610-094839-learning.jpg"
 [menu.main]
 parent = "Our school"
 weight = 7
