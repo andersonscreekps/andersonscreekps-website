@@ -1,5 +1,5 @@
 +++
-date = "2019-01-01T00:00:00+11:00"
+date = 2021-09-01T00:00:00Z
 title = "Future parents"
 [menu.main]
 parent = "Community"
@@ -10,16 +10,16 @@ This is a page designed for parents of children who are not yet enrolled at our 
 
 Links:
 
-* Our story
-* Principal's welcome
-* Facilities
-* Enrolments
-* Policies
-* Forms
-* Term dates
-* Contact us
-* Extra-curricular
-* Parental involvement
-* OSHC
-* Canteen
-* School uniform
+* [Principal's welcome](/our-school/principals-welcome/ "Principal's welcome")
+* [Our story](/our-school/story/ "Our story")
+* [Enrolments](/our-school/enrolments/ "Enrolments")
+* [Our Facilities](/our-school/facilities/ "Our facilities")
+* [Policies](/policies/ "Policies")
+* [Forms](/forms/ "Forms")
+* [Term dates](/our-school/term-dates/ "Term dates")
+* [Contact us](/our-school/contact-us/ "Contact us")
+* [Extra-curricular](/community/extra-curricular/ "Extra-curricular")
+* [Parental involvement](/community/parental-involvement/ "Parental involvement")
+* [OSHC](/community/oshc/ "OSHC")
+* [Canteen](/community/canteen/ "Canteen")
+* [School uniform](/our-school/school-uniform/ "School uniform")
