@@ -11,8 +11,8 @@ welcome_title = "Anderson's Creek Primary School"
 why_description = "At Anderson's Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nuture and care for them in a quality learning environment.\n\nOur whole school values program focuses on Respect, Optimism, Honesty and Integrity, creating a postive and happy school where children can thrive.\n\nAnderson's Creek Primary School is an integral part of the Warrandyte community and we are proud of our strong relationships with community groups, sporting clubs and local businesses."
 why_title = "Why choose our school?"
 [welcome_button_1]
-title = "Book a tour"
-url = "/our-school/tours/"
+title = "Contact us"
+url = "/contact-us/"
 [welcome_button_2]
 title = "Enrol now"
 url = "/our-school/enrolments/"
