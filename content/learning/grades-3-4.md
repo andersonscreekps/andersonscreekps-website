@@ -6,10 +6,9 @@ parent = "Learning"
 weight = 6
 
 +++
-* Link to relevant "Our curriculum pages"
-* List teachers or link to staff page
+* List teachers or link to the staff page
 
-In Grade 3 & 4 (Level 3) Anderson's Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas which are fundamental to students developing as confident learners.
+In Grade 3 & 4 (Level 3) Anderson's Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
 
 ## Literacy
 
@@ -35,7 +34,7 @@ Spelling is a vital part of our writing program.
 
 Students will:
 
-* develop their confidence in spelling of familiar words
+* develop their confidence in the spelling of familiar words
 * develop strategies to attempt more difficult words.
 
 ### Writing
@@ -52,11 +51,11 @@ Activities and investigations are planned to engage all our students and their m
 
 ## Camp
 
-A school camp is a much anticipated experience for both students and teachers.
+A school camp is a much-anticipated experience for both students and teachers.
 
 ### Overview
 
-Grade 3 & 4 students have the opportunity to attend the CYC Camp at Phillip Island. The focus for students attending camp is the development of independence. Students are able to step outside their comfort zones and tackle a myriad of challenges designed to enhance their self-belief, self-worth and relationships with their peers. Some of these life long skills are sharing, helping, encouraging others and listening.
+Grade 3 & 4 students have the opportunity to attend the CYC Camp at Phillip Island. The focus for students attending camp is the development of independence. Students are able to step outside their comfort zones and tackle a myriad of challenges designed to enhance their self-belief, self-worth and relationships with their peers. Some of these lifelong skills are sharing, helping, encouraging others and listening.
 
 This school camp provides students with an ideal opportunity to develop team skills, challenge themselves and enjoy the learning experience. It also reinforces concepts studied within the Level 3 classroom program.
 

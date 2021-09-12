@@ -10,7 +10,7 @@ Our school has outstanding teaching and learning facilities.
 
 ## Our Classrooms
 
-There are two hexagon shaped buildings that house open planned classrooms opening onto shared work spaces.
+There are two hexagon-shaped buildings that house open planned classrooms opening onto shared workspaces.
 
 {{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of our classrooms" >}}
 
@@ -44,7 +44,7 @@ With a perimeter running track.
 
 ## Tennis and Multi-purpose Courts
 
-{{< image "/assets/img/our-school/20180526-090730.jpg" "Tennis and multi-purpose courts" >}}
+{{< image "/assets/img/our-school/20180526-090730.jpg" "Tennis and multipurpose courts" >}}
 
 ## Playgrounds
 
@@ -52,10 +52,8 @@ With a perimeter running track.
 
 ## Basketball and Netball Courts
 
-{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in background" >}}
+{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in the background" >}}
 
 ## Out Of School Hours Care Building
-
-
 
 ## Our Buddy Bench
