@@ -58,7 +58,7 @@ fields:
     description: Welcome button URL
     config:
       required: true
-  - name: icon
+  - name: button_icon
     type: textarea
     default: ''
     config:
@@ -84,7 +84,7 @@ fields:
     description: Welcome button URL
     config:
       required: true
-  - name: icon
+  - name: button_icon
     type: textarea
     default: ''
     config:
