@@ -58,6 +58,15 @@ fields:
     description: Welcome button URL
     config:
       required: true
+  - name: button_svg
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Button SVG
 - type: field_group
   name: welcome_button_2
   label: Welcome button 2
@@ -75,6 +84,15 @@ fields:
     description: Welcome button URL
     config:
       required: true
+  - name: button_svg
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Button SVG
 - type: file
   name: events_news_image_1
   label: Events News image 1
