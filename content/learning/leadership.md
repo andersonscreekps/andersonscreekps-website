@@ -6,7 +6,7 @@ parent = "Learning"
 weight = 2
 
 +++
-We pride ourselves on developing our students' leadership skills and we give them many opportunities to become leaders.
+We pride ourselves on developing our students' leadership skills, and we give them many opportunities to become leaders.
 
 We have school captains, vice captains, house captains and many other roles.
 
@@ -16,7 +16,7 @@ We have school captains, vice captains, house captains and many other roles.
 
 **Vice Captains:** Owen G and Hallie B
 
-**Arts Captains:** Cate G, Holly G and Kaori C 
+**Arts Captains:** Cate G, Holly G and Kaori C
 
 **Library Captains:** Evie S, Tahlia R and Sophia R
 
@@ -35,14 +35,14 @@ We have school captains, vice captains, house captains and many other roles.
 * **Yellow House 'Miners':** Fletcher S and Amy R
 * **Blue House 'Panners':** Liam H and Sashie C
 
-## Junior School Counci
+## Junior School Council
 
 As part of students at Anderson's Creek having a voice, Junior School representatives from Grade 3 to Grade 6 meet on a regular basis with the Principal and Assistant Principal.
 
-Children are involved in making decision around whole school issues such as, placement of play areas, ground improvements and extra curricular activities for all students to be involved in. \\
+Children are involved in making decision around whole school issues such as, placement of play areas, ground improvements and extracurricular activities for all students to be involved in.
 
 They meet with students in their classes to discuss topical issues that are then relayed to School Council and the School Leaders for implementation.
 
 ## Green Thumbs
 
- Our Grade 5 and 6 students have the opportunity to be involved in a Sustainability leadership team, ‘ACPS Green Thumbs’, who meet regularly to discuss sustainability initiatives and ensure the ongoing success of our current sustainable practices.
+Our Grade 5 and 6 students have the opportunity to be involved in a Sustainability leadership team, ‘ACPS Green Thumbs’, who meet regularly to discuss sustainability initiatives and ensure the ongoing success of our current sustainable practices.
