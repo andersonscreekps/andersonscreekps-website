@@ -16,17 +16,17 @@ Surrounding these buildings are our outdoor facilities as well as additional sma
 
 ## Performing arts theatre
 
-{{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
-
 Our performing arts theatre seats 440 people and has a fully equipped stage. This facility is used by students in the performing arts program and hosts our weekly assemblies, musical productions and other whole-school events.
 
 The theatre is available for either regular or occasional hire for community and business groups. Please contact our office for more information.
 
+{{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
+
 ## Learning shack
 
-{{< image-2 "/assets/img/our-school/20180520-083149.jpg" "Learning shack and surrounds" "/assets/img/our-school/20171218-191409.jpg" "Learning shack" >}}
-
 Children absorb information in different ways and enjoy a variety of different learning environments. Our learning shack serves as an outdoor classroom in good weather and it's also a place for children who prefer a quieter style of play during recess and lunchtime.
+
+{{< image-2 "/assets/img/our-school/20180520-083149.jpg" "Learning shack and surrounds" "/assets/img/our-school/20171218-191409.jpg" "Learning shack" >}}
 
 ## Children's garden and chook house
 
@@ -44,7 +44,9 @@ We have a large synthetic oval with a perimeter running track and central cricke
 
 {{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
 
-Indoor basketball stadium...
+The indoor basketball stadium is available for use during school hours and can be configured for basketball, netball, volleyball, badminton as well as open space.
+
+Outside of school hours, the stadium is run as the [Warrandyte Sports Centre](https://manningham.ymca.org.au/stadiums/warrandyte-sports-centre "Warrandyte Sports Centre") by Manningham Council.
 
 ## Multi-purpose courts
 
