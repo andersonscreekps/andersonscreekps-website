@@ -6,7 +6,9 @@ parent = "Learning"
 weight = 3
 
 +++
-Sustainability is an important concept that is taught across Anderson's Creek Primary School. Our students are involved in Sustainable leadership groups, rubbish-free lunches, gardening and curriculum activities within all grade levels that promote sustainability.
+Sustainability is an important concept that is taught across Anderson's Creek Primary School.
+
+{{< image "/assets/img/learning/20201112-142521.jpg" "Powerful Owl wall mural" >}}
 
 ## Sustainability leadership team
 
