@@ -18,7 +18,7 @@ Surrounding these buildings are our outdoor facilities as well as additional sma
 
 {{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
 
-Our performing arts theatre seats 440 people and has a fully equipped stage. This facility is used by students in the performing arts program and hosts our weekly assemblys, musical productions and other whole-school events.
+Our performing arts theatre seats 440 people and has a fully equipped stage. This facility is used by students in the performing arts program and hosts our weekly assemblies, musical productions and other whole-school events.
 
 The theatre is available for either regular or occasional hire for community and business groups. Please contact our office for more information.
 
