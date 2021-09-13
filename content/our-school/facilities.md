@@ -6,54 +6,61 @@ parent = "Our school"
 weight = 4
 
 +++
-Our school has outstanding teaching and learning facilities.
+## School overview
 
-## Our Classrooms
+{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of our school" >}}
 
-There are two hexagon-shaped buildings that house open planned classrooms opening onto shared workspaces.
+Anderson's Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening on to shared workspaces. Another hexagon houses our offices and performing arts theatre.
 
-{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of our classrooms" >}}
+Surrounding these buildings are our outdoor facilities as well as additional smaller classroom buildings and an indoor basketball stadium.
 
-## Performing Arts Theatre
-
-Our Performing Arts Theatre seats 440 people and has a fully equipped stage. This facility is used by all students in their Performing Arts Program and other areas of the curriculum.
-
-The Arts Theatre is available for hire for community and business groups.
+## Performing arts theatre
 
 {{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
 
-## Computer Lab and iPads
+Our performing arts theatre seats 440 people and has a fully equipped stage. This facility is used by students in the performing arts program and hosts our weekly assemblys, musical productions and other whole-school events.
 
-As well as having computers in every classroom, Anderson's Creek has two fully equipped computer labs and an iPad bank.
+The theatre is available for either regular or occasional hire for community and business groups. Please contact our office for more information.
 
-## Children's Garden
+## Learning shack
 
-Including raised vegetable beds, garden shed and chook shed.
+{{< image-2 "/assets/img/our-school/20180520-083149.jpg" "Learning shack and surrounds" "/assets/img/our-school/20201125-094158.jpg" "Learning shack" >}}
 
-{{< image "/assets/img/our-school/20180520-083837.jpg" "Children's garden and chook shed" >}}
+Children absorb information in different ways and enjoy a variety of different learning environments. Our learning shack serves as an outdoor classroom in good weather and it's also a place for children who prefer a quieter style of play during recess and lunchtime.
 
-## Synthetic Oval
+## Children's garden and chook house
+
+{{< image "/assets/img/our-school/20180520-083837.jpg" "Children's garden and chook house" >}}
+
+Including raised vegetable beds, garden shed and chook house.
+
+## Synthetic oval
 
 {{< image-2 "/assets/img/our-school/20201125-094357.jpg" "Northern goal square of oval" "/assets/img/our-school/20201125-094158.jpg" "Southern goal square of oval" >}}
 
-With a perimeter running track.
+We have a large synthetic oval with a perimeter running track and central cricket pitch. The oval had a major refurbishment and resurfacing in 2020 and is used by students at recess and lunchtime and for their physical education classes. It is also used by local sporting clubs outside of school hours.
 
-## Indoor Basketball Stadium
+## Indoor basketball stadium
+
+
 
 {{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
 
-## Tennis and Multi-purpose Courts
+## Multi-purpose courts
 
-{{< image "/assets/img/our-school/20180526-090730.jpg" "Tennis and multipurpose courts" >}}
+{{< image "/assets/img/our-school/20180526-090730.jpg" "Multipurpose courts" >}}
 
 ## Playgrounds
 
+Our school has three major play areas. A
+
 {{< image-2 "/assets/img/our-school/20180520-110427.jpg" "Spider and playground slides" "/assets/img/our-school/20180526-082436.jpg" "Playground slides and swinging loops" >}}
 
-## Basketball and Netball Courts
+## Basketball and netball Courts
+
+As well as the indoor basketball stadium, we also have two outdoor courts with all-weather surfaces. 
 
 {{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in the background" >}}
 
-## Out Of School Hours Care Building
-
 ## Our Buddy Bench
+
