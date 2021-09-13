@@ -6,16 +6,31 @@ parent = "Our school"
 weight = 1
 
 +++
-Anderson's Creek Primary School is committed to the highest possible standards of teaching and learning at every level. High academic achievement in Numeracy and Literacy is our key focus. We also believe in providing a broad range of learning opportunities for our students in all curriculum areas which include Science and Technology, Performing and Visual Arts, Health and Physical Education, L.O.T.E. (Italian), Music, Reading Recovery, Student Leadership Programs, Intervention Programs. We strongly believe in differentiating the curriculum for every child
+## About us
 
-{{< image "/assets/img/1920x1080/20200610-104725.jpg" "Art class" >}}
+Anderson's Creek Primary School is located...
 
-We believe in "Every Child, Every Day". Anderson's Creek has a strong commitment to Information Technology. We see it is our role to develop our students for 21st Century learning. Our programs are constantly changing and evolving as we move with emerging technologies in the school setting. Our staffing profile consists of Principal, Assistant Principal, 2 Leading Teachers who drive literacy and numeracy across the school along with a mix of youth and experience across our staff.
+We have an inclusive and community-focused culture and aim to provide an educational environment where all our students can reach their full potential. We understand that learning is not simply about intellectual development and we place just as much emphasis on emotional, social and physical development.
+
+Our key academic focus is on high achievement in numeracy and literacy and we strive for excellence in education. We achieve this by having engaged, optimistic, motivated and independent learners who are confident about their future. We have high expectations for students and provide a curriculum where children experience differentiated learning and open-ended tasks that promote inquiry in learning.
 
 {{< image "/assets/img/1920x1080/20190915-130020.jpg" "Girls colour run" >}}
 
-The school has 16 classrooms, 3 computer labs, Multi-use Indoor Stadium, Performing Arts Theatre, Synthetic oval, Visual Arts and Library/Resource Centre and Canteen. Out of School Hours program operates 5 days a week. There is a strong partnership between students, parents and staff. We have a high level of participation from parents in the school through School Council, classroom helpers, fundraising and social activities.
+## School values
 
-{{< image "/images/20180520-083837.jpg" "Image name">}}
+Anderson’s Creek Primary School works hard to create a culture of mutual respect between the students, teachers and parents.
 
-Anderson's Creek aims to create a culture of mutual respect for our 342 students in a safe and stimulating learning environment.
+All our staff strive to build positive and authentic relationships with the students they teach. 
+
+Positive values are an integral part of our school and strongly influence our behaviour and the way we interact within our community as well as those around us.
+
+* **Respect** - We care for others and treat them as we would like to be treated.
+* **Optimism** - We search for the positive aspects of any situation.
+* **Honesty** - We always tell the truth to ourselves and others.
+* **Responsibility** - We can be trusted to make good choices and do the right thing.
+
+There is a strong partnership between students, parents and staff. We have a high level of participation from parents in the school through School Council, classroom helpers, fundraising and social activities.
+
+We are committed to developing strong links with the local community, hence our school motto is _"Learning with the Community"_.
+
+{{< image "/assets/img/1920x1080/20200610-104725.jpg" "Art class" >}}
