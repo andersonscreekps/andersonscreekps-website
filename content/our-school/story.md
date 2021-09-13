@@ -20,7 +20,7 @@ Our key academic focus is on high achievement in numeracy and literacy and we st
 
 Anderson’s Creek Primary School works hard to create a culture of mutual respect between the students, teachers and parents.
 
-All our staff strive to build positive and authentic relationships with the students they teach. 
+All our staff strive to build positive and authentic relationships with the students they teach.
 
 Positive values are an integral part of our school and strongly influence our behaviour and the way we interact within our community as well as those around us.
 
@@ -34,3 +34,7 @@ There is a strong partnership between students, parents and staff. We have a hig
 We are committed to developing strong links with the local community, hence our school motto is _"Learning with the Community"_.
 
 {{< image "/assets/img/1920x1080/20200610-104725.jpg" "Art class" >}}
+
+## My School
+
+You can find out more about our school profile, NAPLAN results, attendance and finances on the [My School website](https://www.myschool.edu.au/school/45019 "Anderson's Creek Primary School - My School").
