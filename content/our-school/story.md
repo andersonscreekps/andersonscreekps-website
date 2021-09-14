@@ -6,7 +6,7 @@ parent = "Our school"
 weight = 1
 
 +++
-## About us
+## About
 
 Anderson's Creek Primary School is located...
 
@@ -16,7 +16,7 @@ Our key academic focus is on high achievement in numeracy and literacy and we st
 
 {{< image "/assets/img/1920x1080/20190915-130020.jpg" "Girls colour run" >}}
 
-## School values
+## Values
 
 Anderson’s Creek Primary School works hard to create a culture of mutual respect between the students, teachers and parents.
 
@@ -35,6 +35,9 @@ We are committed to developing strong links with the local community, hence our 
 
 {{< image "/assets/img/1920x1080/20200610-104725.jpg" "Art class" >}}
 
-## My School
+## Reports
+
+* [2020 Annual report](https://res.cloudinary.com/andersonscreekps/image/upload/v1631587447/publications/2020_Annual_Report.pdf "2020 Annual report")
+* [2019-2022 Strategic plan](https://res.cloudinary.com/andersonscreekps/image/upload/v1587869953/publications/2019-2022_Strategic_Plan.pdf "2019-2022 Strategic plan")
 
 You can find out more about our school profile, NAPLAN results, attendance and finances on the [My School website](https://www.myschool.edu.au/school/45019 "Anderson's Creek Primary School - My School").
