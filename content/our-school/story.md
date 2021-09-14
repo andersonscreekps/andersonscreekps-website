@@ -18,11 +18,11 @@ Our key academic focus is on high achievement in numeracy and literacy and we st
 
 ## Values
 
-{{< image "/assets/img/our-school/20180526-084033.jpg" "Handprints on a garden fence" >}}
-
 Anderson’s Creek Primary School works hard to create a culture of mutual respect between the students, teachers and parents.
 
 All our staff strive to build positive and authentic relationships with the students they teach.
+
+{{< image "/assets/img/our-school/20180526-084033.jpg" "Handprints on a garden fence" >}}
 
 Positive values are an integral part of our school and strongly influence our behaviour and the way we interact within our community as well as those around us.
 
