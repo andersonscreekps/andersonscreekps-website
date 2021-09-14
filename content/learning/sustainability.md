@@ -22,12 +22,14 @@ Wednesday is our official “Rubbish-free lunch” day when students are encoura
 
 {{< image "/assets/img/learning/20180526-083931.jpg" "Garden shed flower mural" >}}
 
-## Recyling stations
+## Recycling stations
 
 We have set up recycling stations including plastic, paper and compost bins in our classrooms (including the staffroom). This is program is monitored and run by our sustainability leadership team.
 
+{{< image "/assets/img/learning/20180526-084033.jpg" "Handprints on a garden fence" >}}
+
 ## Vegetable garden and chicken house
 
-The school has a vegetable garden as well as worm famrms and compost bins. We also have a chicken house ("Cluckingham Palace") inhabitated by some of our feathery friends.
+The school has a vegetable garden as well as worm farms and compost bins. We also have a chicken house ("Cluckingham Palace") inhabited by some of our feathery friends.
 
 {{< image-2 "/assets/img/learning/20180520-084156.jpg" "Garden shed, chook house and garden" "/assets/img/learning/20180526-083829.jpg" "Chook house and garden shed" >}}
