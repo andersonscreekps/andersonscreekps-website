@@ -26,7 +26,7 @@ Wednesday is our official “Rubbish-free lunch” day when students are encoura
 
 We have set up recycling stations including plastic, paper and compost bins in our classrooms (including the staffroom). This is program is monitored and run by our sustainability leadership team.
 
-{{< image "/assets/img/learning/20180526-084033.jpg" "Handprints on a garden fence" >}}
+{{< image "/assets/img/learning/20180526-084552.jpg" "Garden scarecrow" >}}
 
 ## Vegetable garden and chicken house
 
