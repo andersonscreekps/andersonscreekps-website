@@ -17,6 +17,6 @@ The uniform is made up of:
 * Hooded navy windcheater with the school logo on the left breast.
 * Navy hat which must be worn outside for all of terms 1 and 4.
 
-{{< image-2 "/assets/img/uniform/summmer-dress.jpg" "Summer dress" "/assets/img/uniform/bomber-jacket.jpg" "Navy bomber jacket" >}}
+{{< image-2 "/assets/img/uniform/summer-dress.jpg" "Summer dress" "/assets/img/uniform/bomber-jacket.jpg" "Navy bomber jacket" >}}
 
 Our uniforms can be purchased from the [PSW Croydon store](https://www.psw.com.au/storelocations "PSW Croydon store") or directly from the [PSW online store](https://www.psw.com.au/schools/anderson-s-creek-primary-school.html "PSW online store").
