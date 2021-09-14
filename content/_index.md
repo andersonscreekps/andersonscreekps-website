@@ -58,7 +58,7 @@ title = "Slide 5"
 src = "/v1548900716/20180810-094200.jpg"
 title = "Slide 6"
 [[collage]]
-image = "/v1631592524/assets/img/home/20180810-090920.jpg"
+image = "/v1548900307/20180810-090920.jpg"
 title = "Children painting"
 [[collage]]
 image = "/v1548900269/20180527-080323.jpg"
