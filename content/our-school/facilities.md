@@ -6,9 +6,7 @@ parent = "Our school"
 weight = 4
 
 +++
-## School overview
-
-{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of our school" >}}
+{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of Anderson's Creek Primary School" >}}
 
 Anderson's Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
 
@@ -30,38 +28,38 @@ Children absorb information in different ways and enjoy a variety of different l
 
 ## Children's garden and chook house
 
-{{< image "/assets/img/our-school/20180520-083837.jpg" "Children's garden and chook house" >}}
+The children's garden has a range of raised garden beds, worm and compost farms, a garden shed and a chook shed that houses our feathered friends.
 
-Including raised vegetable beds, garden shed and chook house.
+{{< image "/assets/img/our-school/20180520-083837.jpg" "Children's garden and chook house" >}}
 
 ## Synthetic oval
 
-{{< image-2 "/assets/img/our-school/20201125-094357.jpg" "Northern goal square of oval" "/assets/img/our-school/20201125-094158.jpg" "Southern goal square of oval" >}}
-
 We have a large synthetic oval with a perimeter running track and central cricket pitch. The oval had a major refurbishment and resurfacing in 2020 and is used by students at recess and lunchtime and for their physical education classes. It is also used by local sporting clubs outside of school hours.
 
-## Indoor basketball stadium
+{{< image-2 "/assets/img/our-school/20201125-094357.jpg" "Northern goal square of oval" "/assets/img/our-school/20201125-094158.jpg" "Southern goal square of oval" >}}
 
-{{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
+## Indoor basketball stadium
 
 The indoor basketball stadium is available for use during school hours and can be configured for basketball, netball, volleyball, badminton as well as open space.
 
 Outside of school hours, the stadium is run as the [Warrandyte Sports Centre](https://manningham.ymca.org.au/stadiums/warrandyte-sports-centre "Warrandyte Sports Centre") by Manningham Council.
 
+{{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
+
 ## Multi-purpose courts
+
+Our multi-purpose courts are used for ball games including bat tennis, down ball and cricket.
 
 {{< image "/assets/img/our-school/20180526-090730.jpg" "Multipurpose courts" >}}
 
-Multi-purpose courts used for...
-
 ## Playgrounds
+
+Our school has three major play areas with a range of play equipment suitable for children of all ages. Some of the play areas are dedicated for particular year levels and the remainder are used by all.
 
 {{< image-2 "/assets/img/our-school/20180520-110427.jpg" "Spider and playground slides" "/assets/img/our-school/20180526-082436.jpg" "Playground slides and swinging loops" >}}
 
-Our school has three major play areas. A
-
 ## Basketball and netball courts
 
-{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in the background" >}}
+As well as the indoor basketball stadium, we also have two outdoor courts with all-weather surfaces that are used for basketball and netball games.
 
-As well as the indoor basketball stadium, we also have two outdoor courts with all-weather surfaces.
+{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in the background" >}}
