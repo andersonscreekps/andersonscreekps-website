@@ -12,11 +12,13 @@ Anderson's Creek Primary School is located...
 
 We have an inclusive and community-focused culture and aim to provide an educational environment where all our students can reach their full potential. We understand that learning is not simply about intellectual development and we place just as much emphasis on emotional, social and physical development.
 
+{{< image "/assets/img/our-school/20190915-130510.jpg" "Girls after our colour run" >}}
+
 Our key academic focus is on high achievement in numeracy and literacy and we strive for excellence in education. We achieve this by having engaged, optimistic, motivated and independent learners who are confident about their future. We have high expectations for students and provide a curriculum where children experience differentiated learning and open-ended tasks that promote inquiry in learning.
 
-{{< image "/assets/img/1920x1080/20190915-130020.jpg" "Girls colour run" >}}
-
 ## Values
+
+{{< image "/assets/img/our-school/20180526-084033.jpg" "Handprints on a garden fence" >}}
 
 Anderson’s Creek Primary School works hard to create a culture of mutual respect between the students, teachers and parents.
 
@@ -32,8 +34,6 @@ Positive values are an integral part of our school and strongly influence our be
 There is a strong partnership between students, parents and staff. We have a high level of participation from parents in the school through School Council, classroom helpers, fundraising and social activities.
 
 We are committed to developing strong links with the local community, hence our school motto is _"Learning with the Community"_.
-
-{{< image "/assets/img/1920x1080/20200610-104725.jpg" "Art class" >}}
 
 ## Reports
 
