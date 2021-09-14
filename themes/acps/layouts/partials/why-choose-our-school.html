@@ -7,7 +7,7 @@
     <div class="row">
       {{ range .Params.features}}
       <div class="col-md-6 mb-3" data-aos="fade-up">
-        <a class="card card-transition h-100" href="#">
+        <div class="card card-transition h-100">
           <div class="card-body">
             <div class="d-flex">
               <div class="flex-shrink-0">
@@ -16,12 +16,12 @@
                 </span>
               </div>
               <div class="flex-grow-1 ms-4">
-                <h4 class="card-title">{{.title}}</h4>
+                <h2 class="card-title">{{.title}}</h2>
                 <p class="card-text text-body">{{.description}}</p>
               </div>
             </div>
           </div>
-        </a>
+        </div>
       </div>
       {{ end }}
     </div>
