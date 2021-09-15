@@ -6,14 +6,14 @@ parent = "Our school"
 weight = 3
 
 +++
-{{<table "table table-bordered">}}
+{{<table "table table-bordered staff">}}
 | Principal class officers | Role                       |
 |--------------------------|----------------------------|
 | Sue Dyos                 | Principal                  |
 | Jake Laurie              | Acting Assistant Principal |
 {{</table>}}
 
-{{<table "table table-bordered">}}
+{{<table "table table-bordered staff">}}
 | Class teachers                  | Class  |
 |---------------------------------|--------|
 | Amanda Callaway                 | Prep C |
@@ -29,7 +29,7 @@ weight = 3
 | Maria Healey                    | 5/6H   |
 {{</table>}}
 
-{{<table "table table-bordered">}}
+{{<table "table table-bordered staff">}}
 | Specialist teachers     | Subject            |
 |-------------------------|--------------------|
 | Ginevra De Benedetti    | Italian            |
