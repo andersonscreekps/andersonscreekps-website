@@ -58,23 +58,23 @@ title = "Slide 5"
 src = "/v1548900716/20180810-094200.jpg"
 title = "Slide 6"
 [[collage]]
-image = "/v1631681329/assets/img/our-school/snapshots/20190911-213714.jpg"
-title = "Boys' production scene"
+image = "/v1631681329/assets/img/our-school/snapshots/20200224-091335.jpg"
+title = "Girls swimming"
 [[collage]]
 image = "/v1631681330/assets/img/our-school/snapshots/20201105-115301.jpg"
 title = "Boys in front of Cluckingham Palace"
 [[collage]]
-image = "/v1631681329/assets/img/our-school/snapshots/20200224-091335.jpg"
-title = "Girls swimming"
+image = "/v1631681329/assets/img/our-school/snapshots/20190911-213714.jpg"
+title = "Boys' production scene"
 [[collage]]
-image = "/v1631681331/assets/img/our-school/snapshots/20210505-123723.jpg"
-title = "Boys' cross-country"
-[[collage]]
-image = "/v1631681330/assets/img/our-school/snapshots/20200626-111012.jpg"
-title = "Three girls seated"
+image = "/v1631681329/assets/img/our-school/snapshots/20191211-173918.jpg"
+title = "Christmas carols singing"
 [[collage]]
 image = "/v1631681330/assets/img/our-school/snapshots/20201029-122847.jpg"
 title = "Upside-down hair girls"
+[[collage]]
+image = "/v1631681331/assets/img/our-school/snapshots/20210505-123723.jpg"
+title = "Boys' cross-country"
 [[features]]
 description = "Our staff are enthusiastic and postive educators and take pride in their ability to bring out the best in every child. They work hard every day to provide a positive learning environment where children feel safe and comfortable."
 icon = "chalkboard-teacher"
