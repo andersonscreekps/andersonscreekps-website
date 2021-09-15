@@ -8,7 +8,7 @@ weight = 6
 +++
 * List teachers or link to the staff page
 
-In Grade 3 & 4 (Level 3) Anderson's Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
+In Grade 3 & 4 (Level 3) Andersons Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
 
 ## Literacy
 
@@ -43,7 +43,7 @@ Students develop confidence in writing a range of imaginative and informative te
 
 ## Numeracy
 
-Anderson's Creek provides planned learning activities across Grade 3 & 4 that develops confident learners working towards the achievement of Level 3 standards in Mathematics.
+Andersons Creek provides planned learning activities across Grade 3 & 4 that develops confident learners working towards the achievement of Level 3 standards in Mathematics.
 
 Students recognise and explore patterns in numbers and shape and increasingly use mathematical terms and symbols to describe computations, measurements and characteristics of objects.
 

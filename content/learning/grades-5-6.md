@@ -9,7 +9,7 @@ weight = 7
 * Secondary transition
 * List teachers or link to staff page
 
-At Anderson’s Creek Primary School, Grade 5 & 6 is a special time for your child.
+At Andersons Creek Primary School, Grade 5 & 6 is a special time for your child.
 
 They develop many skills in independent learning and critical thinking to get them ready for Secondary school. They enjoy Camp, Production, Prep Buddy Program and Inter-school Sports, just to name a few.
 
@@ -33,7 +33,7 @@ The Soundwaves spelling program is a phoneme based program that commences in Lev
 
 ### Humanities
 
-Humanities encompass History, Geography and Economics. Our aim is to involve students in the curriculum as much as possible while covering key ideas. When learning about Federation, for instance, students can choose to research main themes such as suffrage; the Great Depression and key figures within the movement. We run a special week of lessons to commemorate the ANZACS which culminates in the ANZAC Day Ceremony and an Expo. Other subjects include: the Gold Rush; Asia; Government and Migration.
+Humanities encompass History, Geography and Economics. Our aim is to involve students in the curriculum as much as possible while covering key ideas. When learning about Federation, for instance, students can choose to research main themes such as suffrage; the Great Depression and key figures within the movement. We run a special week of lessons to commemorate the ANZACS which culminates in the ANZAC Day Ceremony and an Expo. Other subjects include the Gold Rush; Asia; Government and Migration.
 
 ### ICT (Information and Communications Technology)
 
@@ -43,7 +43,7 @@ They produce information products that demonstrate their knowledge and skills fo
 
 ‪ ‪Students begin to use and become familiar with computer programs such as Excel, Prezi, Wix, Publisher, Word and PowerPoint. We introduce students to coding using ‘Tynker’ and ‘Scratch’.
 
-Anderson’s Creek Primary School is equipped with two computer labs and interactive whiteboards are installed in our classrooms.
+Andersons Creek Primary School is equipped with two computer labs and interactive whiteboards are installed in our classrooms.
 
 ### Science
 

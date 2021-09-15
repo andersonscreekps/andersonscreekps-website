@@ -3,11 +3,11 @@ date = 2021-09-01T00:00:00Z
 title = "School uniform"
 
 +++
-Anderson's Creek Primary School has a compulsory uniform policy and our uniform is based on our school of navy blue and white.
+Andersons Creek Primary School has a compulsory uniform policy with a uniform based on our school colours of navy blue and white.
 
 {{< image-2 "/assets/img/uniform/navy-polo.jpg" "Navy short-sleeve polo" "/assets/img/uniform/white-polo.jpg" "White short-sleeve polo" >}}
 
-The uniform is made up of:
+The uniform consists of:
 
 * Navy or white polo shirt with the school logo on the left breast. These polos are available with either short or long sleeves.
 * Navy bottoms (shorts, skorts or pants) in a plain colour with no stripes or logos.

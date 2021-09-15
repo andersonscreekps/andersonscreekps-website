@@ -14,7 +14,7 @@ The grade 1 and 2 teachers work hard to ensure that the learning environment the
 
 These include hands-on activities, open-ended tasks that cater to their specific needs and ongoing projects through an Inquiry Approach. The Inquiry unit has been designed to foster a community of critical thinkers and collaborators.
 
-Anderson’s Creek’s Early Years offers many wonderful opportunities that encourage students’ social, emotional, physical and academic development. A wide range of in-school incursions, excursions and extracurricular programs complement our school programs.
+Andersons Creek’s Early Years offers many wonderful opportunities that encourage students’ social, emotional, physical and academic development. A wide range of in-school incursions, excursions and extracurricular programs complement our school programs.
 
 Students engage in many rich learning experiences, as individual learners and in a variety of collaborative group investigations.
 

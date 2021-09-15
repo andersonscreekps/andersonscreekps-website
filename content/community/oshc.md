@@ -6,19 +6,21 @@ parent = "Community"
 weight = 6
 
 +++
-Anderson's Creek Primary School has partnered with TheirCare to provide quality care, flexibility and a commitment to deliver on their promise to our school community.
+Andersons Creek Primary School has partnered with TheirCare to provide quality care, flexibility and a commitment to deliver on their promise to our school community.
 
-TheirCare provides a stimulating and safe environment for all children and an environment where children come and enjoy their time in their program. During sessions children develop life skills, friendships, confidence and creativity through play.
+TheirCare provides a stimulating and safe environment for all children and an environment where children come and enjoy their time in their program. During sessions, children develop life skills, friendships, confidence and creativity through play.
 
- Operation Times
+Operation Times
 
 {{<table "table table-bordered">}}
-| Care type | Opening hours|
-|---|---|
+
+| Care type | Opening hours |
+| --- | --- |
 | Before school care | 7:00--8:45am |
 | After school care | 3:30--6:30pm |
 | Holiday program | 7:00am--6:30pm |
 | Pupil-free days | 7:00am -- 6:30pm |
+
 {{</table>}}
 
 Late Booking

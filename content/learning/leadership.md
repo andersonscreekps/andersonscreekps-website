@@ -37,9 +37,9 @@ We have school captains, vice captains, house captains and many other roles.
 
 ## Junior School Council
 
-As part of students at Anderson's Creek having a voice, Junior School representatives from Grade 3 to Grade 6 meet on a regular basis with the Principal and Assistant Principal.
+As part of students at Andersons Creek having a voice, Junior School representatives from Grade 3 to Grade 6 meet on a regular basis with the Principal and Assistant Principal.
 
-Children are involved in making decision around whole school issues such as, placement of play areas, ground improvements and extracurricular activities for all students to be involved in.
+Children are involved in decision making around whole school issues such as placement of play areas, ground improvements and extracurricular activities for all students to be involved in.
 
 They meet with students in their classes to discuss topical issues that are then relayed to School Council and the School Leaders for implementation.
 
