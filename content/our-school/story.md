@@ -8,7 +8,9 @@ weight = 1
 +++
 ## About
 
-Anderson's Creek Primary School is located...
+Anderson's Creek Primary School is located roughly 20 kilometres north-east of Melbourne's city centre in the leafy suburb of Warrandyte. The school is named after Andersons Creek which flows past the school before joining the Yarra River.
+
+Our school grounds provide a variety of spaces for students of all year levels to enjoy both passive and active recreation activities.
 
 We have an inclusive and community-focused culture and aim to provide an educational environment where all our students can reach their full potential. We understand that learning is not simply about intellectual development and we place just as much emphasis on emotional, social and physical development.
 
