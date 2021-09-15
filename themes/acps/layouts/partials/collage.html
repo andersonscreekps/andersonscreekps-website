@@ -3,14 +3,14 @@
 <section id="collage" class="bg-white">
   <div class="container-fluid content-space-1">
     <div class="text-center mx-md-auto mb-7">
-      <h1 class="display-6">Around our school</h1>
+      <h1 class="display-6">School snapshots</h1>
     </div>
     <div class="row">
       {{ range $key, $value := .Params.collage }}
       <div class="col-sm-6 col-lg-4 p-2">
         <a href="{{ $.Site.Params.cloudinary_base_url }}{{ $value.image }}">
           <img
-            class="img-fluid"
+            class="img-fluid rounded border border-2 shadow-sm p-1"
             srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
