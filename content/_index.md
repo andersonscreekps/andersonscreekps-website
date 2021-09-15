@@ -1,14 +1,14 @@
 +++
 date = 2021-09-01T00:00:00Z
-description = "Welcome to Anderson’s Creek Primary School."
+description = "Welcome to Andersons Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1548900504/20180810-092410.jpg"
 events_news_image_2 = "/v1548900561/20180526-083159.jpg"
-keywords = ["Primary school", "Anderson’s Creek Primary School", "ACPS", "Warrandyte"]
+keywords = ["Primary school", "Andersons Creek Primary School", "ACPS", "Warrandyte"]
 title = "Welcome"
-welcome_text = "At Anderson's Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.\n\nOur whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.\n\nAnderson's Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups, sporting clubs and local businesses."
-welcome_title = "Anderson's Creek Primary School"
-why_description = "At Anderson's Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.\n\nOur whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.\n\nAnderson's Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups, sporting clubs and local businesses."
+welcome_text = "At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.\n\nOur whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.\n\nAndersons Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups, sporting clubs and local businesses."
+welcome_title = "Andersons Creek Primary School"
+why_description = "At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.\n\nOur whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.\n\nAndersons Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups, sporting clubs and local businesses."
 why_title = "Why choose our school?"
 [welcome_button_1]
 button_icon = "bi bi-pencil"
@@ -17,7 +17,7 @@ url = "/our-school/enrolments/"
 [welcome_button_2]
 button_icon = "bi bi-chat-right-text"
 title = "Contact us"
-url = "/contact-us/"
+url = "/our-school/contact-us/"
 [[any_questions]]
 button_icon = "bi-telephone"
 button_text = "Call us"
@@ -58,23 +58,23 @@ title = "Slide 5"
 src = "/v1548900716/20180810-094200.jpg"
 title = "Slide 6"
 [[collage]]
-image = "/v1548900307/20180810-090920.jpg"
-title = "Children painting"
+image = "/v1631681329/assets/img/our-school/snapshots/20190911-213714.jpg"
+title = "Boys' production scene"
 [[collage]]
-image = "/v1548900269/20180527-080323.jpg"
-title = "Aerial view of school"
+image = "/v1631681330/assets/img/our-school/snapshots/20201105-115301.jpg"
+title = "Boys in front of Cluckingham Palace"
 [[collage]]
-image = "/v1548900486/20180810-093315.jpg"
-title = "Three girls on laptops"
+image = "/v1631681329/assets/img/our-school/snapshots/20200224-091335.jpg"
+title = "Girls swimming"
 [[collage]]
-image = "/v1548900804/20180810-094819.jpg"
-title = "Two girls reading"
+image = "/v1631681331/assets/img/our-school/snapshots/20210505-123723.jpg"
+title = "Boys' cross-country"
 [[collage]]
-image = "/v1548900417/20180526-083050.jpg"
-title = "Platypus mural"
+image = "/v1631681330/assets/img/our-school/snapshots/20200626-111012.jpg"
+title = "Three girls seated"
 [[collage]]
-image = "/v1548900716/20180810-094200.jpg"
-title = "Classroom scene"
+image = "/v1631681330/assets/img/our-school/snapshots/20201029-122847.jpg"
+title = "Upside-down hair girls"
 [[features]]
 description = "Our staff are enthusiastic and postive educators and take pride in their ability to bring out the best in every child. They work hard every day to provide a positive learning environment where children feel safe and comfortable."
 icon = "chalkboard-teacher"
