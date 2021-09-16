@@ -39,6 +39,8 @@ We are committed to developing strong links with the local community, hence our 
 
 ## Reports
 
+{{< image "/assets/img/our-school/20200610-120917.jpg" "Adding strategies worksheet" >}}
+
 * [2020 Annual report](https://res.cloudinary.com/andersonscreekps/image/upload/v1631587447/publications/2020_Annual_Report.pdf "2020 Annual report")
 * [2019-2022 Strategic plan](https://res.cloudinary.com/andersonscreekps/image/upload/v1587869953/publications/2019-2022_Strategic_Plan.pdf "2019-2022 Strategic plan")
 
