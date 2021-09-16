@@ -6,8 +6,6 @@ parent = "Learning"
 weight = 5
 
 +++
-* List teachers or link to the staff page
-
 One of our priorities in Grade 1 and 2 is that all children feel happy and secure. This is achieved through explicit programs and a nurturing and caring team.
 
 The grade 1 and 2 teachers work hard to ensure that the learning environment they provide for the children is creative, engaging, supportive and productive. This contributes to the success of the children’s education and is underpinned by a differentiated curriculum where students are involved in a range of engaging, challenging and motivating activities.
