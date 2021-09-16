@@ -9,17 +9,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-a[href$=".pdf"]:after {
-  content:url(/assets/img/icons/file-pdf.svg);
-  padding-left: .25em;
-  margin-top: 0.125em;
-}
-
-a[href$=".docx"]:after, a[href$=".doc"]:after  {
-  content:url(/assets/img/icons/file-word.svg);
-  padding-left: 1em;
-}
-
 /* main h1, main h2, main h3, main h4, main h5 { color: rgb(0,45,98); } */
 main h1, main h2, main h3, main h4, main h5 { margin-top: 1em; margin-bottom: 0.25em; font-family:Roboto Slab,serif; }
 main p, main ul, main a, main a:hover { color: rgb(58,58,58); font-family:Open Sans,san-serif }
@@ -31,4 +20,5 @@ main h2.card-title { margin-top: 0em; }
 main img {
   width: 100%;
   height: auto;
+  aspect-ratio: attr(width) / attr(height);
 }
