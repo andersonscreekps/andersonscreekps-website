@@ -7,7 +7,10 @@
   <div class="swiper-wrapper">
     {{ range $key, $value := .Params.swiper }}
     <div class="swiper-slide">
-        <img class="img-fluid w-100" srcset="
+        <img class="img-fluid w-100" 
+	     width="16"
+	     height="9"
+          srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
           {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w

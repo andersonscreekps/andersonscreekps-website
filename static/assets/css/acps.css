@@ -26,3 +26,9 @@ main p, main ul, main a, main a:hover { color: rgb(58,58,58); font-family:Open S
 main p a, main li a { text-decoration: underline; text-decoration-skip-ink: auto; } 
 
 main h2.card-title { margin-top: 0em; }
+
+/* https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/ */
+main img {
+  width: 100%;
+  height: auto;
+}

@@ -11,6 +11,8 @@
         <a href="{{ $.Site.Params.cloudinary_base_url }}{{ $value.image }}">
           <img
             class="img-fluid rounded border border-2 shadow-sm p-1"
+	    width="3"
+	    height="2"
             srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
