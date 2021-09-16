@@ -3,5 +3,3 @@ Disallow: /
 
 User-agent: Algolia Crawler
 Allow: /
-
-https://www.andersonscreekps.org/sitemap.xml
