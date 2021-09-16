@@ -6,9 +6,9 @@ parent = "Our school"
 weight = 4
 
 +++
-{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of Anderson's Creek Primary School" >}}
+{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of Andersons Creek Primary School" >}}
 
-Anderson's Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
+Andersons Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
 
 Surrounding these buildings are our outdoor facilities as well as additional smaller classroom buildings and an indoor basketball stadium.
 
@@ -44,7 +44,7 @@ The indoor basketball stadium is available for use during school hours and can b
 
 Outside of school hours, the stadium is run as the [Warrandyte Sports Centre](https://manningham.ymca.org.au/stadiums/warrandyte-sports-centre "Warrandyte Sports Centre") by Manningham Council.
 
-{{< image "/assets/img/our-school/20180526-090047.jpg" "Aerial view of the basketball stadium" >}}
+{{< image-2 "/assets/img/our-school/20210916-094545.jpg" "Indoor basketball court" "/assets/img/our-school/20210916-094326.jpg" "Side view of basketball court" >}}
 
 ## Multi-purpose courts
 
