@@ -6,8 +6,6 @@ parent = "Learning"
 weight = 6
 
 +++
-* List teachers or link to the staff page
-
 In Grade 3 & 4 (Level 3) Andersons Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
 
 ## Literacy
