@@ -8,7 +8,7 @@ weight = 6
 +++
 Andersons Creek Primary School has partnered with TheirCare to provide quality care, flexibility and a commitment to deliver on their promise to our school community.
 
-{{< image-2 "/assets/img/community/20210916-094855.jpg" "Materials and activities in the OSHC room" "/assets/img/community/20210916-094855.jpg" "Wall art in the OSHC room" >}}
+{{< image-2 "/assets/img/community/20210916-094825.jpg" "Materials and activities in the OSHC room" "/assets/img/community/20210916-094855.jpg" "Wall art in the OSHC room" >}}
 
 TheirCare provides a stimulating and safe environment for all children and an environment where children come and enjoy their time in their program. During sessions, children develop life skills, friendships, confidence and creativity through play.
 
