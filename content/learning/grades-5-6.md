@@ -6,9 +6,6 @@ parent = "Learning"
 weight = 7
 
 +++
-* Secondary transition
-* List teachers or link to staff page
-
 At Andersons Creek Primary School, Grade 5 & 6 is a special time for your child.
 
 They develop many skills in independent learning and critical thinking to get them ready for Secondary school. They enjoy Camp, Production, Prep Buddy Program and Inter-school Sports, just to name a few.
