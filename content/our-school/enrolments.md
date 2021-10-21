@@ -23,6 +23,6 @@ Victorian children must attend school from the age of 6 and children being enrol
 
 ## Preparing for school
 
-Starting school is a big change for a child (as well as parents and carers). You can help you child prepare for school by helping them understand what is happening and familiarising them with the school environment.
+Starting school is a big change for a child (as well as parents and carers). You can help your child prepare for school by helping them understand what is happening and familiarising them with the school environment.
 
-We offer a variety of programs to introduce children to our school. You can find details of these on our [Foundation page](/learning/foundation/ "Foundation"). The Victorian Government also has a [guide to starting primary school ](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")that you may find helpful.
+We offer a variety of programs to introduce children to our school. You can find details of these on our [Foundation page](/learning/foundation/ "Foundation"). The Victorian Government also has a [guide to starting primary school ](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
