@@ -30,7 +30,7 @@ Department employees include staff members at the school. Members of this catego
 * Amanda Callaway
 * Jake Laurie - Acting Assistant Principal
 * Deidre Prior
-* Maya Rizzotto
+* Maja Rizzotto
 
 ### Parent representatives
 
