@@ -16,7 +16,7 @@ weight = 3
 | Class teachers                  | Class  |
 |---------------------------------|--------|
 | Amanda Callaway                 | Prep C |
-| Anna Verga                      | Prep V |
+| Jill Chen                       | Prep V |
 | Jessica O'Sullivan              | 1O     |
 | Russell Smith                   | 2S     |
 | Karen Sharland and Sarah Bailey | 2SB    |
