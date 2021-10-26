@@ -1,5 +1,5 @@
 +++
-date = 2018-12-31T13:00:00Z
+date = 2021-10-01T00:00:00Z
 title = "Grades 3&4"
 [menu.main]
 parent = "Learning"
@@ -7,6 +7,8 @@ weight = 6
 
 +++
 In Grade 3 & 4 (Level 3) Andersons Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
+
+{{< image-2 "/assets/img/learning/20211026-083602.jpg" "Students at the Learning Shack" "/assets/img/learning/20211026-091448.jpg" "Grade 3&4 students" >}}
 
 ## Literacy
 
