@@ -10,7 +10,6 @@ weight = 3
 | Principal class officers | Role                       |
 |--------------------------|----------------------------|
 | Sue Dyos                 | Principal                  |
-| Jake Laurie              | Acting Assistant Principal |
 {{</table>}}
 
 {{<table "table table-bordered staff">}}
@@ -27,6 +26,7 @@ weight = 3
 | Alysha Buzzini                  | 5/6A   |
 | Paul Barnes                     | 5/6B   |
 | Maria Healey                    | 5/6H   |
+| Maja Rizzotto                   | 5/6R   |
 {{</table>}}
 
 {{<table "table table-bordered staff">}}
@@ -39,7 +39,7 @@ weight = 3
 {{</table>}}
 
 Jo Metcalfe (Admin)
-De Prior ( Business Manager)
+De Prior (Business Manager)
 Elissa Nitschinsk - Library?
 
 Integration aides
