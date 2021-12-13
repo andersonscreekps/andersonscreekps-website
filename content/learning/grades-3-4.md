@@ -1,5 +1,5 @@
 +++
-date = 2018-12-31T13:00:00Z
+date = 2021-10-01T00:00:00Z
 title = "Grades 3&4"
 [menu.main]
 parent = "Learning"
@@ -8,72 +8,20 @@ weight = 6
 +++
 In Grade 3 & 4 (Level 3) Andersons Creek is committed to providing students with a safe, welcoming and happy learning environment in which students are challenged and supported to achieve their full potential. Literacy and Numeracy are the key learning areas that are fundamental to students developing as confident learners.
 
+{{< image-2 "/assets/img/learning/20211026-083602.jpg" "Students at the Learning Shack" "/assets/img/learning/20211026-091448.jpg" "Grade 3&4 students" >}}
+
 ## Literacy
 
-### Overview
+Students take part in the Reader’s and Writer’s Workshops daily. We follow a whole-school model where students are given choice over what they read and write. The students begin to become more critical when reviewing their work and continue to enhance and refine their skills in speaking and listening, reading and writing.
 
-Grade 3 & 4 students work towards the Level 3 Standards in English. They speak, listen, read and write with more critical awareness, using a growing variety of text types. Student learning activities are designed to encourage the development of skills using a variety of exciting resources.
-
-There is a strong focus on developing good speaking and listening skills through a variety of learning tasks.
-
-### Reading
-
-Students read an increasing range of texts including:
-
-* imaginative texts
-* chapter books
-* junior novels
-* poetry
-* informative texts
-
-### Spelling
-
-Spelling is a vital part of our writing program.
-
-Students will:
-
-* develop their confidence in the spelling of familiar words
-* develop strategies to attempt more difficult words.
-
-### Writing
-
-Students develop confidence in writing a range of imaginative and informative texts across the curriculum. They write texts that explain, inform and express their own point of view. They are encouraged to draw on their own knowledge and use a variety of writing formats including narrative recounts and reports.
+Each week, we focus on a ‘sound’ through SMART Spelling. Students analyse words by looking at individual sounds, prefixes & suffixes, as well as word meanings.
 
 ## Numeracy
 
-Andersons Creek provides planned learning activities across Grade 3 & 4 that develops confident learners working towards the achievement of Level 3 standards in Mathematics.
-
-Students recognise and explore patterns in numbers and shape and increasingly use mathematical terms and symbols to describe computations, measurements and characteristics of objects.
-
-Activities and investigations are planned to engage all our students and their mathematical learning. Students learn to recognise practical applications of mathematics in everyday life, including work, play, shopping, travel and time of day.
+Planned learning activities across Grade 3 & 4 aim to develop confident mathematical learners. Students recognise and explore patterns in numbers and shape and increasingly use mathematical terms and symbols to describe computations, measurements and characteristics of objects. Students are given opportunities to learn to recognise practical applications of mathematics in everyday life, including work, play, shopping, travel and time of day.
 
 ## Camp
 
-A school camp is a much-anticipated experience for both students and teachers.
+A school camp is a much-anticipated experience for both students and teachers. Camp gives students an opportunity to develop independence as it is often a student’s first time away from home. Students are able to step outside their comfort zones and tackle a myriad of challenges designed to enhance their self-belief, self-worth and relationships with their peers. Some of these lifelong skills are sharing, helping, encouraging others and listening. School camp provides students with an ideal opportunity to develop team skills, challenge themselves and enjoy the learning experience.
 
-### Overview
-
-Grade 3 & 4 students have the opportunity to attend the CYC Camp at Phillip Island. The focus for students attending camp is the development of independence. Students are able to step outside their comfort zones and tackle a myriad of challenges designed to enhance their self-belief, self-worth and relationships with their peers. Some of these lifelong skills are sharing, helping, encouraging others and listening.
-
-This school camp provides students with an ideal opportunity to develop team skills, challenge themselves and enjoy the learning experience. It also reinforces concepts studied within the Level 3 classroom program.
-
-### Activities on camp
-
-* Flying Fox
-* Trampolines
-* Giant Swing
-* Initiative activities
-* Gym games
-* Rock climbing wall
-* Low ropes course
-* Craft activities
-* Indoor and outdoor games
-* Talent Show
-* Cape Woolamai
-* Red Rock Beach sand sculptures
-* Churchill Island Heritage Park
-* Koala Conservation Park
-* Phillip Island Nature Park:
-  * Penguin Parade
-  * Pelican feeding at San Remo
-  * Nobbies, Seal Rock
+Some of the activities that students may have an opportunity to take part in while at camp include, the Flying Fox, Trampolines, Giant Swing, Initiative activities, Gym games, Rock climbing wall, Low ropes course, Cooking, Craft activities, Indoor and outdoor games, Talent Show, Trivia Nights and visiting local attractions to the campsite.
