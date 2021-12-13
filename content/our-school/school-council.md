@@ -24,11 +24,11 @@ More information on the roles and responsibilities of school councils can be fou
 
 ### Department of Education and Training representatives
 
-Department employees include staff members at the school. Members of this category may make up no more than one third of the total membership of school council. As the executive officer, the principal of the school is automatically one of these members.
+Department employees include staff members at the school. Members of this category may make up no more than one-third of the total membership of the school council. As the executive officer, the principal of the school is automatically one of these members.
 
 * Sue Dyos - School Principal, Executive Officer
+* Meredith Thornton - Acting Assistant Principal
 * Amanda Callaway
-* Jake Laurie - Acting Assistant Principal
 * Deidre Prior
 * Maja Rizzotto
 
