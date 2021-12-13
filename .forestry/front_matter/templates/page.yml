@@ -18,7 +18,6 @@ fields:
     export_format: DD/MM/YYYY
 pages:
 - content/community/canteen.md
-- content/community/extra-curricular.md
 - content/community/future-parents.md
 - content/community/oshc.md
 - content/community/parental-involvement.md
@@ -29,16 +28,6 @@ pages:
 - content/community/students.md
 - content/events/school-calendar.md
 - content/events/term-dates.md
-- content/learning/curriculum.md
-- content/learning/curriculum/assessment.md
-- content/learning/curriculum/ict.md
-- content/learning/curriculum/library.md
-- content/learning/curriculum/lote.md
-- content/learning/curriculum/performing-arts.md
-- content/learning/curriculum/physical-education.md
-- content/learning/curriculum/sustainability.md
-- content/learning/curriculum/values-education.md
-- content/learning/curriculum/visual-arts.md
 - content/learning/foundation.md
 - content/learning/grades-1-2.md
 - content/learning/grades-3-4.md
@@ -53,5 +42,4 @@ pages:
 - content/our-school/principals-welcome.md
 - content/our-school/school-council.md
 - content/our-school/school-uniform.md
-- content/our-school/staff.md
 - content/our-school/story.md
