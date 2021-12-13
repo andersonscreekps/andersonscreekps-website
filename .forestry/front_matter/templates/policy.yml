@@ -24,7 +24,6 @@ fields:
   label: Link
 pages:
 - content/policies/administration-of-medication.md
-- content/policies/advertising-and-sponsorship.md
 - content/policies/allergy-anphylaxis.md
 - content/policies/assessment-and-reporting.md
 - content/policies/asthma.md
