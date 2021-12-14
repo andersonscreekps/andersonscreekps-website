@@ -8,6 +8,8 @@ weight = 4
 +++
 {{< vimeo 425817934 >}}
 
+<p>&nbsp;</p>
+
 At Andersons Creek Primary School (ACPS), your child will experience many fun and exciting new things during their first year at school.
 
 Through a combination of structured learning, hands-on activities and an inquiry-based approach, we aim to develop social and team skills that will help your child to become a lifelong learner.
