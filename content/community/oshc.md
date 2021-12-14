@@ -27,12 +27,12 @@ TheirCare provides a stimulating and safe environment for all children and an en
 
 {{</table>}}
 
-Full enrolment and booking instructions can be found at [www.theircare.com.au](www.theircare.com.au "TheirCare"). Registration and service bookings and cancellations can be managed through a mobile phone app or the web portal.
+Full enrolment and booking instructions can be found at [www.theircare.com.au](https://www.theircare.com.au "TheirCare"). Registration and service bookings and cancellations can be managed through a mobile phone app or the web portal.
 
 Permanent bookings can be made on the same days every week for the entire year while casual bookings can be made based on your needs. The most cost-effective way to use the service is to book 7 days in advance.
 
 Late bookings (less than 48 hours from the start of the session) will incur a small fee. Bookings can be cancelled up to 48 hours before the session without charge. Cancellations within 48 hours of the session will incur a small cancellation fee.
 
-TheirCare also offers [school holiday programs](https://theircare.com.au/holiday-programs/andersons-creek-primary-school-2/ "School holiday programs") at Andersons Creek Primary School.
+TheirCare also offers <a href="https://theircare.com.au/holiday-programs/andersons-creek-primary-school-2/" target="_blank" rel="noopener">school holiday programs</a> at Andersons Creek Primary School.
 
-More information can be found in [TheirCare's Parent Information brochure](https://res.cloudinary.com/andersonscreekps/image/upload/v1639453002/assets/docs/community/Digital-TheirCare-Parent-Information-A4-web.pdf "Parent information brochure").
+More information about the service can be found in TheirCare's <a href="https://res.cloudinary.com/andersonscreekps/image/upload/v1639453002/assets/docs/community/Digital-TheirCare-Parent-Information-A4-web.pdf" target="_blank" rel="noopener">Parent information brochure</a>.
