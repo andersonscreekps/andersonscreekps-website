@@ -1,7 +1,7 @@
 +++
+aliases = ["/about/school-council"]
 date = 2021-09-01T00:00:00Z
 title = "School Council"
-aliases = ["/about/school-council"]
 [menu.main]
 parent = "Our school"
 weight = 5
@@ -19,7 +19,7 @@ Each school council is established by an Order of the Minister for Education, wh
 * functions and accountabilities
 * role of the executive officer who is the principal.
 
-More information on the roles and responsibilities of school councils can be found at [https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx](https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx "https://www.education.vic.gov.au/school/teachers/management/community/Pages/schoolcouncilsfunction.aspx").
+More information on the roles and responsibilities of school councils can be found at [https://www2.education.vic.gov.au/pal/school-council-overview/overview](https://www2.education.vic.gov.au/pal/school-council-overview/overview "School councils overview").
 
 ## 2021 School Council members
 
