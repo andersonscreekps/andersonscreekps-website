@@ -1,6 +1,7 @@
 +++
 date = 2018-12-26T13:00:13Z
 title = "Principal's welcome"
+aliases = ["/about/our-school-principal"]
 [menu.main]
 parent = "Our school"
 weight = 2

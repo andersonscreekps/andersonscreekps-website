@@ -1,6 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "Parental involvement"
+aliases = ["/about/our-community", "/about/parent-helpers"]
 [menu.main]
 parent = "Community"
 weight = 5

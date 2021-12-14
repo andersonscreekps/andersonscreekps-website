@@ -1,5 +1,6 @@
 +++
 date = 2021-09-01T00:00:00Z
+aliases = ["/about/transition", "/curriculum", "/curriculum/*", "/news-information", "/news-information/canteen", "/system/app/pages/sitemap/hierarchy"]
 description = "Welcome to Andersons Creek Primary School."
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1548900504/20180810-092410.jpg"

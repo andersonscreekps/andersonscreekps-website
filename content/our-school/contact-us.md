@@ -1,6 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "Contact us"
+aliases = ["/about/location", "/contact"]
 [menu.main]
 parent = "Our school"
 weight = 11

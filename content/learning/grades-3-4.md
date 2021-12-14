@@ -1,6 +1,7 @@
 +++
 date = 2021-10-01T00:00:00Z
 title = "Grades 3&4"
+aliases = ["/our-classes/grades-3-4", "/our-classes/grades-3-4/*"]
 [menu.main]
 parent = "Learning"
 weight = 6

@@ -1,6 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "Foundation"
+aliases = ["/our-classes/preps"]
 [menu.main]
 parent = "Learning"
 weight = 4

@@ -1,6 +1,7 @@
 +++
 date = 2018-12-31T13:00:00Z
 title = "Grounds map"
+aliases = ["/about/diagram"]
 [menu.main]
 parent = "Our school"
 weight = 6

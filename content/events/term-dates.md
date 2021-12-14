@@ -1,7 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "Term dates"
-
+aliases = ["/news-information/term-dates"]
 +++
 ## 2021
 

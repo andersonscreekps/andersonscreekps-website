@@ -1,6 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "OSHC"
+aliases = ["/about/out-of-hours-school-care"]
 [menu.main]
 parent = "Community"
 weight = 6

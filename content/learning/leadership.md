@@ -1,6 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "Leadership"
+aliases = ["/about/about-acps"]
 [menu.main]
 parent = "Learning"
 weight = 2
