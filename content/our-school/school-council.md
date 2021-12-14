@@ -1,7 +1,7 @@
 +++
 date = 2021-09-01T00:00:00Z
 title = "School Council"
-alias = "/about/school-council"
+aliases = ["/about/school-council"]
 [menu.main]
 parent = "Our school"
 weight = 5
