@@ -17,7 +17,6 @@ fields:
     required: true
     export_format: DD/MM/YYYY
 pages:
-- content/community/canteen.md
 - content/community/future-parents.md
 - content/community/oshc.md
 - content/community/parental-involvement.md
