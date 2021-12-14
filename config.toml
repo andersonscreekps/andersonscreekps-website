@@ -56,6 +56,7 @@ email = "andersons.creek.ps@education.vic.gov.au"
 mapLink = "https://goo.gl/maps/bt97uRvLDCz2U5Yd8"
 name = "Andersons Creek Primary School"
 phone = "03 9844 2757"
+banner = "/banners/20211021-081453-default.jpg"
 [permalinks]
 forms = "/forms/:title/"
 news = "/news/:year/:month/:day/:title/"
