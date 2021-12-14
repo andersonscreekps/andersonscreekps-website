@@ -33,6 +33,6 @@ Permanent bookings can be made on the same days every week for the entire year w
 
 Late bookings (less than 48 hours from the start of the session) will incur a small fee. Bookings can be cancelled up to 48 hours before the session without charge. Cancellations within 48 hours of the session will incur a small cancellation fee.
 
-TheirCare also offers <a href="https://theircare.com.au/holiday-programs/andersons-creek-primary-school-2/" target="_blank" rel="noopener">school holiday programs</a> at Andersons Creek Primary School.
+TheirCare also offers [school holiday programs](https://theircare.com.au/holiday-programs/andersons-creek-primary-school-2/ "School holiday programs") at Andersons Creek Primary School.
 
-More information about the service can be found in TheirCare's <a href="https://res.cloudinary.com/andersonscreekps/image/upload/v1639453002/assets/docs/community/Digital-TheirCare-Parent-Information-A4-web.pdf" target="_blank" rel="noopener">Parent information brochure</a>.
+More information about the service can be found in [TheirCare's Parent information brochure](https://res.cloudinary.com/andersonscreekps/image/upload/v1639453002/assets/docs/community/Digital-TheirCare-Parent-Information-A4-web.pdf "Parent information brochure").
