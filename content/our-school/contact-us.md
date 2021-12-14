@@ -12,7 +12,8 @@ Address:
 36-42 Drysdale Road
 Warrandyte, Victoria 3113
 
-Email: [andersons.creek.ps@edumail.vic.gov.au](mailto:andersons.creek.ps@edumail.vic.gov.au "Email address")
+Email: [andersons.creek.ps@education.vic.gov.au](mailto:andersons.creek.ps@education.vic.gov.au "Email address")
 
 School office telephone: (03) 9844 2757
+
 Outside of hours school care: (03) 9844 2758
