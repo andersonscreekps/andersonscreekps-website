@@ -7,7 +7,7 @@ title = "Enrolments"
 
 Enrolments for 2022 are now being accepted.
 
-Please [contact us](/contact-us/ "Contact us") to find out more information and to arrange a tour of our school.
+Please [contact us](/our-school/contact-us/ "Contact us") to find out more information and to arrange a tour of our school.
 
 We can't wait to meet you and your child!
 
