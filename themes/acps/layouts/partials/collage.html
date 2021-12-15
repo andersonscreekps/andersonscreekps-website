@@ -11,8 +11,8 @@
         <a href="{{ $.Site.Params.cloudinary_base_url }}{{ $value.image }}">
           <img
             class="img-fluid rounded border border-2 shadow-sm p-1"
-	    width="3"
-	    height="2"
+            width="3"
+            height="2"
             srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
@@ -20,7 +20,8 @@
           {{- end }}"
             sizes="(min-width: 992px) 33.33vw, (min-width: 576px) 50vw, 100vw"
             src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_600{{ $value.image }}"
-            alt="{{ .title }}"  loading="lazy"
+            alt="{{ .title }}"
+            loading="lazy"
         /></a>
       </div>
       {{ end }}
