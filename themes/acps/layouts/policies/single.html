@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section id="content" class="py-4 my-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-9 mx-auto" >
+        <h1 class="mb-4 text-center">{{ .Title }}</h1>
+        {{ .Content }}
+	<p><a href="{{ .Site.Params.cloudinary_base_url }}{{ .Params.link }}">{{ .Params.title }} policy</a>{{ with .Params.description }} - {{ . }}{{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
