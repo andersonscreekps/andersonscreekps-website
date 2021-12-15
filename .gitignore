@@ -2,5 +2,8 @@
 /public
 resources
 
+# Hugo lock file
+.hugo_build.lock
+
 # Mac OS files
 .DS_Store
