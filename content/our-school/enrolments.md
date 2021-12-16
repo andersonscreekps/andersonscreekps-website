@@ -13,13 +13,13 @@ We can't wait to meet you and your child!
 
 ## Enrolling your child
 
-When enrolling at Anderson's Creek Primary, you will need to provide us with:
+When enrolling at Anderson's Creek Primary, please provide us with:
 
 * A completed [enrolment form](https://res.cloudinary.com/andersonscreekps/v1550286448/forms/Student_enrolment_form.pdf "Enrolment form").
 * Proof of date of birth via a birth certificate or passport.
 * A certificate of vaccination - these can be obtained from [The Australian Childood Immunisation Register](https://www.servicesaustralia.gov.au/individuals/services/medicare/australian-immunisation-register/how-get-immunisation-history-statement "ACIR") or your vaccination provider.
 
-Victorian children must attend school from the age of 6 and children being enrolled in Foundation must be turning 5 on or before April 30 of the year that they start school.
+As per state law, children in Victoria must attend school from the age of 6 and children being enrolled in Foundation must be turning 5 on or before April 30 of the year that they start school.
 
 ## Preparing for school
 
