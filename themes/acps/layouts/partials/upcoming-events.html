@@ -1,0 +1,54 @@
+<ul class="timeline timeline-simple">
+  {{ $events := (where .Site.RegularPages "Section" "events").Reverse }}
+  {{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
+  {{- range $events -}}
+	<li class="timeline-inverted">
+		<div class="timeline-badge bg-primary primary">
+			<i class="bi bi-calendar-event"></i>	
+		</div>
+		<div class="timeline-panel">
+			<div class="timeline-heading">
+        <span class="badge badge-primary bg-primary mr-1">{{ .Date.Format "Monday, January 2" }}</span>
+			 	<span class="badge badge-primary bg-primary ml-1">
+					<!-- Calculate the time to event in days, weeks and months (based on 30 day months) -->
+          <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!> 
+          {{ $d := .Date.Format "2006-01-02" }}
+          {{ $n := now.Format "2006-01-02" }}
+          {{ $td := time $d }}
+          {{ $tn := time $n }}
+
+          {{ $ageDaysd := div (sub $td.Unix $tn.Unix) 86400 }}
+					{{ $ageWeeksd := div (sub $td.Unix $tn.Unix) 604800 }}
+					{{ $ageMonthsd := div (sub $td.Unix $tn.Unix) 2592000 }}
+
+					<!-- Event is today -->
+					{{ if eq $ageDaysd 0 }} 
+					Today
+
+					<!-- Event is tomorrow -->
+					{{ else if eq $ageDaysd 1 }}
+					Tomorrow
+
+					<!-- Less than 2 weeks -->
+					{{ else if le $ageDaysd 13 }}
+          In {{ $ageDaysd }} days
+
+					<!-- Less than 30 days -->
+					{{ else if le $ageDaysd 29  }}
+          In {{ $ageWeeksd }} weeks
+
+					<!-- Month(s) away -->
+					{{ else }}
+          In {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }}
+
+					{{ end }}
+				</span>
+			</div>
+      <h4>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h4>
+			<div class="timeline-body">
+				<p>{{ .Params.description }}</p>
+			</div>
+		</div>
+	</li>
+	{{ end }}
+</ul>

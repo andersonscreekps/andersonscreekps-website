@@ -1,7 +1,8 @@
 +++
-description = "Front matter for the /our-school section of the site."
-title = "Our school front matter"
-[cascade]
-banner = "/banners/20180810-092537-calendar.jpg"
+date = "2019-01-01T00:00:00+11:00"
+title = "Upcoming events"
+[menu.main]
+parent = "Events"
+weight = 1
 
 +++

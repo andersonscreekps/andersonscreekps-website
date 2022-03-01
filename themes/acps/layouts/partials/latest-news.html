@@ -1,0 +1,49 @@
+<ul class="timeline timeline-simple">
+  {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
+  {{ $news := $news | intersect (where $news "Date" "le" now) | first 4 }}
+  {{- range $news -}}
+  <li class="timeline-inverted">
+    <div class="timeline-badge bg-primary">
+      <i class="bi bi-newspaper"></i>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <span class="badge bg-primary mr-1">{{ .Date.Format "Monday, January 2" }}</span>
+        <span class="badge badge-primary bg-primary mr-1">
+          <!-- Calculate the age of news in days, weeks and months (based on 30 day months) -->
+          <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!>
+            {{ $d := .Date.Format "2006-01-02" }}
+            {{ $n := now.Format "2006-01-02" }}
+            {{ $td := time $d }}
+            {{ $tn := time $n }}
+            
+            {{ $ageDaysd := div (sub $tn.Unix $td.Unix) 86400 }}
+            {{ $ageWeeksd := div (sub $tn.Unix $td.Unix) 604800 }}
+            {{ $ageMonthsd := div (sub $tn.Unix $td.Unix) 2592000 }}
+            
+            <!-- News is today -->
+          {{ if eq $ageDaysd 0 }}
+          Today
+          <!-- News was yesterday -->
+          {{ else if eq $ageDaysd 1 }}
+          Yesterday
+          <!-- Less than 2 weeks -->
+          {{ else if le $ageDaysd 13 }}
+          {{ $ageDaysd }} days ago
+          <!-- Less than 30 days -->
+          {{ else if le $ageDaysd 29  }}
+          {{ $ageWeeksd }} weeks ago
+          <!-- Month(s) away -->
+          {{ else }}
+          {{ $ageMonthsd }} {{ cond (eq $ageMonthsd 1) "month" "months" }} ago
+          {{ end }}
+        </span>
+      </div>
+      <h4>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h4>
+      <div class="timeline-body">
+        <p>{{ .Params.description }}</p>
+      </div>
+    </div>
+  </li>
+  {{ end }}
+</ul>
