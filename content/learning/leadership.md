@@ -13,11 +13,9 @@ We have school captains, vice captains, house captains and many other roles.
 
 ## 2022 leaders
 
-{{< image "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 school captains" >}}
+{{< image-2 "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 school captains" "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 school vice captains" >}}
 
-**School Captains:** Rosalie and Jay
-
-{{< image "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 school vice captains" >}}
+**School Captains:** Jay and Rosalie
 
 **Vice Captains:** Millah and Cooper
 
