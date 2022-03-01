@@ -13,13 +13,15 @@ We have school captains, vice captains, house captains and many other roles.
 
 ## 2022 leaders
 
-{{< image-2 "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 school captains" "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 school vice captains" >}}
+### School Captains
+
+{{< image-2 "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 School Captains" "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 School Vice Captains" >}}
 
 **School Captains:** Jay and Rosalie
 
-**Vice Captains:** Millah and Cooper
+**School Vice Captains:** Millah and Cooper
 
-**Sports Captains**
+### Sports Captains ###
 
 * **Green House 'Crushers':** Alannah and Sierra
 * **Red House 'Diggers':** Taylor and Archie
