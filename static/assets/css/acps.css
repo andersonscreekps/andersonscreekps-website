@@ -11,10 +11,11 @@ footer a:hover {
 
 /* main h1, main h2, main h3, main h4, main h5 { color: rgb(0,45,98); } */
 main h1, main h2, main h3, main h4, main h5 { margin-top: 1em; margin-bottom: 0.25em; font-family:Roboto Slab,serif; }
-main p, main ul, main a, main a:hover { color: rgb(58,58,58); font-family:Open Sans,san-serif }
+main p, main ul, main li, main a, main a:hover { color: rgb(58,58,58); font-family:Open Sans,san-serif }
 main p a, main li a { text-decoration: underline; text-decoration-skip-ink: auto; } 
 
 main h2.card-title { margin-top: 0em; }
+main ul.timeline h4 a { font-family:Roboto Slab,serif; }
 
 /* https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/ */
 main img {
