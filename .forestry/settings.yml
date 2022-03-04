@@ -35,6 +35,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - events
   - page
 - type: directory
   path: content/news
