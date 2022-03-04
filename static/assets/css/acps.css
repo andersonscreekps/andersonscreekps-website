@@ -99,7 +99,8 @@ main img {
 
 .timeline.timeline-simple:before {
   left: 5%;
-  background-color: rgba(0, 0, 0, 0.14)
+  /* Need to change to use bootstrap primary colour */
+  background-color: rgb(55 125 255);
 }
 
 .timeline.timeline-simple > li > .timeline-panel {
