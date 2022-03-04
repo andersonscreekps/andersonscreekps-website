@@ -6,11 +6,17 @@ title = "School Captains and Sports Leaders"
 +++
 We are proud to announce and congratulate the following students:
 
- * **School Captains:** Jay and Rosalie
+### School Captains
 
- * **Vice Captains**: Millah and Cooper
+Jay and Rosalie
 
- * ** Green House ‘Crushers’:** Alannah and Sierra
+### Vice Captains
+
+Millah and Cooper
+
+### House Captains
+
+ * **Green House ‘Crushers’:** Alannah and Sierra
  * **Red House ‘Diggers’:** Taylor and Archie
  * **Yellow House ‘Miners’:** Erin and Lachie
  * **Blue House ‘Panners’:** Adam and Hamish
