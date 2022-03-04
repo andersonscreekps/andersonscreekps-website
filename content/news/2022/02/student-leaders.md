@@ -12,7 +12,7 @@ Kai and Daniel
 
 Max, Sam and Maggie
 
-### Junior School Counci
+### Junior School Council
 
 Jack
 
