@@ -22,3 +22,5 @@ fields:
   description: Short description of news. Will be displayed in summary view.
   config:
     required: true
+pages:
+- content/news/2022/02/acps-swimming-carnival.md
