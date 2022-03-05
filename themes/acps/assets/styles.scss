@@ -10,10 +10,28 @@ $font-family-serif:      Roboto Slab, Lato, -apple-system, BlinkMacSystemFont, "
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 
+$headings-font-weight: 700;
+
 main h1, main h2, main h3, main h4, main h5 { margin-top: 0.75em; margin-bottom: 0.5em; font-family:Roboto Slab,serif; }
 main p, main ul, main a, main a:hover { color: rgb(58,58,58); font-family:Open Sans,san-serif }
 main p a, main li a { text-decoration: underline; text-decoration-skip-ink: auto; } 
 
-$headings-font-weight: 700;
+/*main h2.card-title { margin-top: 0em; }*/
+main ul.timeline h4 a { font-family:Roboto Slab,serif; }
+
+/* https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/ */
+main img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
+}
 
 @import "front/scss/theme";
+@import "material-dashboard/variables";
+@import "material-dashboard/mixins";
+@import "material-dashboard/badges";
+@import "material-dashboard/timeline";
+
+.timeline.timeline-simple:before {
+  background-color: theme-color("primary");
+}
