@@ -1,4 +1,4 @@
-baseURL = "https://www.andersonscreekps.org/"
+baseURL = "https://andersonscreekps.vic.edu.au"
 buildFuture = true
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -10,6 +10,7 @@ theme = "acps"
 timeout = "300000"
 title = "Andersons Creek Primary School"
 uglyURLs = false
+metaDataFormat = "toml"
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = [""]
