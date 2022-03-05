@@ -6,9 +6,14 @@ $theme-colors: (
 
 $enable-responsive-font-sizes: true;
 
-$font-family-sans-serif:      Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      Open Sans, Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-serif:      Roboto Slab, Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
+
+main h1, main h2, main h3, main h4, main h5 { margin-top: 1em; margin-bottom: 0.25em; font-family:Roboto Slab,serif; }
+main p, main ul, main a, main a:hover { color: rgb(58,58,58); font-family:Open Sans,san-serif }
+main p a, main li a { text-decoration: underline; text-decoration-skip-ink: auto; } 
 
 $headings-font-weight: 700;
 
