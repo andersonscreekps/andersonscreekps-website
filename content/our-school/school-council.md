@@ -43,6 +43,6 @@ Parent members must comprise more than one-third of council's total membership. 
 * Debbie Fiorenza - Minute Secretary
 * Dave Greenstreet
 * Georgie Jones
-* Nooshin Nazari
+* Nooshin Evans
 * Volkan Ozturk
 * Lucy Rogers

@@ -1,7 +1,7 @@
 +++
+aliases = ["/about/about-acps"]
 date = 2021-09-01T00:00:00Z
 title = "Leadership"
-aliases = ["/about/about-acps"]
 [menu.main]
 parent = "Learning"
 weight = 2
@@ -11,30 +11,34 @@ We pride ourselves on developing our students' leadership skills, and we give th
 
 We have school captains, vice captains, house captains and many other roles.
 
-## 2021 leaders
+## 2022 leaders
 
-**School Captains:** Samara A and Paige O
+### School Captains
 
-**Vice Captains:** Owen G and Hallie B
+{{< image-2 "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 School Captains" "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 School Vice Captains" >}}
 
-**Arts Captains:** Cate G, Holly G and Kaori C
+**School Captains:** Jay and Rosalie
 
-**Library Captains:** Evie S, Tahlia R and Sophia R
+**School Vice Captains:** Millah and Cooper
 
-**Junior School Council:** Sophie B
+### Sports Captains ###
 
-**Sustainability Captains:** Raphy H and Henry L
+* **Green House 'Crushers':** Alannah and Sierra
+* **Red House 'Diggers':** Taylor and Archie
+* **Yellow House 'Miners':** Erin and Lachie
+* **Blue House 'Panners':** Adam and Hamish
 
-**Tech Crew:** Archer B, Fraser B and Jarrah W
+**Arts Captains:** Kai and Daniel
 
-**Grounds Crew:** Axle H and Emilie C
+**Library Captains:** Max, Sam and Maggie
 
-**Sports Captains**
+**Junior School Council:** Jack
 
-* **Green House 'Crushers':** Laura C and Chase M
-* **Red House 'Diggers':** Seb G and Toby B
-* **Yellow House 'Miners':** Fletcher S and Amy R
-* **Blue House 'Panners':** Liam H and Sashie C
+**Sustainability Captains:** Charlotte
+
+**Tech Crew:** Giacomo, Kaleb and James
+
+**Grounds Crew:** Charlie, Cohen and Marlon
 
 ## Junior School Council
 
