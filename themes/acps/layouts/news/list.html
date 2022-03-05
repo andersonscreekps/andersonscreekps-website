@@ -59,6 +59,7 @@
         {{ $pag := $.Paginator }}
         {{ if gt $pag.TotalPages 1 }}
         {{ $.Scratch.Set "dot_rendered" false }}
+        <nav>
         <ul class="pagination justify-content-end">
           <!-- Don't show on 1st and 2nd page -->
           {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
@@ -87,6 +88,7 @@
           {{ end }}
         </ul>
         {{ end }}
+      </nav>
       </div>
     </div>
   </div>
