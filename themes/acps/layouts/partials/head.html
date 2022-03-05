@@ -31,8 +31,7 @@
   {{ $styles := resources.Get "custom.scss" }}
   {{ $styles = $styles | resources.ToCSS $options }}
   {{ if hugo.IsProduction }}
-  {{ $styles := $styles | resources.Minify }}
-  {{ $styles = $styles | fingerprint }}
+  {{ $styles = $styles | resources.Minify | fingerprint }}
   {{ end }}
   <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
 </head>
