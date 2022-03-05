@@ -23,6 +23,7 @@ fields:
   config:
     required: true
 pages:
+- content/news/2022/01/welcome-to-all-our-new-and-returning-families.md
 - content/news/2022/02/acps-swimming-carnival.md
 - content/news/2022/02/school-and-house-captains.md
 - content/news/2022/02/student-leaders.md
