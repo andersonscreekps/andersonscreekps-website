@@ -1,15 +1,15 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Enrolments"
-
 +++
+
 ## 2022 enrolments
 
 Enrolments for 2022 are now being accepted.
 
 Please [contact us](/our-school/contact-us/ "Contact us") to find out more information and to arrange a tour of our school.
 
-We can't wait to meet you and your child!
+We can't wait to meet you and your child\!
 
 ## Enrolling your child
 
@@ -25,4 +25,4 @@ As per state law, children in Victoria must attend school from the age of 6 and 
 
 Starting school is a big change for a child (as well as parents and carers). You can help your child prepare for school by helping them understand what is happening and familiarising them with the school environment.
 
-We offer a variety of programs to introduce children to our school. You can find details of these on our [Foundation page](/learning/foundation/ "Foundation"). The Victorian Government also has a [guide to starting primary school ](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
+We offer a variety of programs to introduce children to our school. You can find details of these on our [Foundation page](/learning/foundation/ "Foundation"). The Victorian Government also has a [guide to starting primary school](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
