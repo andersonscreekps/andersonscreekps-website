@@ -1,12 +1,13 @@
 +++
-aliases = ["/about/school-council"]
-date = 2021-09-01T00:00:00Z
+aliases = [ "/about/school-council" ]
+date = 2021-08-31T14:00:00.000Z
 title = "School Council"
+
 [menu.main]
 parent = "Our school"
 weight = 5
-
 +++
+
 ## About School Councils
 
 All school councils in Victoria operate under the Education and Training Reform Act 2006.
