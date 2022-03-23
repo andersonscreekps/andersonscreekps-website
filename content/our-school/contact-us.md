@@ -1,16 +1,16 @@
 +++
-aliases = ["/about/location", "/contact"]
-date = 2021-09-01T00:00:00Z
+aliases = [ "/about/location", "/contact" ]
+date = 2021-08-31T14:00:00.000Z
 title = "Contact us"
+
 [menu.main]
 parent = "Our school"
 weight = 11
-
 +++
+
 Address:
 
-36-42 Drysdale Road
-Warrandyte, Victoria 3113
+36-42 Drysdale Road Warrandyte, Victoria 3113
 
 Email: [andersons.creek.ps@education.vic.gov.au](mailto:andersons.creek.ps@education.vic.gov.au "Email address")
 
