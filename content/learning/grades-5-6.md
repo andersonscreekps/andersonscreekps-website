@@ -1,12 +1,13 @@
 +++
-date = 2018-12-31T13:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Grades 5&6"
-aliases = ["/our-classes/grades-5-6", "/our-classes/grades-5-6/*"]
+aliases = [ "/our-classes/grades-5-6", "/our-classes/grades-5-6/*" ]
+
 [menu.main]
 parent = "Learning"
 weight = 7
-
 +++
+
 At Andersons Creek Primary School, Grade 5 and 6 is a special time for our students. During these years, students develop skills in independent learning and critical thinking to prepare them for secondary school. Our students enjoy Camp, Production, the Prep Buddy Program and Inter-school Sports, just to name a few highlights.
 
 ## **Literacy**
