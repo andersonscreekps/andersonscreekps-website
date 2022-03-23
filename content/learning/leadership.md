@@ -1,12 +1,13 @@
 +++
-aliases = ["/about/about-acps"]
-date = 2021-09-01T00:00:00Z
+aliases = [ "/about/about-acps" ]
+date = 2021-08-31T14:00:00.000Z
 title = "Leadership"
+
 [menu.main]
 parent = "Learning"
 weight = 2
-
 +++
+
 We pride ourselves on developing our students' leadership skills, and we give them many opportunities to become leaders.
 
 We have school captains, vice captains, house captains and many other roles.
@@ -21,7 +22,7 @@ We have school captains, vice captains, house captains and many other roles.
 
 **School Vice Captains:** Millah and Cooper
 
-### Sports Captains ###
+### Sports Captains
 
 * **Green House 'Crushers':** Alannah and Sierra
 * **Red House 'Diggers':** Taylor and Archie
