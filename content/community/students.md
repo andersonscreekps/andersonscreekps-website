@@ -1,11 +1,12 @@
 +++
-date = 2018-12-31T13:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Students"
+
 [menu.main]
 parent = "Community"
 weight = 1
-
 +++
+
 This is a page designed for students.
 
 Links:
