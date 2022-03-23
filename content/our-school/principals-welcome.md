@@ -1,5 +1,5 @@
 +++
-date = 2020-08-31T14:00:00.000Z
+date = 2021-08-31T14:00:00.000Z
 title = "Principal's welcome"
 aliases = [ "/about/our-school-principal" ]
 
