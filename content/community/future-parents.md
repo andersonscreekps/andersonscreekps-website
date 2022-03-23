@@ -1,11 +1,12 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Future parents"
+
 [menu.main]
 parent = "Community"
 weight = 3
-
 +++
+
 This is a page designed for parents of children who are not yet enrolled at our school.
 
 Links:
