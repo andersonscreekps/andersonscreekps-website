@@ -1,21 +1,22 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Foundation"
-aliases = ["/our-classes/preps"]
+aliases = [ "/our-classes/preps" ]
+
 [menu.main]
 parent = "Learning"
 weight = 4
-
 +++
+
 {{< vimeo 425817934 >}}
 
-<p>&nbsp;</p>
+&lt;p&gt; &lt;/p&gt;
 
 At Andersons Creek Primary School (ACPS), your child will experience many fun and exciting new things during their first year at school.
 
 Through a combination of structured learning, hands-on activities and an inquiry-based approach, we aim to develop social and team skills that will help your child to become a lifelong learner.
 
-{{< image-2 "/assets/img/learning/20211018-084118.jpg" "Dressed up for their 100th day of school" "/assets/img/learning/20211018-082642.jpg" "Playing games on the oval"  >}}
+{{< image-2 "/assets/img/learning/20211018-084118.jpg" "Dressed up for their 100th day of school" "/assets/img/learning/20211018-082642.jpg" "Playing games on the oval" >}}
 
 We are committed to ensuring a smooth transition into school for your child.
 
