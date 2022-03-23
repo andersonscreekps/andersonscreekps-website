@@ -1,12 +1,13 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Parental involvement"
-aliases = ["/about/our-community", "/about/parent-helpers"]
+aliases = [ "/about/our-community", "/about/parent-helpers" ]
+
 [menu.main]
 parent = "Community"
 weight = 5
-
 +++
+
 As proud as we are of our teaching staff and facilities, there is another vitally important part of our community: our parents and carers.
 
 Without their help, it would be impossible to provide the opportunities and facilities that we do and we encourage you to become involved with the school community.
@@ -41,7 +42,7 @@ The swimming carnival for grades 3-6 is the first sporting event of our school y
 
 ## Cross-country
 
-We hold our cross-country carnival at the Warrandyte Football oval and surrounding areas. It's a great day for everyone and we need our parent helpers to guide runners around the course and make sure they don't get lost!
+We hold our cross-country carnival at the Warrandyte Football oval and surrounding areas. It's a great day for everyone and we need our parent helpers to guide runners around the course and make sure they don't get lost\!
 
 ## Athletics carnival
 
