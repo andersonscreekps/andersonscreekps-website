@@ -1,12 +1,13 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-08-31T14:00:00.000Z
 title = "Grades 1&2"
-aliases = ["/our-classes/grades-1-2", "/our-classes/grades-1-2/*"]
+aliases = [ "/our-classes/grades-1-2", "/our-classes/grades-1-2/*" ]
+
 [menu.main]
 parent = "Learning"
 weight = 5
-
 +++
+
 One of our priorities in Grade 1 & 2 is that all children feel happy and secure in their learning environment. Students are encouraged to ‘take risks' in their learning and are supported when doing so. This contributes to the success of their education and is underpinned by a differentiated curriculum, where students are involved in a range of engaging, challenging and motivating activities. Students are supported to make goals throughout the year and these are reflected upon regularly.
 
 ## Literacy
