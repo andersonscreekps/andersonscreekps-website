@@ -10,7 +10,7 @@ weight = 4
 
 {{< vimeo 425817934 >}}
 
-&lt;p&gt; &lt;/p&gt;
+<p></p>
 
 At Andersons Creek Primary School (ACPS), your child will experience many fun and exciting new things during their first year at school.
 
