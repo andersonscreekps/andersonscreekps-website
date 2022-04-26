@@ -5,7 +5,7 @@
   </div>
 
   <div class="mx-md-auto">
-    <div class="lead">{{ .Params.welcome_text| markdownify }}</div>
+    <div class="lead" data-cms-bind="#welcome_text">{{ .Params.welcome_text| markdownify }}</div>
   </div>
 </div>
 {{ "<!-- End Welcome -->" | safeHTML }}
