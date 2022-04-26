@@ -8,7 +8,7 @@ aliases = [
   "/system/app/pages/sitemap/hierarchy"
 ]
 date = 2021-12-31T13:00:00.000Z
-description = "Welcome to Andersons Creek Primary School."
+description = "Welcome to Andersons Creek Primary School"
 events_news_1 = "/v1544837886/acps/20180810-092410.jpg"
 events_news_image_1 = "/v1646522405/20211021-081412.jpg"
 events_news_image_2 = "/v1548900561/20180526-083159.jpg"
@@ -19,7 +19,6 @@ keywords = [
   "Warrandyte"
 ]
 title = "Welcome"
-
 welcome_text = """
 At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.
 
@@ -29,7 +28,6 @@ Andersons Creek Primary School is an integral part of the Warrandyte community, 
 
 [_inputs.welcome_text]
 type = "textarea"
-
 welcome_title = "Andersons Creek Primary School"
 why_description = """
 At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.
