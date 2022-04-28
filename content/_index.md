@@ -21,7 +21,7 @@ content_blocks:
     heading: Why choose our school?
     sections:
       - title: Our staff
-        icon: >-
+        icon_svg: >-
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
           fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">   <path
           d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4
@@ -35,32 +35,36 @@ content_blocks:
           every day to provide a positive learning environment where children
           feel safe and comfortable.
       - title: Our curriculum
-        icon: car
+        icon_svg: car
         content: >-
           Our curriculum has a strong focus on literacy and numeracy and our
           programs cater for a diverse range of student abilities and learning
           styles. We pride ourselves on offering a curriculum that helps
           students reach their full potential.
       - title: Our community
-        icon: car
+        icon_svg: >- 
+          car
         content: >-
           A school is much more than just its students and staff. We encourage
           our families to get help at the school and we are proud of our
           involvement with our local community.
       - title: Our values
-        icon: hand-thumbs-up
+        icon_svg: >-
+          hand-thumbs-up
         content: >-
           Our school values are Respect, Optimism, Honesty and integrity and we
           encourage our school community to live them every day.
       - title: Our sustainability
-        icon: Sustain
+        icon_svg: >-
+          Sustain
         content: >-
           Sustainability is an important concept that is taught across our
           school. We have sustainability leadership groups, rubbish-free
           lunches, recyling stations, a chicken house and vegetable garden with
           composting facilities.
       - title: Our facilities
-        icon: Buildings
+        icon_svg: >-
+          Buildings
         content: >-
           Our school has outstanding facilities including a performing arts
           theatre, a new synthetic oval with perimeter running track, an indoor
