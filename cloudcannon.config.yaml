@@ -3,5 +3,6 @@ timezone: "Australia/Melbourne"
 _inputs:
   content:
     type: markdown
-  icon_svg:
-    type: textarea
+  sections:
+    icon_svg:
+      type: textarea
