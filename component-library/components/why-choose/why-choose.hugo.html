@@ -1,23 +1,23 @@
 {{ "<!-- Why choose our school -->" | safeHTML }}
 <div class="container">
   <div class="text-center mx-md-auto mb-5">
-    <h2 class="display-6">{{ .title}}</h2>
+    <h2 class="display-6">{{ .heading }}</h2>
   </div>
   <div class="mx-auto">
     <div class="row">
-      {{ range .Params.features}}
+      {{ range .sections }}
       <div class="col-md-6 p-3" data-aos="fade-up">
         <div class="card card-transition h-100">
           <div class="card-body">
             <div class="d-flex">
               <div class="flex-shrink-0">
                 <span class="svg-icon text-primary">
-                  {{.icon_svg | safeHTML}}
+                  {{.icon | safeHTML}}
                 </span>
               </div>
               <div class="flex-grow-1 ms-4">
-                <h2 class="card-title mt-0">{{.title}}</h2>
-                <p class="card-text text-body">{{.content | markdownify }}</p>
+                <h2 class="card-title mt-0">{{ .title }}</h2>
+                <p class="card-text text-body">{{ .content | markdownify }}</p>
               </div>
             </div>
           </div>

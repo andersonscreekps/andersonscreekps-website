@@ -17,6 +17,21 @@ content_blocks:
       Andersons Creek Primary School is an integral part of the Warrandyte
       community, and we are proud of our strong relationships with community
       groups, sporting clubs and local businesses.
+  - _bookshop_name: why-choose
+    heading: "Why choose our school?"
+    sections:
+      - title: Web development
+        icon: car
+        content: >-
+          car
+      - title: Web development
+        icon: car
+        content: >-
+          car
+      - title: Web development
+        icon: car
+        content: >-
+          car
 
 aliases:
   - /about/transition
