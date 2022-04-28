@@ -18,21 +18,47 @@ content_blocks:
       community, and we are proud of our strong relationships with community
       groups, sporting clubs and local businesses.
   - _bookshop_name: why-choose
-    heading: "Why choose our school?"
+    heading: Why choose our school?
     sections:
-      - title: Web development
+      - title: Our staff
+        icon: Our staff
+        content: >-
+          Our staff are enthusiastic and postive educators and take pride in
+          their ability to bring out the best in every child. They work hard
+          every day to provide a positive learning environment where children
+          feel safe and comfortable.
+      - title: Our curriculum
         icon: car
         content: >-
-          car
-      - title: Web development
+          Our curriculum has a strong focus on literacy and numeracy and our
+          programs cater for a diverse range of student abilities and learning
+          styles. We pride ourselves on offering a curriculum that helps
+          students reach their full potential.
+      - title: Our community
         icon: car
         content: >-
-          car
-      - title: Web development
-        icon: car
+          A school is much more than just its students and staff. We encourage
+          our families to get help at the school and we are proud of our
+          involvement with our local community.
+      - title: Our values
+        icon: thumb
         content: >-
-          car
-
+          Our school values are Respect, Optimism, Honesty and integrity and we
+          encourage our school community to live them every day.
+      - title: Our sustainability
+        icon: Sustain
+        content: >-
+          Sustainability is an important concept that is taught across our
+          school. We have sustainability leadership groups, rubbish-free
+          lunches, recyling stations, a chicken house and vegetable garden with
+          composting facilities.
+      - title: Our facilities
+        icon: Buildings
+        content: >-
+          Our school has outstanding facilities including a performing arts
+          theatre, a new synthetic oval with perimeter running track, an indoor
+          basketball stadium and outdoor netball, basketball and multi-purpose
+          courts.
 aliases:
   - /about/transition
   - /curriculum
