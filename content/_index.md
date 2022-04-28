@@ -6,7 +6,7 @@ aliases:
   - /news-information
   - /news-information/canteen
   - /system/app/pages/sitemap/hierarchy
-date: 2021-12-31T13:00:00.000Z
+date: 2022-01-01T00:00:00+11:00
 description: Welcome to Andersons Creek Primary School.
 events_news_1: /v1544837886/acps/20180810-092410.jpg
 events_news_image_1: /v1646522405/20211021-081412.jpg
@@ -17,26 +17,45 @@ keywords:
   - ACPS
   - Warrandyte
 title: Welcome
-
 welcome:
-  welcome_title: "Welcome title from content file."
-  welcome_text: "Welcome text from content file."
-
+  welcome_title: Andersons Creek Primary School
+  welcome_text: >-
+    <p>At Andersons Creek Primary School, we support and encourage every child
+    to reach their full potential. Every day at our school is a great learning
+    experience for children as we nurture and care for them in a quality
+    learning environment.</p> <p>Our whole school values program focuses on
+    Respect, Optimism, Honesty and Responsibility, creating a positive and happy
+    school where children can thrive.</p> <p>Andersons Creek Primary School is
+    an integral part of the Warrandyte community, and we are proud of our strong
+    relationships with community groups, sporting clubs and local
+    businesses.</p>
 welcome_text: >-
-  At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.
+  At Andersons Creek Primary School, we support and encourage every child to
+  reach their full potential. Every day at our school is a great learning
+  experience for children as we nurture and care for them in a quality learning
+  environment.
 
-  Our whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.
+  Our whole school values program focuses on Respect, Optimism, Honesty and
+  Responsibility, creating a positive and happy school where children can
+  thrive.
 
-  Andersons Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups,
+  Andersons Creek Primary School is an integral part of the Warrandyte
+  community, and we are proud of our strong relationships with community groups,
   sporting clubs and local businesses.
 welcome_title: Andersons Creek Primary School
 why_description: >-
-  At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning
-  experience for children as we nurture and care for them in a quality learning environment.
+  At Andersons Creek Primary School, we support and encourage every child to
+  reach their full potential. Every day at our school is a great learning
+  experience for children as we nurture and care for them in a quality learning
+  environment.
 
-  Our whole school values program focuses on Respect, Optimism, Honesty and Responsibility, creating a positive and happy school where children can thrive.
+  Our whole school values program focuses on Respect, Optimism, Honesty and
+  Responsibility, creating a positive and happy school where children can
+  thrive.
 
-  Andersons Creek Primary School is an integral part of the Warrandyte community, and we are proud of our strong relationships with community groups, sporting clubs and local businesses.
+  Andersons Creek Primary School is an integral part of the Warrandyte
+  community, and we are proud of our strong relationships with community groups,
+  sporting clubs and local businesses.
 why_title: Why choose our school?
 welcome_button_1:
   button_icon: bi bi-pencil
@@ -49,9 +68,10 @@ welcome_button_2:
 any_questions:
   - button_icon: bi-telephone
     button_text: Call us
-    button_url: 'tel:0398442757'
+    button_url: tel:0398442757
     description: >-
-      Would you like to speak to someone to find out more about our school? Give our office a call.
+      Would you like to speak to someone to find out more about our school? Give
+      our office a call.
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -60,9 +80,10 @@ any_questions:
     title: Phone
   - button_icon: bi-envelope
     button_text: Email us
-    button_url: 'mailto:andersons.creek.ps@education.vic.gov.au'
+    button_url: mailto:andersons.creek.ps@education.vic.gov.au
     description: >-
-      Prefer to send an email? That's no problem either. We'll get back to you as soon as possible.
+      Prefer to send an email? That's no problem either. We'll get back to you
+      as soon as possible.
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -71,9 +92,10 @@ any_questions:
     title: Email
   - button_icon: bi-geo
     button_text: Visit us
-    button_url: 'https://goo.gl/maps/bt97uRvLDCz2U5Yd8'
+    button_url: https://goo.gl/maps/bt97uRvLDCz2U5Yd8
     description: >-
-      The best way to find out more about our school is to visit us - whether that's in person or via a virtual tour.
+      The best way to find out more about our school is to visit us - whether
+      that's in person or via a virtual tour.
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
@@ -108,14 +130,24 @@ collage:
     title: Boys' cross-country
 features:
   - description: >-
-      Our staff are enthusiastic and postive educators and take pride in their ability to bring out the best in every child. They work hard every day to provide a positive learning environment where children feel safe and comfortable.
+      Our staff are enthusiastic and postive educators and take pride in their
+      ability to bring out the best in every child. They work hard every day to
+      provide a positive learning environment where children feel safe and
+      comfortable.
     icon: chalkboard-teacher
     icon_svg: >-
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">   <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+      fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">   <path
+      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4
+      8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6
+      4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8
+      10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/></svg>
     title: Our staff
   - description: >-
-      Our curriculum has a strong focus on literacy and numeracy and our programs cater for a diverse range of student abilities and learning
-      styles. We pride ourselves on offering a curriculum that helps students reach their full potential.
+      Our curriculum has a strong focus on literacy and numeracy and our
+      programs cater for a diverse range of student abilities and learning
+      styles. We pride ourselves on offering a curriculum that helps students
+      reach their full potential.
     icon: user-graduate
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -132,7 +164,8 @@ features:
       1.783z"/> </svg>
     title: Our curriculum
   - description: >-
-      A school is much more than just its students and staff. We encourage our families to get help at the school and we are proud of our involvement
+      A school is much more than just its students and staff. We encourage our
+      families to get help at the school and we are proud of our involvement
       with our local community.
     icon: users
     icon_svg: >-
@@ -149,7 +182,8 @@ features:
       0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/> </svg>
     title: Our community
   - description: >-
-      Our school values are Respect, Optimism, Honesty and integrity and we encourage our school community to live them every day.
+      Our school values are Respect, Optimism, Honesty and integrity and we
+      encourage our school community to live them every day.
     icon: thumbs-up
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -176,7 +210,9 @@ features:
       1-.121.416c-.165.288-.503.56-1.066.56z"/> </svg>
     title: Our values
   - description: >-
-      Sustainability is an important concept that is taught across our school.  We have sustainability leadership groups, rubbish-free lunches, recyling stations, a chicken house and vegetable garden with composting facilities.
+      Sustainability is an important concept that is taught across our school. 
+      We have sustainability leadership groups, rubbish-free lunches, recyling
+      stations, a chicken house and vegetable garden with composting facilities.
     icon: leaf
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -190,7 +226,9 @@ features:
       8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/> </svg>
     title: Our sustainability
   - description: >-
-      Our school has outstanding facilities including a performing arts theatre, a new synthetic oval with perimeter running track, an indoor basketball stadium and outdoor netball, basketball and multi-purpose courts.
+      Our school has outstanding facilities including a performing arts theatre,
+      a new synthetic oval with perimeter running track, an indoor basketball
+      stadium and outdoor netball, basketball and multi-purpose courts.
     icon: building
     icon_svg: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -225,3 +263,4 @@ swiper:
   - image: /v1631592525/assets/img/home/20200610-104725.jpg
     title: Prep art class
 ---
+
