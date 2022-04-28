@@ -6,3 +6,6 @@ _inputs:
   sections:
     icon_svg:
       type: textarea
+  why-choose:
+    icon_svg:
+      type: textarea
