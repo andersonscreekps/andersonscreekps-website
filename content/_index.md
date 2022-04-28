@@ -41,7 +41,7 @@ content_blocks:
           our families to get help at the school and we are proud of our
           involvement with our local community.
       - title: Our values
-        icon: thumb
+        icon: hand-thumbs-up 
         content: >-
           Our school values are Respect, Optimism, Honesty and integrity and we
           encourage our school community to live them every day.
