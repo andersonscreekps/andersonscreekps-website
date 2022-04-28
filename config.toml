@@ -63,3 +63,12 @@ forms = "/forms/:title/"
 news = "/news/:year/:month/:day/:title/"
 policies = "/policies/:title/"
 reports = "/reports/:title/"
+
+[module]
+replacements = "local/component-library -> ../component-library"
+
+[[module.imports]]
+path = 'local/component-library'
+
+[[module.imports]]
+path = 'github.com/cloudcannon/bookshop/hugo/v2'
