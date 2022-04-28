@@ -266,5 +266,11 @@ swiper:
     title: Crazy hair production scene
   - image: /v1631592525/assets/img/home/20200610-104725.jpg
     title: Prep art class
+
+content_blocks:
+  - _bookshop_name: "welcome"
+    title: "We provide a wide range of creative services"
+    welcome: ->
+      Have any project on mind? For immidiate support.
 ---
 
