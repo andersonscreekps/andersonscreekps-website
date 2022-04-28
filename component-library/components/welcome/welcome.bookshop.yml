@@ -5,12 +5,11 @@ component:
   description: Main page welcome block
   icon: title
   tags: []
+  _inputs:
+    title:
+      type: text
+    welcome:
+      type: textarea
 props:
   title: Welcome title
   welcome: Welcome text
-
-_inputs:
-  title:
-    type: text
-  welcome:
-    type: textarea
