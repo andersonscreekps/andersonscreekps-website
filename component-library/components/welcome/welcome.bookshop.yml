@@ -1,0 +1,16 @@
+component:
+  structures:
+    - content_blocks
+  label: Welcome
+  description: Main page welcome block
+  icon: title
+  tags: []
+props:
+  title: Welcome title
+  welcome: Welcome text
+
+_inputs:
+  title:
+    type: text
+  welcome:
+    type: textarea
