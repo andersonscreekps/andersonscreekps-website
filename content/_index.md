@@ -33,6 +33,11 @@ welcome:
     an integral part of the Warrandyte community, and we are proud of our strong
     relationships with community groups, sporting clubs and local
     businesses.
+  _inputs:
+    title:
+      type: text
+    welcome:
+      type: textarea
 welcome_text: >-
   At Andersons Creek Primary School, we support and encourage every child to
   reach their full potential. Every day at our school is a great learning
