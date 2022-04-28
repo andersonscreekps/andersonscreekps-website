@@ -12,4 +12,7 @@ component:
       type: textarea
 props:
   title: Welcome title
-  welcome: Welcome text
+  welcome: >-
+    Welcome text
+
+    More welcome text
