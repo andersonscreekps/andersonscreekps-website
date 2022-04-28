@@ -18,7 +18,6 @@ keywords:
   - Warrandyte
 title: Welcome
 welcome:
-<<<<<<< HEAD
   title: Andersons Creek Primary School
   welcome: >-
     At Andersons Creek Primary School, we support and encourage every child
