@@ -20,15 +20,14 @@ title: Welcome
 welcome:
   welcome_title: Andersons Creek Primary School
   welcome_text: >-
-    <p>At Andersons Creek Primary School, we support and encourage every child
-    to reach their full potential. Every day at our school is a great learning
+    At Andersons Creek Primary School, we support and encourage every child to
+    reach their full potential. Every day at our school is a great learning
     experience for children as we nurture and care for them in a quality
-    learning environment.</p> <p>Our whole school values program focuses on
-    Respect, Optimism, Honesty and Responsibility, creating a positive and happy
-    school where children can thrive.</p> <p>Andersons Creek Primary School is
-    an integral part of the Warrandyte community, and we are proud of our strong
-    relationships with community groups, sporting clubs and local
-    businesses.</p>
+    learning environment. Our whole school values program focuses on Respect,
+    Optimism, Honesty and Responsibility, creating a positive and happy school
+    where children can thrive.  Andersons Creek Primary School is an integral
+    part of the Warrandyte community, and we are proud of our strong
+    relationships with community groups, sporting clubs and local businesses.
 welcome_text: >-
   At Andersons Creek Primary School, we support and encourage every child to
   reach their full potential. Every day at our school is a great learning
