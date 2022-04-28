@@ -2,20 +2,17 @@
 spec:
   structures:
     - content_blocks
-  label: "Welcome"
-  description: "Home page welcome block"
-  icon: title
+  label: "Sample"
+  description:
+  icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: ""
-  content: ""
+  text: "Hello World!"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: Welcome title 
-  content: Welcome content 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs: {}
+_inputs:

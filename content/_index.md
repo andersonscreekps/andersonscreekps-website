@@ -1,4 +1,23 @@
 ---
+content_blocks:
+  - _bookshop_name: welcome
+    title: Andersons Creek Primary School
+    content: >-
+      At Andersons Creek Primary School, we support and encourage every child to
+      reach their full potential. Every day at our school is a great learning
+      experience for children as we nurture and care for them in a quality
+      learning environment.
+
+
+      Our whole school values program focuses on Respect, Optimism, Honesty and
+      Responsibility, creating a positive and happy school where children can
+      thrive.
+
+
+      Andersons Creek Primary School is an integral part of the Warrandyte
+      community, and we are proud of our strong relationships with community
+      groups, sporting clubs and local businesses.
+
 aliases:
   - /about/transition
   - /curriculum
@@ -240,9 +259,5 @@ swiper:
     title: Crazy hair production scene
   - image: /v1631592525/assets/img/home/20200610-104725.jpg
     title: Prep art class
-content_blocks:
-  - _bookshop_name: welcome
-    title: We provide a wide range of creative services
-    welcome: '-> Have any project on mind? For immidiate support.'
 ---
 

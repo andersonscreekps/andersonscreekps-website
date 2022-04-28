@@ -7,3 +7,5 @@ resources
 
 # Mac OS files
 .DS_Store
+
+node_modules/
