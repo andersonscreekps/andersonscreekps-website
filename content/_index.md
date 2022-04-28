@@ -17,6 +17,11 @@ keywords:
   - ACPS
   - Warrandyte
 title: Welcome
+
+welcome:
+  welcome_title: "Welcome title from content file."
+  welcome_text: "Welcome text from content file."
+
 welcome_text: >-
   At Andersons Creek Primary School, we support and encourage every child to reach their full potential. Every day at our school is a great learning experience for children as we nurture and care for them in a quality learning environment.
 

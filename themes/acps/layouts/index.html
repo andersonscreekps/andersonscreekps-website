@@ -1,7 +1,11 @@
 {{ define "main" }}
 
 {{- partial "swiper.html" . -}}
-{{- partial "welcome.html" . -}}
+
+{{ with .Params.welcome }}
+  {{ partial "bookshop" (slice "welcome" .) }}
+{{ end }}
+
 {{- partial "why-choose-our-school.html" . -}}
 {{- partial "events-news.html" . -}}
 {{- partial "collage.html" . -}}

@@ -5,26 +5,24 @@
   </div>
   <div class="mx-auto">
     <div class="row">
-      {{ $counter := 0 }}
       {{ range .Params.features}}
       <div class="col-md-6 p-3" data-aos="fade-up">
         <div class="card card-transition h-100">
           <div class="card-body">
             <div class="d-flex">
               <div class="flex-shrink-0">
-                <span class="svg-icon text-primary" data-cms-bind="#features[{{- $counter -}}].icon_svg">
+                <span class="svg-icon text-primary">
                   {{.icon_svg | safeHTML}}
                 </span>
               </div>
               <div class="flex-grow-1 ms-4">
-                <h2 class="card-title">{{.title}}</h2>
+                <h2 class="card-title mt-0">{{.title}}</h2>
                 <p class="card-text text-body">{{.description}}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {{ $counter = add $counter 1 }}
       {{ end }}
     </div>
   </div>
