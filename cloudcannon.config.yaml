@@ -4,4 +4,4 @@ _inputs:
   content:
     type: markdown
   icon_svg:
-    type: html
+    type: textarea
