@@ -1,7 +1,7 @@
 timezone: "Australia/Melbourne"
 
 _inputs:
-  - content:
+  content:
     type: markdown
-  - icon_svg:
+  icon_svg:
     type: html

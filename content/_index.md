@@ -184,7 +184,7 @@ features:
       provide a positive learning environment where children feel safe and
       comfortable.
     icon: chalkboard-teacher
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">   <path
       d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4
@@ -198,7 +198,7 @@ features:
       styles. We pride ourselves on offering a curriculum that helps students
       reach their full potential.
     icon: user-graduate
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">   <path d="M1
       2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063
@@ -217,7 +217,7 @@ features:
       families to get help at the school and we are proud of our involvement
       with our local community.
     icon: users
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">   <path
       d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7
@@ -230,11 +230,11 @@ features:
       13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3
       0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/> </svg>
     title: Our community
-  - description: >-
+  - descriptions: >-
       Our school values are Respect, Optimism, Honesty and integrity and we
       encourage our school community to live them every day.
     icon: thumbs-up
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">  
       <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23
@@ -263,7 +263,7 @@ features:
       We have sustainability leadership groups, rubbish-free lunches, recyling
       stations, a chicken house and vegetable garden with composting facilities.
     icon: leaf
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">   <path
       d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076
@@ -279,7 +279,7 @@ features:
       a new synthetic oval with perimeter running track, an indoor basketball
       stadium and outdoor netball, basketball and multi-purpose courts.
     icon: building
-    icon_svg: >-
+    icon_svgs: >-
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
       fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">   <path
       fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0
