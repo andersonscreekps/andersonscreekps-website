@@ -19,7 +19,7 @@ keywords:
 title: Welcome
 welcome:
   title: Andersons Creek Primary School
-  welcome: >-
+  content: >-
     At Andersons Creek Primary School, we support and encourage every child
     to reach their full potential. Every day at our school is a great learning
     experience for children as we nurture and care for them in a quality

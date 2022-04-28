@@ -1,1 +1,5 @@
 timezone: "Australia/Melbourne"
+
+_inputs:
+  content:
+    type: markdown

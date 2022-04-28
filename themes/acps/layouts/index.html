@@ -6,7 +6,7 @@
   {{ partial "bookshop" (slice "welcome" .) }}
 {{ end }}
 
-{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+{{ partial "bookshop_partial" (slice "welcome" .Params.content_blocks) }}
 
 {{- partial "why-choose-our-school.html" . -}}
 {{- partial "events-news.html" . -}}
