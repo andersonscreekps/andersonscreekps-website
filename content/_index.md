@@ -17,6 +17,25 @@ content_blocks:
       Andersons Creek Primary School is an integral part of the Warrandyte
       community, and we are proud of our strong relationships with community
       groups, sporting clubs and local businesses.
+  - _bookshop_name: any-questions
+    heading: Any questions?
+    sections:
+      - title: Our staff
+        icon_svg: >-
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-person" viewbox="0 0 16 16">   <path
+          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4
+          0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6
+          4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8
+          10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+          /></svg>
+        content: >-
+          Our staff are enthusiastic and postive educators and take pride in
+          their ability to bring out the best in every child. They work hard
+          every day to provide a positive learning environment where children
+          feel safe and comfortable.
+        button_icon: button
+        button_text: text
   - _bookshop_name: why-choose
     heading: Why choose our school?
     sections:
