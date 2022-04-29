@@ -30,6 +30,7 @@ content_blocks:
           Give our office a call.
         button_icon: bi-telephone
         button_text: Call us
+        button_url: "tel:0398442757"
   - _bookshop_name: why-choose
     heading: Why choose our school?
     sections:
