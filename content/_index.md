@@ -124,6 +124,7 @@ content_blocks:
           Give our office a call.
         button_icon: bi-telephone
         button_text: Call us
+        button_url: #
       - title: Email
         icon_svg: >-
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -134,6 +135,7 @@ content_blocks:
           you as soon as possible.
         button_icon: bi-envelope
         button_text: Email us
+        button_url: #
       - title: Visit us
         icon_svg: >-
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -144,6 +146,7 @@ content_blocks:
           whether that's in person or via a virtual tour.
         button_icon: bi-geo
         button_text: Visit us
+        button_url: #
 aliases:
   - /about/transition
   - /curriculum
