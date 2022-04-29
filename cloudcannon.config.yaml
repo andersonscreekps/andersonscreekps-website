@@ -1,4 +1,5 @@
 timezone: "Australia/Melbourne"
+data_config: true
 
 _inputs:
   content:
