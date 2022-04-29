@@ -5,7 +5,7 @@
 <!-- Swiper -->
 <div class="js-swiper-autoplay swiper-container">
   <div class="swiper-wrapper">
-    {{ range $key, $value := .Params.swiper }}
+    {{ range $key, $value := .sections }}
     <div class="swiper-slide">
         <img class="img-fluid w-100" 
 	     width="16"
@@ -13,8 +13,8 @@
           srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
-          {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
-          {{- end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_1920{{ $value.image }}" alt="{{ .title }}">
+          {{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
+          {{- end }}" sizes="100vw" src="{{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_1920{{ $value.image }}" alt="{{ .title }}">
     </div>
     {{ end }}
   </div>
