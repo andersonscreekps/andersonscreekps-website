@@ -124,7 +124,7 @@ content_blocks:
           Give our office a call.
         button_icon: bi-telephone
         button_text: Call us
-        button_url: #
+        button_url: tel:0398442757
       - title: Email
         icon_svg: >-
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -135,7 +135,7 @@ content_blocks:
           you as soon as possible.
         button_icon: bi-envelope
         button_text: Email us
-        button_url: #
+        button_url: mailto:andersons.creek.ps@education.vic.gov.au
       - title: Visit us
         icon_svg: >-
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -146,7 +146,7 @@ content_blocks:
           whether that's in person or via a virtual tour.
         button_icon: bi-geo
         button_text: Visit us
-        button_url: #
+        button_url: https://goo.gl/maps/bt97uRvLDCz2U5Yd8
 aliases:
   - /about/transition
   - /curriculum
