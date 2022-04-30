@@ -5,7 +5,7 @@ collections_config:
   events:
     schemas:
       default:
-        path: schemas/events.md
+        path: schemas/event.md
 
 _inputs:
   content:
