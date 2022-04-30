@@ -119,7 +119,7 @@ content_blocks:
   - _bookshop_name: events-news
     title: News and events
     events_title: Upcoming events
-    events_image: /v1548900561/20180526-083159.jpg
+    events_image: /v1646522405/20211021-081412.jpg 
     news_title: Latest news
     news_image: /v1548900561/20180526-083159.jpg
   - _bookshop_name: school-snapshots
