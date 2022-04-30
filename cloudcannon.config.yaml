@@ -1,6 +1,12 @@
 timezone: "Australia/Melbourne"
 data_config: true
 
+collections_config:
+  eventss:
+    schemas:
+      default:
+        path: schemas/events.md
+
 _inputs:
   content:
     type: markdown
