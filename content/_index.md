@@ -184,9 +184,6 @@ aliases:
   - /news-information
   - /news-information/canteen
   - /system/app/pages/sitemap/hierarchy
-events_news_1: /v1544837886/acps/20180810-092410.jpg
-events_news_image_1: /v1646522405/20211021-081412.jpg
-events_news_image_2: /v1548900561/20180526-083159.jpg
 welcome_button_1:
   button_icon: bi bi-pencil
   title: Enrol now
