@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ if .Page.Title -}}{{- .Page.Title }} — {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+  <title>{{ if .IsHome }}Welcome to {{ .Site.Title }}{{ else }}{{ if .Page.Title -}}{{- .Page.Title }} — {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="keywords" content="{{ delimit $.Site.Data.metadata.keywords ", " }}">
