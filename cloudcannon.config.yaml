@@ -2,7 +2,7 @@ timezone: "Australia/Melbourne"
 data_config: true
 
 collections_config:
-  eventss:
+  events:
     schemas:
       default:
         path: schemas/events.md
