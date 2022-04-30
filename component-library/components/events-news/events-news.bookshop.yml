@@ -9,7 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  _live_render: false
+  live_render: false
   events_title: ""
   news_title: ""
 
