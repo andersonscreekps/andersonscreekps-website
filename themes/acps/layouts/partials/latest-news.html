@@ -1,5 +1,5 @@
 <ul class="timeline timeline-simple">
-  {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
+  {{ $news := where site.Pages.ByDate.Reverse "Section" "news" }}
   {{ $news := $news | intersect (where $news "Date" "le" now) | first 4 }}
   {{- range $news -}}
   <li class="timeline-inverted">

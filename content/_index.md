@@ -1,6 +1,12 @@
 ---
 date: 2022-01-01T00:00:00+11:00
 content_blocks:
+  - _bookshop_name: events-news
+    title: News and events 
+    events_title: Upcoming events
+    events_image: /v1548900561/20180526-083159.jpg
+    news_title: Latest news
+    news_image: /v1548900561/20180526-083159.jpg 
   - _bookshop_name: swiper
     title: Swiper
     cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
