@@ -118,6 +118,7 @@ content_blocks:
           courts.
   - _bookshop_name: events-news
     live_render: false
+    data_binding: false
     title: News and events
     events_title: Upcoming events
     events_image: /v1646522405/20211021-081412.jpg
