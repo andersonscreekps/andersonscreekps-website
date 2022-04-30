@@ -1,33 +1,27 @@
 ---
 date: 2022-01-01T00:00:00+11:00
 content_blocks:
-  - _bookshop_name: events-news
-    title: News and events 
-    events_title: Upcoming events
-    events_image: /v1548900561/20180526-083159.jpg
-    news_title: Latest news
-    news_image: /v1548900561/20180526-083159.jpg 
   - _bookshop_name: swiper
     title: Swiper
     cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
     image_transforms: q_60,f_auto,e_sharpen
     sections:
-      - title: Prep classroom 
-        image: /v1631592524/assets/img/home/20200603-151859.jpg 
-      - title: Boys in Learning Shack 
-        image: /v1631592525/assets/img/home/20201029-125830.jpg 
-      - title: Girls with chooks 
-        image: /v1631592525/assets/img/home/20201105-115737.jpg 
-      - title: Boys writing 
-        image: /v1631592524/assets/img/home/20180810-095841.jpg 
-      - title: Girls on steeplechase beam 
-        image: /v1631592524/assets/img/home/20190912-114206.jpg 
+      - title: Prep classroom
+        image: /v1631592524/assets/img/home/20200603-151859.jpg
+      - title: Boys in Learning Shack
+        image: /v1631592525/assets/img/home/20201029-125830.jpg
+      - title: Girls with chooks
+        image: /v1631592525/assets/img/home/20201105-115737.jpg
+      - title: Boys writing
+        image: /v1631592524/assets/img/home/20180810-095841.jpg
+      - title: Girls on steeplechase beam
+        image: /v1631592524/assets/img/home/20190912-114206.jpg
       - title: Girls athletics ribbons
         image: /v1631592524/assets/img/home/20190807-104641.jpg
       - title: Crazy hair production scene
         image: /v1631592524/assets/img/home/20190911-191925.jpg
       - title: Prep art class
-        image: /v1631592525/assets/img/home/20200610-104725.jpg 
+        image: /v1631592525/assets/img/home/20200610-104725.jpg
   - _bookshop_name: welcome
     title: Andersons Creek Primary School
     content: >-
@@ -122,6 +116,12 @@ content_blocks:
           theatre, a new synthetic oval with perimeter running track, an indoor
           basketball stadium and outdoor netball, basketball and multi-purpose
           courts.
+  - _bookshop_name: events-news
+    title: News and events
+    events_title: Upcoming events
+    events_image: /v1548900561/20180526-083159.jpg
+    news_title: Latest news
+    news_image: /v1548900561/20180526-083159.jpg
   - _bookshop_name: school-snapshots
     heading: School snapshots
     cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
