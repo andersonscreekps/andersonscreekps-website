@@ -8,6 +8,8 @@ collections_config:
         path: schemas/event.md
 
 _inputs:
+  summary:
+    type: markdown
   content:
     type: markdown
   icon_svg:

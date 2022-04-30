@@ -2,7 +2,7 @@
 _schema: default
 date: 2022-05-04T00:00:00+10:00
 title: School cross country
-content: >-
+summary: >-
   The school cross country will be held on Wednesday May 4. All classes will be
   walking to the Warrandyte Reserve departing school at 11:30am. Cross country
   will start at midday.
