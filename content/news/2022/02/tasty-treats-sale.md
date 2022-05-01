@@ -1,6 +1,6 @@
 +++
 date = "2022-02-25T00:00:00+11:00"
-description = "Thank you to all the families who donated tasty treats and helped us raise nearly $500 for the school today."
+summary = "Thank you to all the families who donated tasty treats and helped us raise nearly $500 for the school today."
 title = "Tasty Treats sale"
 +++
 

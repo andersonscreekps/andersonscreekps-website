@@ -1,6 +1,6 @@
 +++
 date = 2022-02-11T00:00:00Z
-description = "Congratulations to our new School Captains, Vice Captains and House Captains."
+summary = "Congratulations to our new School Captains, Vice Captains and House Captains."
 title = "School and House Captains"
 
 +++
