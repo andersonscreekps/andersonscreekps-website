@@ -9,7 +9,7 @@ collections_config:
   news:
     schemas:
       default:
-        path: schemas/news.md
+        path: schemas/new.md
 _inputs:
   summary:
     type: markdown
