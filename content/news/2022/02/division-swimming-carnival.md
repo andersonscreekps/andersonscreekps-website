@@ -1,11 +1,17 @@
-+++
-date = 2022-02-27T13:00:00.000Z
-summary = """
-Today was the Manningham Division swimming carnival and we had two swimmers taking part.
+---
+date: 2022-02-27T13:00:00.000Z
+title: Division swimming carnival
+summary: >- 
+  Our school has outstanding facilities including a performing arts
+  theatre, a new synthetic oval with perimeter running track, an indoor
+  basketball stadium and outdoor netball, basketball and multi-purpose
+  courts.
 
-Aisling (3/4M) came second in her backstroke event and Charlie (5/6B) won both his backstroke and breastroke races.
 
-They're both off to the Eastern Metropolitan Region swimming carnival on March 25. Congratulations and good luck\\!"""
-title = "Division swimming carnival"
-+++
+  Our school has outstanding facilities including a performing arts
+  theatre, a new synthetic oval with perimeter running track, an indoor
+  basketball stadium and outdoor netball, basketball and multi-purpose
+  courts.
+
+---
 
