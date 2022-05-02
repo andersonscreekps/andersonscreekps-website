@@ -37,7 +37,7 @@
               {{ end }}
             </span>
           </div>
-        <p>{{ .Params.description }}</p>
+        {{ .Params.summary | markdownify }}
         {{ .Content }}
       </div>
     </div>
