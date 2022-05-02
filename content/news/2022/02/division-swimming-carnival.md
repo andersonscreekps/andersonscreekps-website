@@ -1,5 +1,5 @@
 +++
-date = 2022-02-27T13:00:00.000Z
+date = 2022-02-27T22:00:00.000Z
 summary = """
 Today was the Manningham Division swimming carnival and we had two swimmers taking part.
 
