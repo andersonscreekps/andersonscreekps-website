@@ -19,6 +19,11 @@ collections_config:
     path: content/learning
   news:
     path: content/news
+    output: true
+    parser: yaml
+    schemas:
+      default:
+        path: schemas/new.md
   newsletters:
     path: content/newsletters
   our-school:
