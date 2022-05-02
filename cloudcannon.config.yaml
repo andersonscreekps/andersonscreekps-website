@@ -2,6 +2,10 @@ timezone: "Australia/Melbourne"
 data_config: true
 
 collections_config:
+  calendar:
+    path: content/calendar
+  community:
+    path:content/community
   events:
     path: content/events
     output: true
@@ -9,6 +13,20 @@ collections_config:
     schemas:
       default:
         path: schemas/event.md
+  forms:
+    path: content/forms
+  learning:
+    path: content/learning
+  news:
+    path: content/news
+  newsletters:
+    path: content/newsletters
+  our-school:
+    path: content/our-school
+  policies:
+    path: content/policies
+  publications:
+    path: content/publications
   updates:
     path: content/updates
     output: true
