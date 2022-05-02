@@ -2,16 +2,20 @@ timezone: "Australia/Melbourne"
 data_config: true
 
 collections_config:
-  updates:
-    path: content/updates
-    schemas:
-      default:
-        path: schemas/update.md
   events:
     path: content/events
+    output: true
+    parser: yaml
     schemas:
       default:
         path: schemas/event.md
+  updates:
+    path: content/updates
+    output: true
+    parser: yaml
+    schemas:
+      default:
+        path: schemas/update.md
 _inputs:
   summary:
     type: markdown
