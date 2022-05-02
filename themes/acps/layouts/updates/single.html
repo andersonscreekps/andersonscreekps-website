@@ -7,7 +7,7 @@
         <div class="timeline-heading">
           <span class="badge badge-primary bg-primary mr-1">{{ .Date.Format "Monday, January 2" }}</span>
           <span class="badge badge-primary bg-primary mr-1">
-            <!-- Calculate the age of news in days, weeks and months (based on 30 day months) -->
+            <!-- Calculate the age of updates in days, weeks and months (based on 30 day months) -->
             <!-- Drop time part of datetimes as we care about calendar days, not 24 hour periods --!>
               {{ $d := .Date.Format "2006-01-02" }}
               {{ $n := now.Format "2006-01-02" }}

@@ -116,14 +116,14 @@ content_blocks:
           theatre, a new synthetic oval with perimeter running track, an indoor
           basketball stadium and outdoor netball, basketball and multi-purpose
           courts.
-  - _bookshop_name: events-news
+  - _bookshop_name: events-updates
     live_render: false
     data_binding: false
     title: News and events
     events_title: Upcoming events
     events_image: /v1646522405/20211021-081412.jpg
-    news_title: Latest news
-    news_image: /v1548900561/20180526-083159.jpg
+    updates_title: Latest updates 
+    updates_image: /v1548900561/20180526-083159.jpg
   - _bookshop_name: school-snapshots
     heading: School snapshots
     cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
