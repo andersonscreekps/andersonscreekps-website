@@ -8,6 +8,8 @@ summary: >-
   will start at midday.
 ---
 
+The school cross country will be held on Wednesday May 4. All classes will be walking to the Warrandyte Reserve departing school at 11:30am. Cross country will start at midday.
+
 * 12:00 age 12/13 boys then girls
 * 12:30 age 10 boys then girls
 * 12:45 age 8/9 boys then girls
