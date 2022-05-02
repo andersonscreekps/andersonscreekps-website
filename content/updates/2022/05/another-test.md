@@ -5,4 +5,4 @@ title: Another test
 summary: What format will this be saved in?
 ---
 
-Will it be **TOML&nbsp;**or **YAML**?
+Will it be&nbsp;**TOML**&nbsp;or&nbsp;**YAML**?
