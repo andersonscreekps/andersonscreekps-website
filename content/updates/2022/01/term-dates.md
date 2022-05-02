@@ -1,6 +1,6 @@
 +++
 aliases = ["/news-information/term-dates"]
-date = 2021-09-01T00:00:00Z
+date = 2022-01-01T00:00:00Z
 title = "Term dates"
 
 +++
