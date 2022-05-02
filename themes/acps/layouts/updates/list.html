@@ -6,10 +6,10 @@
         <h1 class="mb-4 text-center">{{ .Title }}</h1>
         {{ .Content }}
         <ul class="timeline timeline-simple">
-          {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
-          {{ $news := $news | intersect (where $news "Date" "le" now) }}
-          {{ $news := .Paginate $news }}
-          {{- range $news.Pages -}}
+          {{ $updates := where .Site.RegularPages.ByDate.Reverse "Section" "updates" }}
+          {{ $updates := $updates | intersect (where $updates "Date" "le" now) }}
+          {{ $updates := .Paginate $updates }}
+          {{- range $updates.Pages -}}
           <li class="timeline-inverted">
             <div class="timeline-badge bg-primary primary">
               <i class="bi bi-newspaper"></i>
