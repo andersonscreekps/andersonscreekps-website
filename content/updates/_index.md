@@ -1,9 +1,8 @@
 +++
-date = 2021-12-31T13:00:00.000Z
-title = "Latest updates"
-
+date = "2019-01-01T00:00:00+11:00"
+title = "Upcoming events"
 [menu.main]
-parent = "News"
+parent = "Events"
 weight = 1
-+++
 
++++
