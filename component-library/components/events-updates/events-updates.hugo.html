@@ -1,0 +1,22 @@
+{{ "<!-- Events & Updates -->" | safeHTML }}
+<section id="events-updates" class="mt-7">
+  <div class="container-fluid p-0 my-0">
+    <div class="row no-gutters">
+      <div class="col-lg-6  order-lg-2 my-0 py-0" style="background-image: url('{{ site.Params.cloudinary_base_url }}/{{ site.Params.image_transforms }},c_fill,g_auto,w_600{{ .events_image }}'); min-height:45rem; background-size: cover;"></div>
+      <div class="col-lg-6 p-4 order-lg-1">
+  <div class="text-center mx-md-auto mb-7">
+    <h2 class="display-6">{{ .events_title }}</h2>
+  </div>
+        {{- partial "upcoming-events.html" . -}}
+      </div>
+      <div class="col-lg-6 my-0 py-0 order-lg-3" style="background-image: url('{{ site.Params.cloudinary_base_url }}/{{ site.Params.image_transforms }},c_fill,g_auto,w_600{{ .updates_image }}'); min-height:45rem; background-size: cover;"></div>
+      <div class="col-lg-6 p-4 order-lg-4">
+  <div class="text-center mx-md-auto mb-7">
+    <h2 class="display-6">{{ .updates_title }}</h2>
+  </div>
+        {{- partial "latest-updates.html" . -}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- End Events & Updates -->" | safeHTML }}
