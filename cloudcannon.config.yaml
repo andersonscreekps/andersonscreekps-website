@@ -3,10 +3,12 @@ data_config: true
 
 collections_config:
   events:
+    path: content/events
     schemas:
       default:
         path: schemas/event.md
   updates:
+    path: content/updates
     schemas:
       default:
         path: schemas/update.md
