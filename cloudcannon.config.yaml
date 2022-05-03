@@ -5,7 +5,7 @@ collections_config:
   calendar:
     path: content/calendar
   community:
-    path:content/community
+    path: content/community
   events:
     path: content/events
     output: true
