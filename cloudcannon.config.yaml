@@ -2,6 +2,13 @@ timezone: "Australia/Melbourne"
 data_config: true
 
 collections_config:
+  updates:
+    path: content/updates
+    icon: event
+    description: Latest school updates.
+    schemas:
+      default:
+        path: schemas/update.md
   calendar:
     path: content/calendar
     icon: event 
