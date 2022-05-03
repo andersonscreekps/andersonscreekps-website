@@ -46,7 +46,7 @@ collections_config:
     icon: event 
     schemas:
       default:
-        path: schemas/update.md
+        path: schemas/event.md
 _inputs:
   summary:
     type: markdown
