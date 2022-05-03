@@ -5,11 +5,13 @@ collections_config:
   calendar:
     path: content/calendar
   community:
-    path:content/community
+    path: content/community
   events:
     path: content/events
     output: true
     parser: yaml
+    icon: event
+    description: Upcoming school events.
     schemas:
       default:
         path: schemas/event.md
@@ -17,13 +19,6 @@ collections_config:
     path: content/forms
   learning:
     path: content/learning
-  news:
-    path: content/news
-    output: true
-    parser: yaml
-    schemas:
-      default:
-        path: schemas/new.md
   newsletters:
     path: content/newsletters
   our-school:
