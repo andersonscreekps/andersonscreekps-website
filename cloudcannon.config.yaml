@@ -59,8 +59,4 @@ _inputs:
   icon_svg:
     type: textarea
   draft:
-    type: select
-    options:
-      values:
-        - False 
-        - True 
+    type: switch 

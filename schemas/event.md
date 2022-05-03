@@ -2,5 +2,5 @@
 date:
 title:
 summary:
-draft:
+draft: false
 ---
