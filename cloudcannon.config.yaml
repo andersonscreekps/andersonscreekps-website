@@ -27,6 +27,7 @@ collections_config:
     path: content/publications
   updates:
     path: content/updates
+    icon: feed 
     schemas:
       default:
         path: schemas/update.md
