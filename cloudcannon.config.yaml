@@ -48,12 +48,6 @@ collections_config:
     path: content/publications
     icon: event
     description: Publications section of the website.
-  updates:
-    path: content/updates
-    icon: event 
-    schemas:
-      default:
-        path: schemas/update.md
 _inputs:
   summary:
     type: markdown
