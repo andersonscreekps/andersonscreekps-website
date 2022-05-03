@@ -58,3 +58,9 @@ _inputs:
     type: markdown
   icon_svg:
     type: textarea
+  draft:
+    type: select
+    options:
+      values:
+        - False 
+        - True 

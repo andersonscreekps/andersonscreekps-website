@@ -2,4 +2,5 @@
 date:
 title:
 summary:
+draft:
 ---
