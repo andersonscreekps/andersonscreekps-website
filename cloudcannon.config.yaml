@@ -11,6 +11,7 @@ collections_config:
     output: true
     parser: yaml
     icon: event
+    description: Upcoming school events.
     schemas:
       default:
         path: schemas/event.md
@@ -37,6 +38,8 @@ collections_config:
     path: content/updates
     output: true
     parser: yaml
+    icon: feed
+    description: Latest school updates.
     schemas:
       default:
         path: schemas/update.md
