@@ -38,7 +38,7 @@ collections_config:
     path: content/updates
     output: true
     parser: yaml
-    icon: feed
+    icon: newspaper
     description: Latest school updates.
     schemas:
       default:
