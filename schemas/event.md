@@ -2,5 +2,4 @@
 date:
 title:
 summary:
-extra:
 ---
