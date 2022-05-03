@@ -47,9 +47,6 @@
 			</div>
       <h4>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h4>
 			<div class="timeline-body">
-<p>System Time:  {{ time.Now }}</p>
-
-
 				{{ .Params.summary | markdownify }}
 			</div>
 		</div>
