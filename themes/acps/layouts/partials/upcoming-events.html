@@ -1,5 +1,6 @@
 <ul class="timeline timeline-simple">
   {{ $events := (where site.Pages "Section" "events").Reverse }}
+  {{ $time := time (now) }}
   {{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
   {{- range $events -}}
 	<li class="timeline-inverted">
@@ -46,7 +47,9 @@
 			</div>
       <h4>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</h4>
 			<div class="timeline-body">
-System Time:  {{ time.Now }}
+<p>System Time:  {{ time.Now }}</p>
+
+
 				{{ .Params.summary | markdownify }}
 			</div>
 		</div>
