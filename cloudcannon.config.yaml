@@ -5,6 +5,7 @@ collections_config:
   calendar:
     path: content/calendar
     icon: calendar_month
+    description: School calendar.
   community:
     path: content/community
   events:
