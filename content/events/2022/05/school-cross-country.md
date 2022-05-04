@@ -1,6 +1,6 @@
 ---
 _schema: default
-date: 2022-05-04T00:00:00+10:00
+date: 2022-05-04T14:00:00+10:00
 title: School cross country
 summary: >-
   The school cross country will be held on Wednesday May 4. All classes will be
