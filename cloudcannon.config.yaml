@@ -8,7 +8,7 @@ collections_config:
     description: School calendar.
   community:
     path: content/community
-    icon: event
+    icon: article 
     description: Community section of the website.
   events:
     path: content/events
@@ -24,11 +24,11 @@ collections_config:
         path: schemas/event.md
   forms:
     path: content/forms
-    icon: event
+    icon: list
     description: School forms.
   learning:
     path: content/learning
-    icon: event
+    icon: article 
     description: Learning section of the website.
   newsletters:
     path: content/newsletters
@@ -36,7 +36,7 @@ collections_config:
     description: Unused newsletter section of the website.
   our-school:
     path: content/our-school
-    icon: event
+    icon: article
     description: Our school section of the website.
   policies:
     path: content/policies
