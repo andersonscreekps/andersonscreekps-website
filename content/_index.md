@@ -117,7 +117,7 @@ content_blocks:
           basketball stadium and outdoor netball, basketball and multi-purpose
           courts.
   - _bookshop_name: events-updates
-    title: News and events
+    title: Events and updates
     events_title: Upcoming events
     events_image: /v1646522405/20211021-081412.jpg
     updates_title: Latest updates 
