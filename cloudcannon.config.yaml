@@ -45,6 +45,8 @@ collections_config:
     path: content/updates
     icon: event
     description: Latest school updates.
+    text_key: title
+    subtext_key: summary
     add_options:
       - name: Add update
         editor: content
