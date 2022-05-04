@@ -4,7 +4,7 @@ data_config: true
 collections_config:
   calendar:
     path: content/calendar
-    icon: calendar_month 
+    icon: calendar_month
     description: School calendar.
   community:
     path: content/community
@@ -48,7 +48,7 @@ collections_config:
     description: Publications section of the website.
   updates:
     path: content/updates
-    icon: newspaper 
+    icon: newspaper
     description: Latest school updates.
     text_key: title
     subtext_key: summary
