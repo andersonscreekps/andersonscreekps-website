@@ -14,6 +14,11 @@ collections_config:
     path: content/events
     icon: event
     description: Upcoming school events.
+    text_key: title
+    subtext_key: summary
+    add_options:
+      - name: Add event 
+        editor: content
     schemas:
       default:
         path: schemas/event.md
