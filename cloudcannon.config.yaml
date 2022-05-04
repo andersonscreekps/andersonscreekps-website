@@ -44,11 +44,11 @@ collections_config:
     description: Policies section of the website.
   publications:
     path: content/publications
-    icon: newspaper 
+    icon: menu_book 
     description: Publications section of the website.
   updates:
     path: content/updates
-    icon: feed 
+    icon: newspaper 
     description: Latest school updates.
     text_key: title
     subtext_key: summary
