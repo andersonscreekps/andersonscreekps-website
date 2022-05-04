@@ -40,15 +40,15 @@ collections_config:
     description: Our school section of the website.
   policies:
     path: content/policies
-    icon: event
+    icon: policy 
     description: Policies section of the website.
   publications:
     path: content/publications
-    icon: event
+    icon: newspaper 
     description: Publications section of the website.
   updates:
     path: content/updates
-    icon: event
+    icon: feed 
     description: Latest school updates.
     text_key: title
     subtext_key: summary
