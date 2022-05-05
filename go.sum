@@ -1,4 +1,2 @@
-github.com/cloudcannon/bookshop/hugo/v2 v2.6.1 h1:KnMpPvkP0YQTvk7cQrDCJbE1pst/rZCT4uqOMy9UB9Q=
-github.com/cloudcannon/bookshop/hugo/v2 v2.6.1/go.mod h1:6A13Qmq2GN0Msd/vD8mLbcICGOEHQWM5lQwA2lwgp+A=
-github.com/cloudcannon/bookshop/hugo/v3 v3.0.1 h1:aDiV3MlySGt8QfExcoxME6eGfLeLG8m1/ZSKaguNXOo=
-github.com/cloudcannon/bookshop/hugo/v3 v3.0.1/go.mod h1:s7mIonDhtsLcn10ZKuVXyqd6BDHI8vT1WQhZw8rPfY8=
+github.com/cloudcannon/bookshop/hugo/v3 v3.1.1 h1:IUAxCqapxhqncjZg3/Q5aKdfWMMlFt6vjPY6jqyUvlQ=
+github.com/cloudcannon/bookshop/hugo/v3 v3.1.1/go.mod h1:s7mIonDhtsLcn10ZKuVXyqd6BDHI8vT1WQhZw8rPfY8=
