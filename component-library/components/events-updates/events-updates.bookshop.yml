@@ -10,6 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title: ""
+  cloudinary_base_url: "https://res.cloudinary.com/andersonscreekps"
+  image_transforms: q_60,f_auto,e_sharpen
   events_title: ""
   events_image: ""
   updates_title: ""
