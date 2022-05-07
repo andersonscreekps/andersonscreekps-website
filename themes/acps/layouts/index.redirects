@@ -4,3 +4,19 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
+
+# Also create for Cloud Cannon
+
+{
+  "routes": [
+    {{- range $p := .Site.Pages -}}
+    {{- range .Aliases }}
+    {
+      "from": "{{ . }}",
+      "status": "301",
+      "to": "{{ $p.RelPermalink }}"
+    },
+    {{- end }}
+    {{- end }}
+  ]
+}
