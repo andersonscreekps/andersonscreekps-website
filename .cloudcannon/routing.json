@@ -146,8 +146,7 @@
       "to": "/policies/"
     }
   ]
-}
-{
+
   "headers": [
     {
       "match": "/",
