@@ -43,11 +43,7 @@ Parent members must comprise more than one-third of council's total membership. 
 * Lucy Rogers - Minute Secretary
 * Elizabeth Andrew
 * Nooshin Evans
-<<<<<<< HEAD
-* Volkan Ozturk
-=======
 * Kimberly Hall
 * Georgie Jones
 * Aime Loydell
->>>>>>> bc67da96 (Update school-council.md)
 * Lucy Rogers
