@@ -118,7 +118,8 @@
       "to": "/policies/"
     },
   ]
-
+}
+{
   "headers": [
     {
       "match": "/",
