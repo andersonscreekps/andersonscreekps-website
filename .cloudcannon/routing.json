@@ -5,118 +5,146 @@
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/curriculum",
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/curriculum/*",
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/news-information",
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/news-information/canteen",
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/system/app/pages/sitemap/hierarchy",
       "status": "301",
       "to": "/"
     },
+    {
       "from": "/about/out-of-hours-school-care",
       "status": "301",
       "to": "/community/oshc/"
     },
+    {
       "from": "/about/our-vision",
       "status": "301",
       "to": "/our-school/story/"
     },
+    {
       "from": "/about/our-future",
       "status": "301",
       "to": "/our-school/story/"
     },
+    {
       "from": "/news-information/term-dates",
       "status": "301",
       "to": "/events/2022/01/term-dates/"
     },
+    {
       "from": "/about/location",
       "status": "301",
       "to": "/our-school/contact-us/"
     },
+    {
       "from": "/contact",
       "status": "301",
       "to": "/our-school/contact-us/"
     },
+    {
       "from": "/our-classes/preps",
       "status": "301",
       "to": "/learning/foundation/"
     },
+    {
       "from": "/our-classes/grades-1-2",
       "status": "301",
       "to": "/learning/grades-1-2/"
     },
+    {
       "from": "/our-classes/grades-1-2/*",
       "status": "301",
       "to": "/learning/grades-1-2/"
     },
+    {
       "from": "/our-classes/grades-3-4",
       "status": "301",
       "to": "/learning/grades-3-4/"
     },
+    {
       "from": "/our-classes/grades-3-4/*",
       "status": "301",
       "to": "/learning/grades-3-4/"
     },
+    {
       "from": "/our-classes/grades-5-6",
       "status": "301",
       "to": "/learning/grades-5-6/"
     },
+    {
       "from": "/our-classes/grades-5-6/*",
       "status": "301",
       "to": "/learning/grades-5-6/"
     },
+    {
       "from": "/about/diagram",
       "status": "301",
       "to": "/our-school/grounds-map/"
     },
+    {
       "from": "/about/about-acps",
       "status": "301",
       "to": "/learning/leadership/"
     },
+    {
       "from": "/news-information/naplan-results",
       "status": "301",
       "to": "/learning/naplan/"
     },
+    {
       "from": "/about/facilities",
       "status": "301",
       "to": "/our-school/facilities/"
     },
+    {
       "from": "/about/our-community",
       "status": "301",
       "to": "/community/parental-involvement/"
     },
+    {
       "from": "/about/parent-helpers",
       "status": "301",
       "to": "/community/parental-involvement/"
     },
+    {
       "from": "/about/our-school-principal",
       "status": "301",
       "to": "/our-school/principals-welcome/"
     },
+    {
       "from": "/about/school-council",
       "status": "301",
       "to": "/our-school/school-council/"
     },
+    {
       "from": "/news-information/enrolment-forms",
       "status": "301",
       "to": "/forms/"
     },
+    {
       "from": "/about/school-policies",
       "status": "301",
       "to": "/policies/"
-    }
+    },
   ]
 }
 {
