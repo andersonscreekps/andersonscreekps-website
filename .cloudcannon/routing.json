@@ -4,6 +4,10 @@
       "match": "/",
       "headers": [
         {
+          "name": "strict-transport-security",
+          "value": "max-age=300"
+        },
+        {
           "name": "X-Frame-Options",
           "value": "DENY"
         },
