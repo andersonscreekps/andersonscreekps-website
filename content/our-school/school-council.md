@@ -21,7 +21,7 @@ Each school council is established by an Order of the Minister for Education, wh
 
 More information on the roles and responsibilities of school councils can be found at [https://www2.education.vic.gov.au/pal/school-council-overview/overview](https://www2.education.vic.gov.au/pal/school-council-overview/overview "School councils overview").
 
-## 2021 School Council members
+## 2022 School Council members
 
 ### Department of Education and Training representatives
 
@@ -31,18 +31,18 @@ Department employees include staff members at the school. Members of this catego
 * Meredith Thornton - Acting Assistant Principal
 * Amanda Callaway
 * Deidre Prior
-* Maja Rizzotto
 
 ### Parent representatives
 
 Parent members must comprise more than one-third of council's total membership. Department employees are eligible to be parent members at their child's school, as long as they do not work at the particular school.
 
 * Jimmy Harris - President
-* Matt West - Vice-President
+* Mark Hawthorne - Vice-President
 * Nick Austin - Treasurer
-* Debbie Fiorenza - Minute Secretary
-* Dave Greenstreet
-* Georgie Jones
+* Lucy Rogers - Minute Secretary
+* Elizabeth Andrew
 * Nooshin Evans
-* Volkan Ozturk
+* Kimberly Hall
+* Georgie Jones
+* Aime Loydell
 * Lucy Rogers
