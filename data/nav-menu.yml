@@ -1,0 +1,17 @@
+menu:
+  - name: Home
+    link: /
+  - name: Our School 
+    link: /our-school/
+  - title: Learning
+    menu:
+      - name: Leadership
+        link: /learning/leadership/
+      - name: Sustainability
+        link: /learning/sustainability/
+  - name: Community
+    link: /commmunity/
+  - name: Events
+    link: /events/
+  - name: News
+    link: /news/
