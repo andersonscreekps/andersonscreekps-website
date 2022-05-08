@@ -1,5 +1,8 @@
 timezone: "Australia/Melbourne"
 data_config: true
+_enabled_editors:
+  - visual
+  - content
 
 collections_config:
   calendar:
@@ -16,9 +19,6 @@ collections_config:
     description: Upcoming school events.
     text_key: title
     subtext_key: summary
-    add_options:
-      - name: Add event 
-        editor: content
     schemas:
       default:
         path: schemas/event.md
