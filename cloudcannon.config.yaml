@@ -35,8 +35,6 @@ collections_config:
     path: content/our-school
     icon: article
     description: Our school section of the website.
-  pages:
-    
   policies:
     path: content/policies
     icon: policy 
