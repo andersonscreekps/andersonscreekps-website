@@ -60,6 +60,17 @@ collections_config:
     schemas:
       default:
         path: schemas/update.md
+_structures:
+  menu:
+    values:
+      - label: 'Item'
+        value: 
+          name: ""
+          link: ""
+      - label: 'Nest'
+        value: 
+          title: ""
+          menu: ""
 _inputs:
   summary:
     type: markdown
