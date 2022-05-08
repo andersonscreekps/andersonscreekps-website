@@ -1,8 +1,5 @@
 timezone: "Australia/Melbourne"
 data_config: true
-_enabled_editors:
-  - visual
-  - content
 
 collections_config:
   calendar:
@@ -38,6 +35,8 @@ collections_config:
     path: content/our-school
     icon: article
     description: Our school section of the website.
+  pages:
+    
   policies:
     path: content/policies
     icon: policy 
