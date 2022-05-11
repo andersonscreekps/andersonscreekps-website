@@ -1,5 +1,9 @@
 ---
 date: 2022-01-01T00:00:00+11:00
+menu:
+  main:
+    weight: 1
+    name: Home
 content_blocks:
   - _bookshop_name: swiper
     title: Swiper
