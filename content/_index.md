@@ -10,21 +10,29 @@ content_blocks:
     image_transforms: q_60,f_auto,e_sharpen
     sections:
       - title: Prep classroom
-        image: /v1631592524/assets/img/home/20200603-151859.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20200603-151859.jpg
       - title: Boys in Learning Shack
-        image: /v1631592525/assets/img/home/20201029-125830.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631611967/assets/img/home/20201029-125830.jpg
       - title: Girls with chooks
-        image: /v1631592525/assets/img/home/20201105-115737.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592525/assets/img/home/20201105-115737.jpg
       - title: Boys writing
-        image: /v1631592524/assets/img/home/20180810-095841.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20180810-095841.jpg
       - title: Girls on steeplechase beam
-        image: /v1631592524/assets/img/home/20190912-114206.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20190912-114206.jpg
       - title: Girls athletics ribbons
-        image: /v1631592524/assets/img/home/20190807-104641.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20190807-104641.jpg
       - title: Crazy hair production scene
-        image: /v1631592524/assets/img/home/20190911-191925.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20190911-191925.jpg
       - title: Prep art class
-        image: /v1631592525/assets/img/home/20200610-104725.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631592524/assets/img/home/20180810-090920.jpg
   - _bookshop_name: welcome
     title: Andersons Creek Primary School
     content: >-
