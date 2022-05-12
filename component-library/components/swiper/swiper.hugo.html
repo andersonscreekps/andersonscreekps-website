@@ -6,6 +6,8 @@
 <div class="js-swiper-autoplay swiper-container">
   <div class="swiper-wrapper">
     {{ range $key, $value := .sections }}
+      {{ $cloudinary_base_url := replaceRE "(^https?://res.cloudinary.com/andersonscreekps/image/upload/).*" "$1" $value.image }}
+      {{ $swiper_image_path := replaceRE "^https?://res.cloudinary.com/andersonscreekps/image/upload/(.*)" "/$1" $value.image }}
     <div class="swiper-slide">
         <img class="img-fluid w-100" 
 	     width="16"
@@ -13,8 +15,8 @@
           srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
-          {{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
-          {{- end }}" sizes="100vw" src="{{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_1920{{ $value.image }}" alt="{{ .title }}">
+          {{ $cloudinary_base_url }}{{ $.image_transforms }},w_{{ . }}{{ $swiper_image_path }} {{ . }}w
+          {{- end }}" sizes="100vw" src="{{ $.cloudinary_base_url }}{{ $.image_transforms }},w_1920{{ $swiper_image_path }}" alt="{{ .title }}">
     </div>
     {{ end }}
   </div>
