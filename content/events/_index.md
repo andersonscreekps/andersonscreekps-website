@@ -1,8 +1,7 @@
 +++
 date = "2019-01-01T00:00:00+11:00"
-title = "Upcoming events"
+title = "Events"
 [menu.main]
-parent = "Events"
-weight = 1
+weight = 50
 
 +++
