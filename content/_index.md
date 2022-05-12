@@ -124,7 +124,7 @@ content_blocks:
     title: Events and updates
     cloudinary_base_url: >-
       https://res.cloudinary.com/andersonscreekps/image/upload/v1646522405/20211021-081412.jpg
-    image_transforms: q_60,f_auto,e_sharpen
+    image_transforms: q_60,f_auto,e_sharpen,w_600
     events_title: Upcoming events
     events_image: >-
       https://res.cloudinary.com/andersonscreekps/image/upload/v1646522405/20211021-081412.jpg
