@@ -14,26 +14,6 @@ metaDataFormat = "toml"
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = [""]
-[[menu.main]]
-name = "Our school"
-pre = "info-circle"
-weight = 1
-[[menu.main]]
-name = "Learning"
-pre = "user-graduate"
-weight = 2
-[[menu.main]]
-name = "Community"
-pre = "users"
-weight = 3
-[[menu.main]]
-name = "Events"
-pre = "calendar-alt"
-weight = 4
-[[menu.main]]
-name = "News"
-pre = "newspaper"
-weight = 5
 [outputFormats.HEADERS]
 baseName = "_headers"
 isPlainText = true
