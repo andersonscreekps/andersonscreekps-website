@@ -209,5 +209,11 @@ welcome_button_2:
   button_icon: bi bi-chat-right-text
   title: Contact us
   url: /our-school/contact-us/
+
+_inputs
+  menu:
+    hidden: true
+  aliases:
+    hidden: true
 ---
 
