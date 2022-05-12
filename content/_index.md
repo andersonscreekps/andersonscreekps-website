@@ -122,8 +122,6 @@ content_blocks:
           courts.
   - _bookshop_name: events-updates
     title: Events and updates
-    cloudinary_base_url: >-
-      https://res.cloudinary.com/andersonscreekps/image/upload/v1646522405/20211021-081412.jpg
     image_transforms: q_60,f_auto,e_sharpen,w_600
     events_title: Upcoming events
     events_image: >-

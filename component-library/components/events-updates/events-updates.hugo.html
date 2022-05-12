@@ -1,8 +1,15 @@
 {{ "<!-- Events & Updates -->" | safeHTML }}
+
+{{ $cloudinary_params := "q_60,f_auto,e_sharpen,c_fill,g_auto,w_600" }}
+
+{{ $cloudinary_base_url := replaceRE "(^https?://res.cloudinary.com/andersonscreekps/image/upload/).*" "$1" .events_image }}
+{{ $events_image_path := replaceRE "^https?://res.cloudinary.com/andersonscreekps/image/upload/(.*)" "/$1" .events_image }}
+{{ $updates_image_path := replaceRE "^https?://res.cloudinary.com/andersonscreekps/image/upload/(.*)" "/$1" .updates_image }}
+
 <section id="events-updates" class="mt-10">
   <div class="container-fluid">
     <div class="row no-gutters">
-      <div class="col-lg-6  order-lg-2 m-0 p-0" style="background-image: url('{{ .cloudinary_base_url }}/{{ .image_transforms }},c_fill,g_auto,w_600{{ .events_image }}'); min-height:45rem; background-size: cover;"></div>
+      <div class="col-lg-6  order-lg-2 m-0 p-0" style="background-image: url('{{ $cloudinary_base_url}}{{ .image_transforms }}{{ $events_image_path }}'); min-height:45rem; background-size: cover;"></div>
       <div class="col-lg-6 p-4 order-lg-1">
   <div class="text-center mx-md-auto mb-7">
     <h2 class="display-6">{{ .events_title }}</h2>
@@ -13,7 +20,7 @@
         {{- partial "upcoming-events.html" . -}}
 {{ end }}
       </div>
-      <div class="col-lg-6 m-0 p-0 order-lg-3" style="background-image: url('{{ .cloudinary_base_url }}/{{ .image_transforms }},c_fill,g_auto,w_600{{ .updates_image }}'); min-height:45rem; background-size: cover;"></div>
+      <div class="col-lg-6 m-0 p-0 order-lg-3" style="background-image: url('{{ $cloudinary_base_url }}/{{ .image_transforms }}{{ $updates_image_path }}'); min-height:45rem; background-size: cover;"></div>
       <div class="col-lg-6 p-4 order-lg-4">
   <div class="text-center mx-md-auto mb-7">
     <h2 class="display-6">{{ .updates_title }}</h2>
