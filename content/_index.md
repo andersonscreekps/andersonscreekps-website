@@ -210,7 +210,7 @@ welcome_button_2:
   title: Contact us
   url: /our-school/contact-us/
 
-_inputs
+_inputs:
   menu:
     hidden: true
   aliases:
