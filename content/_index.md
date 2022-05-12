@@ -130,7 +130,6 @@ content_blocks:
       https://res.cloudinary.com/andersonscreekps/image/upload/v1548900561/20180526-083159.jpg
   - _bookshop_name: school-snapshots
     heading: School snapshots
-    cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
     image_transforms: q_60,f_auto,e_sharpen
     sections:
       - title: Girls swimming
