@@ -8,7 +8,9 @@
     <div class="row">
       {{ range $key, $value := .sections }}
       <div class="col-sm-6 col-lg-4 p-2">
-        <a href="{{ $.cloudinary_base_url }}{{ $value.image }}">
+      {{ $cloudinary_base_url := replaceRE "(^https?://res.cloudinary.com/andersonscreekps/image/upload/).*" "$1" $value.image }}
+      {{ $snapshot_image_path := replaceRE "^https?://res.cloudinary.com/andersonscreekps/image/upload/(.*)" "/$1" $value.image }}
+        <a href="{{ $value.image }}">
           <img
             class="img-fluid rounded border border-2 shadow-sm p-1"
             width="3"
@@ -16,10 +18,10 @@
             srcset="
           {{- range $i, $e := $imageBreakpoints -}}
           {{- if $i -}}, {{ end -}}
-          {{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
+          {{ $cloudinary_base_url }}{{ $.image_transforms }},w_{{ . }}{{ $snapshot_image_path }} {{ . }}w
           {{- end }}"
             sizes="(min-width: 992px) 33.33vw, (min-width: 576px) 50vw, 100vw"
-            src="{{ $.cloudinary_base_url }}/{{ $.image_transforms }},w_600{{ $value.image }}"
+            src="{{ $cloudinary_base_url }}{{ $.image_transforms }},w_600{{ $snapshot_image_path }}"
             alt="{{ .title }}"
             loading="lazy"
         /></a>
