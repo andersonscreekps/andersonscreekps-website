@@ -122,12 +122,15 @@ content_blocks:
           courts.
   - _bookshop_name: events-updates
     title: Events and updates
-    cloudinary_base_url: "https://res.cloudinary.com/andersonscreekps"
+    cloudinary_base_url: >-
+      https://res.cloudinary.com/andersonscreekps/image/upload/v1646522405/20211021-081412.jpg
     image_transforms: q_60,f_auto,e_sharpen
     events_title: Upcoming events
-    events_image: /v1646522405/20211021-081412.jpg
-    updates_title: Latest updates 
-    updates_image: /v1548900561/20180526-083159.jpg
+    events_image: >-
+      https://res.cloudinary.com/andersonscreekps/image/upload/v1646522405/20211021-081412.jpg
+    updates_title: Latest updates
+    updates_image: >-
+      https://res.cloudinary.com/andersonscreekps/image/upload/v1548900561/20180526-083159.jpg
   - _bookshop_name: school-snapshots
     heading: School snapshots
     cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
