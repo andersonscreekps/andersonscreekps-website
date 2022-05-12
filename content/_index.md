@@ -135,17 +135,23 @@ content_blocks:
     image_transforms: q_60,f_auto,e_sharpen
     sections:
       - title: Girls swimming
-        image: /v1631681329/assets/img/our-school/snapshots/20200224-091335.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681329/assets/img/our-school/snapshots/20200224-091335.jpg
       - title: Boys in front of Cluckingham Palace
-        image: /v1631681330/assets/img/our-school/snapshots/20201105-115301.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681330/assets/img/our-school/snapshots/20201105-115301.jpg
       - title: Boys' production scene
-        image: /v1631681329/assets/img/our-school/snapshots/20190911-213714.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681329/assets/img/our-school/snapshots/20190911-213714.jpg
       - title: Christmas carols singing
-        image: /v1631681329/assets/img/our-school/snapshots/20191211-173918.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681329/assets/img/our-school/snapshots/20191211-173918.jpg
       - title: Upside-down hair girls
-        image: /v1631681330/assets/img/our-school/snapshots/20201029-122847.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681330/assets/img/our-school/snapshots/20201029-122847.jpg
       - title: Boys' cross-country
-        image: /v1631681331/assets/img/our-school/snapshots/20210505-123723.jpg
+        image: >-
+          https://res.cloudinary.com/andersonscreekps/image/upload/v1631681331/assets/img/our-school/snapshots/20210505-123723.jpg
   - _bookshop_name: any-questions
     heading: Any questions?
     sections:
