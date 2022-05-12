@@ -7,7 +7,6 @@ menu:
 content_blocks:
   - _bookshop_name: swiper
     title: Swiper
-    cloudinary_base_url: https://res.cloudinary.com/andersonscreekps
     image_transforms: q_60,f_auto,e_sharpen
     sections:
       - title: Prep classroom

@@ -10,7 +10,6 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title: ""
-  cloudinary_base_url: ""
   image_transforms: "" 
   sections:
     - title: ""
