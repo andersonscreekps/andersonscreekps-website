@@ -80,3 +80,5 @@ _inputs:
     type: textarea
   draft:
     type: switch 
+  banner:
+    type: image
