@@ -6,6 +6,6 @@ title = "Community"
 weight = 40
 
 [cascade]
-banner = "https://res.cloudinary.com/andersonscreekps/image/upload/v1639459986/banners/20211021-081453-default.jpg"
+banner = "https://res.cloudinary.com/andersonscreekps/image/upload/v1630493831/banners/20200520-104049-community.jpg"
 +++
 
