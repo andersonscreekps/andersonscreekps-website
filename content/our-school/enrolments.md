@@ -3,9 +3,9 @@ date = 2021-09-01T00:00:00Z
 title = "Enrolments"
 
 +++
-## 2022 enrolments
+## 2023 enrolments
 
-Enrolments for 2022 are now being accepted.
+Enrolments for 2023 are now being accepted.
 
 Please [contact us](/our-school/contact-us/ "Contact us") to find out more information and to arrange a tour of our school.
 
