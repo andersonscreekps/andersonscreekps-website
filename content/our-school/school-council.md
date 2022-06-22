@@ -1,6 +1,6 @@
 +++
 aliases = ["/about/school-council"]
-date = 2021-09-01T00:00:00Z
+date = 2022-03-01T00:00:00Z
 title = "School Council"
 [menu.main]
 parent = "Our school"
@@ -45,4 +45,3 @@ Parent members must comprise more than one-third of council's total membership. 
 * Kimberly Hall
 * Georgie Jones
 * Aime Loydell
-* Lucy Rogers
