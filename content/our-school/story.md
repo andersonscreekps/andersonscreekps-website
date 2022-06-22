@@ -1,7 +1,7 @@
 +++
+aliases = ["/about/our-vision", "/about/our-future"]
 date = 2021-09-01T00:00:00Z
 title = "Our story"
-aliases = ["/about/our-vision", "/about/our-future"]
 [menu.main]
 parent = "Our school"
 weight = 1
@@ -40,9 +40,8 @@ We are committed to developing strong links with the local community, hence our 
 
 ## Reports
 
-{{< image "/assets/img/our-school/20200610-120917.jpg" "Adding strategies worksheet" >}}
+{{< image "/assets/img/our-school/20200610-120917.jpg" "Addition strategies worksheet" >}}
 
-* [2020 Annual report](https://res.cloudinary.com/andersonscreekps/image/upload/v1631587447/publications/2020_Annual_Report.pdf "2020 Annual report")
-* [2019-2022 Strategic plan](https://res.cloudinary.com/andersonscreekps/image/upload/v1587869953/publications/2019-2022_Strategic_Plan.pdf "2019-2022 Strategic plan")
+School reports including our Annual Reports and Strategic Plans can be found on our [publications page](/publications/ "Publications"). 
 
 You can find out more about our school profile, NAPLAN results, attendance and finances on the [My School website](https://www.myschool.edu.au/school/45019 "Anderson's Creek Primary School - My School").
