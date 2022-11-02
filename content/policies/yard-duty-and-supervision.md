@@ -1,7 +1,7 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2022-11-03T00:00:00Z
 description = ""
-link = "/v1631253027/policies/ACPS_Yard_Duty_and_Supervision_Policy_-_July_2021.pdf"
+link = "/v1667428351/policies/ACPS_Yard_Duty_Supervision_Policy_2022.pdf"
 title = "Yard duty and supervision"
 
 +++
