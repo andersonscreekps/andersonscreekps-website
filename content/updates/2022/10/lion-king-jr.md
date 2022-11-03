@@ -6,7 +6,7 @@ summary: >-
   All good things must come to and end and there were some mixed emotions and
   more than a few tears after the final performance of Disney's Lion King Jr on
   Saturday evening.
-draft: true
+draft: false
 ---
 It was a wonderful learning journey leading up to that final moment, and we watched in awe at the growth of the students involved. We could see the difference from one performance to the next, let alone from the first rehearsal all those months ago.
 
