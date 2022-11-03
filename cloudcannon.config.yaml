@@ -84,7 +84,7 @@ _inputs:
     type: image
 
 _snippets:
-  custom_snippet:
+  image-2:
     template: hugo_shortcode_positional_args
     inline: false
     preview:
