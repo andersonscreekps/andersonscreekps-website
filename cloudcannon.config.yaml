@@ -103,10 +103,10 @@ _snippets:
           type: string
         - editor_key: caption
           type: string
-      _inputs:
-        src:
-          type: image
-        alt:
-          type: text 
-        caption:
-          type: text
+    _inputs:
+      src:
+        type: image
+      alt:
+        type: text 
+      caption:
+        type: text
