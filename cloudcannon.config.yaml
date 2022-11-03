@@ -88,7 +88,10 @@ _snippets:
     template: hugo_shortcode_positional_args
     inline: false
     preview:
-      text: Image
+      icon: image
+      text:
+        - key: image_name
+        - Image missing
     definitions:
       shortcode_name: image
       positional_args:
