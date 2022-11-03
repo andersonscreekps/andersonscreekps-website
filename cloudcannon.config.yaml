@@ -87,7 +87,7 @@ _snippets:
   image_1:
     template: hugo_shortcode_positional_args
     inline: false
-    preview:
+    preview_option:
       image: 
         - key: image_1
         - Image missing
@@ -116,12 +116,6 @@ _snippets:
       text:
         - key: image_name_1
         - Image 1
-      image:
-        - key: image_2
-        - Image missing
-      text:
-        - key: image_name_2
-        - Image 2 
     definitions:
       shortcode_name: image_2
       positional_args:
