@@ -92,7 +92,12 @@ _snippets:
     definitions:
       shortcode_name: image_1
       positional_args:
-        - editor_key: image_url_1
-          type: image 
+        - editor_key: image_1
+          type: string 
         - editor_key: image_name_1
           type: string 
+      _inputs:
+        image_1:
+          type: image
+        image_name_1:
+          type: text 
