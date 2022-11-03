@@ -1,7 +1,6 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-09-01T00:00:00.000Z
 description = ""
-link = "/v1653271258/policies/Refund_Policy_2022.pdf"
+link = "https://res.cloudinary.com/andersonscreekps/image/upload/v1653271258/policies/Refund_Policy_2022.pdf"
 title = "Refund"
-
 +++
