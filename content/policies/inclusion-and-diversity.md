@@ -1,7 +1,6 @@
 +++
-date = 2022-11-03T00:00:00Z
+date = 2022-11-03T00:00:00.000Z
 description = ""
-link = "/v1667428353/policies/ACPS_Inclusion_and_Diversity_Policy_2022.pdf"
+link = "https://res.cloudinary.com/andersonscreekps/image/upload/v1667428353/policies/ACPS_Inclusion_and_Diversity_Policy_2022.pdf"
 title = "Inclusion and Diversity"
-
 +++
