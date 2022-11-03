@@ -7,9 +7,9 @@ aliases = [ "/about/facilities" ]
 parent = "Our school"
 weight = 4
 +++
-{{< image "/assets/img/our-school/20180527-080323.jpg" "Aerial view of Andersons Creek Primary School" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631169513/assets/img/our-school/20180527-080323.jpg" alt="Aerial view of Andersons Creek Primary School" caption="Aerial view of Andersons Creek Primary School" >}}
 
-Andersons Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
+​​​​​​Andersons Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
 
 {{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1548900804/20180810-094819.jpg" alt="Girls reading" caption="Girls reading" >}}
 
