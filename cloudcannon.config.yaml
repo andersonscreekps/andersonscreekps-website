@@ -82,3 +82,21 @@ _inputs:
     type: switch 
   banner:
     type: image
+
+_snippets:
+  custom_snippet:
+    template: hugo_shortcode_positional_args
+    inline: false
+    preview:
+      text: Image 2 
+    definitions:
+      shortcode_name: image-2 
+      positional_args:
+        - editor_key: image-url-1 
+          type: image 
+        - editor_key: image-name-1 
+          type: string 
+        - editor_key: image-url-2 
+          type: image
+        - editor_key: image-name-2 
+          type: string 
