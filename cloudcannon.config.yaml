@@ -84,27 +84,27 @@ _inputs:
     type: image
 
 _snippets:
-  image:
+  image_1:
     template: hugo_shortcode_positional_args
     inline: false
     preview:
       image: 
-        - key: image
+        - key: image_1
         - Image missing
       text:
-        - key: image_name
+        - key: image_1_name
         - Single image
     definitions:
-      shortcode_name: image
+      shortcode_name: image_1
       positional_args:
-        - editor_key: image
+        - editor_key: image_1
           type: string 
-        - editor_key: image_name
+        - editor_key: image_name_1
           type: string 
       _inputs:
-        image:
+        image_1:
           type: image
-        image_name:
+        image_name_1:
           type: text 
   image_2:
     template: hugo_shortcode_positional_args
