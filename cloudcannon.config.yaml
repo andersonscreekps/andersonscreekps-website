@@ -89,7 +89,7 @@ _snippets:
     inline: false
     preview:
       icon: image
-      gallery: 
+      image: 
         - key: image
         - Image missing
       text:
