@@ -90,7 +90,7 @@ _snippets:
     preview:
       icon: image
       gallery: 
-        - key: image_path
+        - key: image
         - Image missing
       text:
         - key: image_name
