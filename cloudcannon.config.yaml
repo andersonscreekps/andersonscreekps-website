@@ -84,19 +84,15 @@ _inputs:
     type: image
 
 _snippets:
-  image_2:
+  image:
     template: hugo_shortcode_positional_args
     inline: false
     preview:
-      text: Image 2 
+      text: Image
     definitions:
-      shortcode_name: image_2 
+      shortcode_name: image_1
       positional_args:
-        - editor_key: image_url_1 
+        - editor_key: image_url_1
           type: image 
-        - editor_key: image_name_1 
-          type: string 
-        - editor_key: image_url_2 
-          type: image
-        - editor_key: image_name_2 
+        - editor_key: image_name_1
           type: string 
