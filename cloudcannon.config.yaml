@@ -87,7 +87,7 @@ _snippets:
   image_1:
     template: hugo_shortcode_named_args
     inline: false
-    preview_option:
+    preview:
       image: 
         - key: src 
         - Image missing
