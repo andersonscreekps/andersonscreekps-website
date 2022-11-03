@@ -90,14 +90,14 @@ _snippets:
     preview:
       text: Image
     definitions:
-      shortcode_name: image_1
+      shortcode_name: image
       positional_args:
-        - editor_key: image_1
+        - editor_key: image
           type: string 
-        - editor_key: image_name_1
+        - editor_key: image_name
           type: string 
       _inputs:
-        image_1:
+        image:
           type: image
-        image_name_1:
+        image_name:
           type: text 
