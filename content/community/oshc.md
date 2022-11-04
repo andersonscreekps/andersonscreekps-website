@@ -20,7 +20,7 @@ More information about the service can be found in [TheirCare's Parent informati
 
 &nbsp;
 
-<table border="1px"><thead><tr><th width="50%">Care type</th><th width="50%">Opening hours</th></tr></thead><tbody><tr><td>Before school care</td><td>7:00--8:45am</td></tr><tr><td>After school care</td><td>3:30--6:30pm</td></tr><tr><td>Holiday program</td><td>7:00am--6:30pm</td></tr><tr><td>Pupil-free days</td><td>7:00am -- 6:30pm</td></tr></tbody></table>
+<table class="table table-bordered"><thead><tr><th>Care type</th><th>Opening hours</th></tr></thead><tbody><tr><td>Before school care</td><td>7:00--8:45am</td></tr><tr><td>After school care</td><td>3:30--6:30pm</td></tr><tr><td>Holiday program</td><td>7:00am--6:30pm</td></tr><tr><td>Pupil-free days</td><td>7:00am -- 6:30pm</td></tr></tbody></table>
 
 TheirCare also offers [school holiday programs](https://theircare.com.au/holiday-programs/andersons-creek-primary-school-2/ "School holiday programs") at Andersons Creek Primary School.
 
