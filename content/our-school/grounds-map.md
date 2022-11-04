@@ -7,5 +7,4 @@ aliases = [ "/about/diagram" ]
 parent = "Our school"
 weight = 6
 +++
-
-{{< image "/assets/img/community/20180527-080112-grounds-map.jpg" "Grounds map" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631223259/assets/img/community/20180527-080112-grounds-map.jpg" title="Grounds map" caption="Grounds map" >}}
