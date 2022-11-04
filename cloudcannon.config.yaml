@@ -116,36 +116,25 @@ _snippets:
     inline: false
     preview:
       image: 
-        - key: src_1
+        - key: src 
         - Image missing
       text:
-        - key: alt_1
-        - First image
+        - key: alt 
+        - Single image
     definitions:
       shortcode_name: image_2
       named_args:
-        - editor_key: src_1 
+        - editor_key: src 
           type: string 
-        - editor_key: alt_1
+        - editor_key: alt 
           type: string
-        - editor_key: caption_1
-          type: string
-        - editor_key: src_2
-          type: string 
-        - editor_key: alt_2
-          type: string
-        - editor_key: caption_2
+        - editor_key: caption
           type: string
     _inputs:
-      src_1:
+      src:
         type: image
-      alt_1:
+      alt:
         type: text 
-      caption_1:
+      caption:
         type: text
-      src_2:
-        type: image
-      alt_2:
-        type: text 
-      caption_2:
-        type: text
+
