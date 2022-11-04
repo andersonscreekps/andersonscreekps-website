@@ -7,7 +7,6 @@ title = "Leadership"
 parent = "Learning"
 weight = 2
 +++
-
 We pride ourselves on developing our students' leadership skills, and we give them many opportunities to become leaders.
 
 We have school captains, vice captains, house captains and many other roles.
@@ -15,8 +14,7 @@ We have school captains, vice captains, house captains and many other roles.
 ## 2022 leaders
 
 ### School Captains
-
-{{< image-2 "/assets/img/learning/20220211-151842-2022-school-captains.jpg" "2022 School Captains" "/assets/img/learning/20220211-152029-school-vice-captains.jpg" "2022 School Vice Captains" >}}
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1646173201/assets/img/learning/20220211-151842-2022-school-captains.jpg" title_1="2022 School Captains" caption_1="2022 School Captains" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1646173202/assets/img/learning/20220211-152029-school-vice-captains.jpg" title_2="2022 School Vice Captains" caption_2="2022 School Vice Captains" >}}
 
 **School Captains:** Jay and Rosalie
 
