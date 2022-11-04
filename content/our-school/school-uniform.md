@@ -1,11 +1,10 @@
 +++
-date = 2021-09-01T00:00:00Z
+date = 2021-09-01T00:00:00.000Z
 title = "School uniform"
-
 +++
 Andersons Creek Primary School has a compulsory uniform policy with a uniform based on our school colours of navy blue and white.
 
-{{< image-2 "/assets/img/uniform/navy-polo.jpg" "Navy short-sleeve polo" "/assets/img/uniform/summer-dress.jpg" "Summer dress" >}}
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1651871976/assets/img/uniform/navy-polo.jpg" title_1="Navy short-sleeve polo" caption_1="Navy short-sleeve polo" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1646105292/assets/img/uniform/summer-dress.jpg" title_2="Summer dress" caption_2="Summer dress" >}}
 
 The uniform consists of:
 
@@ -17,7 +16,6 @@ The uniform consists of:
 * Navy blue puffer jacket with embroidered school logo on the left breast.
 * Hooded navy blue wind-cheater with the school logo on the left breast.
 * Navy blue hat which must be worn outside for all of terms 1 and 4.
-
-{{< image-2 "/assets/img/uniform/bomber-jacket.jpg" "Navy bomber jacket" "/assets/img/uniform/navy-puffer.jpg" "Navy puffer jacket">}}
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1631616245/assets/img/uniform/bomber-jacket.jpg" title_1="Navy bomber jacket" caption_1="Navy bomber jacket" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1651871976/assets/img/uniform/navy-puffer.jpg" title_2="Navy puffer jacket" caption_2="Navy puffer jacket" >}}
 
 Our uniforms can be purchased from the [PSW Croydon store](https://www.psw.com.au/storelocations "PSW Croydon store") or directly from the [PSW online store](https://www.psw.com.au/schools/anderson-s-creek-primary-school.html "PSW online store").
