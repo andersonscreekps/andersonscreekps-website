@@ -123,12 +123,21 @@ _snippets:
     template: hugo_shortcode_named_args
     inline: false
     preview:
-      image: 
-        - key: src_1
-        - Image missing
       text:
-        - key: alt_1
-        - First image
+        - key: alt
+        - Image
+      subtext:
+        - key: caption
+        - Full-width image with an optional caption below.
+      gallery:
+        image:
+          - key: src_1
+          - key: src_2
+        text: No preview available
+        fit: contain
+      icon: image
+      image: src_1
+      view: gallery
     definitions:
       shortcode_name: image_2
       named_args:
