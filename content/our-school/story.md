@@ -1,11 +1,11 @@
 +++
-aliases = ["/about/our-vision", "/about/our-future"]
-date = 2021-09-01T00:00:00Z
+aliases = [ "/about/our-vision", "/about/our-future" ]
+date = 2021-09-01T00:00:00.000Z
 title = "Our story"
+
 [menu.main]
 parent = "Our school"
 weight = 1
-
 +++
 ## About
 
@@ -15,7 +15,7 @@ Our school grounds provide a variety of spaces for students of all year levels t
 
 We have an inclusive and community-focused culture and aim to provide an educational environment where all our students can reach their full potential. We understand that learning is not simply about intellectual development and we place just as much emphasis on emotional, social and physical development.
 
-{{< image "/assets/img/our-school/20190915-130510.jpg" "Girls after our colour run" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631588437/assets/img/our-school/20190915-130510.jpg" title="Girls after our colour run" caption="Girls after our colour run" >}}
 
 Our key academic focus is on high achievement in numeracy and literacy and we strive for excellence in education. We achieve this by having engaged, optimistic, motivated and independent learners who are confident about their future. We have high expectations for students and provide a curriculum where children experience differentiated learning and open-ended tasks that promote inquiry in learning.
 
@@ -25,7 +25,7 @@ We work hard to create a culture of mutual respect between students, teachers an
 
 All our staff strive to build positive and authentic relationships with the students they teach.
 
-{{< image "/assets/img/our-school/20180526-084033.jpg" "Handprints on a garden fence" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631588422/assets/img/our-school/20180526-084033.jpg" title="Handprints on a garden fence" caption="Handprints on a garden fence" >}}
 
 Positive values are an integral part of our school and strongly influence our behaviour and the way we interact within our community as well as those around us.
 
@@ -36,12 +36,11 @@ Positive values are an integral part of our school and strongly influence our be
 
 There is a strong partnership between students, parents and staff. We have a high level of participation from parents in the school through School Council, classroom helpers, fundraising and social activities.
 
-We are committed to developing strong links with the local community, hence our school motto is _"Learning with the Community"_.
+We are committed to developing strong links with the local community, hence our school motto is *"Learning with the Community"*.
 
 ## Reports
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631765394/assets/img/our-school/20200610-120917.jpg" title="Addition strategies worksheet" caption="Addition strategies worksheet" >}}
 
-{{< image "/assets/img/our-school/20200610-120917.jpg" "Addition strategies worksheet" >}}
-
-School reports including our Annual Reports and Strategic Plans can be found on our [publications page](/publications/ "Publications"). 
+School reports including our Annual Reports and Strategic Plans can be found on our [publications page](/publications/ "Publications").
 
 You can find out more about our school profile, NAPLAN results, attendance and finances on the [My School website](https://www.myschool.edu.au/school/45019 "Anderson's Creek Primary School - My School").
