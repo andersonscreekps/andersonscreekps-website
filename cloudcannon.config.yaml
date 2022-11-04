@@ -110,3 +110,42 @@ _snippets:
         type: text 
       caption:
         type: text
+
+  image_2:
+    template: hugo_shortcode_named_args
+    inline: false
+    preview:
+      image: 
+        - key: src_1
+        - Image missing
+      text:
+        - key: alt_1
+        - First image
+    definitions:
+      shortcode_name: image_2
+      named_args:
+        - editor_key: src_1 
+          type: string 
+        - editor_key: alt_1
+          type: string
+        - editor_key: caption_1
+          type: string
+        - editor_key: src_2
+          type: string 
+        - editor_key: alt_2
+          type: string
+        - editor_key: caption_2
+          type: string
+    _inputs:
+      src_1:
+        type: image
+      alt_1:
+        type: text 
+      caption_1:
+        type: text
+      src_2:
+        type: image
+      alt_2:
+        type: text 
+      caption_2:
+        type: text
