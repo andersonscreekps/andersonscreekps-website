@@ -37,7 +37,7 @@ The children's garden has a range of raised garden beds, worm and compost farms,
 
 We have a large synthetic oval with a perimeter running track and central cricket pitch. The oval had a major refurbishment and resurfacing in 2020 and is used by students at recess and lunchtime and for their physical education classes. It is also used by local sporting clubs outside of school hours.
 
-{{< image_2 src_1="/assets/img/our-school/20201125-094357.jpg" title_1="Northern goal square of oval" caption_1="Northern goal square of oval" src_2="/assets/img/our-school/20201125-094158.jpg" title_2="Southern goal square of oval" caption_2="Southern goal square of oval" >}}
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1631169582/assets/img/our-school/20201125-094357.jpg" title_1="Northern goal square of oval" caption_1="Northern goal square of oval" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1631169581/assets/img/our-school/20201125-094158.jpg" title_2="Southern goal square of oval" caption_2="Southern goal square of oval" >}}
 
 ## Indoor basketball stadium
 
@@ -57,7 +57,7 @@ Our multi-purpose courts are used for ball games including bat tennis, down ball
 
 Our school has three major play areas with a range of play equipment suitable for children of all ages. Some of the play areas are dedicated for particular year levels and the remainder are used by all.
 
-{{< image_2 src_1="/assets/img/our-school/20180520-110427.jpg" title_1="Spider and playground slides" caption_1="Spider and playground slides" src_2="/assets/img/our-school/20180526-082436.jpg" title_2="Playground slides and swinging loops" caption_2="Playground slides and swinging loops" >}}
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1631170669/assets/img/our-school/20180520-110427.jpg" title_1="Spider and playground slides" caption_1="Spider and playground slides" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1631170669/assets/img/our-school/20180526-082436.jpg" title_2="Playground slides and swinging loops" caption_2="Playground slides and swinging loops" >}}
 
 ## Basketball and netball courts
 
