@@ -11,6 +11,8 @@ timeout = "300000"
 title = "Andersons Creek Primary School"
 uglyURLs = false
 metaDataFormat = "toml"
+[markup.goldmark.renderer]
+unsafe = true
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = [""]
