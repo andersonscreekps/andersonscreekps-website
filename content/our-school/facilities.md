@@ -11,9 +11,7 @@ weight = 4
 
 ​​​​​​Andersons Creek Primary School is centred on two hexagon-shaped buildings that house open-planned classrooms opening onto shared workspaces. Another hexagon houses our offices and performing arts theatre.
 
-{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1548900804/20180810-094819.jpg" alt="Girls reading" caption="Girls reading" >}}
-
-Surrounding these buildings are our outdoor facilities as well as additional smaller classroom buildings and an indoor basketball stadium.
+​​​​​Surrounding these buildings are our outdoor facilities as well as additional smaller classroom buildings and an indoor basketball stadium.
 
 ## Performing arts theatre
 
@@ -21,7 +19,9 @@ Our performing arts theatre seats 440 people and has a fully equipped stage. Thi
 
 The theatre is available for either regular or occasional hire for community and business groups. Please contact our office for more information.
 
-{{< image "/galleries/our-facilities/20180520-110315.jpg" "Performing arts theatre" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1585282957/galleries/our-facilities/20180520-110315.jpg" alt="Performing arts theatre" caption="Performing arts theatre" >}}
+
+&nbsp;
 
 ## Learning shack
 
@@ -33,7 +33,9 @@ Children absorb information in different ways and enjoy a variety of different l
 
 The children's garden has a range of raised garden beds, worm and compost farms, a garden shed and a chook shed that houses our feathered friends.
 
-{{< image "/assets/img/our-school/20180520-083837.jpg" "Children's garden and chook house" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1585282813/galleries/our-facilities/20180520-083837.jpg" alt="Children's garden and chook house" caption="Children's garden and chook house" >}}
+
+&nbsp;
 
 ## Synthetic oval
 
@@ -53,7 +55,9 @@ Outside of school hours, the stadium is run as the [Warrandyte Sports Centre](ht
 
 Our multi-purpose courts are used for ball games including bat tennis, down ball and cricket.
 
-{{< image "/assets/img/our-school/20180526-090730.jpg" "Multipurpose courts" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631170920/assets/img/our-school/20180526-090730.jpg" alt="Multipurpose courts" caption="Multipurpose courts" >}}
+
+&nbsp;
 
 ## Playgrounds
 
@@ -65,4 +69,6 @@ Our school has three major play areas with a range of play equipment suitable fo
 
 As well as the indoor basketball stadium, we also have two outdoor courts with all-weather surfaces that are used for basketball and netball games.
 
-{{< image "/assets/img/our-school/20180520-091741.jpg" "Basketball court with netball court in the background" >}}
+{{< image_1 src="https://res.cloudinary.com/andersonscreekps/image/upload/v1631172833/assets/img/our-school/20180520-091741.jpg" alt="Basketball court with netball court in the background" caption="Basketball court with netball court in the background" >}}
+
+&nbsp;
