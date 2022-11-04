@@ -89,11 +89,11 @@ _snippets:
     inline: false
     preview:
       text:
-        - key: alt_text
+        - key: title 
         - Image
       subtext:
         - key: caption
-        - Full-width image with an optional caption below.
+        - Single image with an optional caption below.
       gallery:
         image:
           - key: src
@@ -107,14 +107,14 @@ _snippets:
       named_args:
         - editor_key: src 
           type: string 
-        - editor_key: alt 
+        - editor_key: title 
           type: string
         - editor_key: caption
           type: string
     _inputs:
       src:
         type: image
-      alt:
+      title:
         type: text 
       caption:
         type: text
@@ -124,17 +124,15 @@ _snippets:
     inline: false
     preview:
       text:
-        - key: alt
+        - key: title 
         - Image
       subtext:
         - key: caption
-        - Full-width image with an optional caption below.
+        - Two images with an optional caption below.
       gallery:
-        values:
-          image:
-            - key: src_1
-          image:
-            - key: src_2
+        image:
+          - key: src_1
+          - key: src_2
         text: No preview available
         fit: contain
       icon: image
@@ -145,26 +143,26 @@ _snippets:
       named_args:
         - editor_key: src_1 
           type: string 
-        - editor_key: alt_1
+        - editor_key: title_1
           type: string
         - editor_key: caption_1
           type: string
         - editor_key: src_2
           type: string 
-        - editor_key: alt_2
+        - editor_key: title_2
           type: string
         - editor_key: caption_2
           type: string
     _inputs:
       src_1:
         type: image
-      alt_1:
+      title_1:
         type: text 
       caption_1:
         type: text
       src_2:
         type: image
-      alt_2:
+      title_2:
         type: text 
       caption_2:
         type: text

@@ -2,6 +2,6 @@
 {{ $transformed_src := replace $src "upload" $.Site.Params.upload_image_transforms }}
 
 <figure class="figure w-md-75 mx-auto d-block mb-5">
-  <img src="{{ $transformed_src }}" class="figure-img img-fluid rounded border border-2 shadow-sm bg-white mx-auto d-block p-1 mt-5 mb-2" alt="{{ .Get "alt" }}">
+  <img src="{{ $transformed_src }}" class="figure-img img-fluid rounded border border-2 shadow-sm bg-white mx-auto d-block p-1 mt-5 mb-2" alt="{{ .Get "title" }}">
   <figcaption class="figure-caption text-center">{{ .Get "caption" }}</figcaption>
 </figure>
