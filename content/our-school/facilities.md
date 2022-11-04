@@ -27,6 +27,8 @@ The theatre is available for either regular or occasional hire for community and
 
 Children absorb information in different ways and enjoy a variety of different learning environments. Our learning shack serves as an outdoor classroom in good weather and it's also a place for children who prefer a quieter style of play during recess and lunchtime.
 
+{{< image_2 src_1="https://res.cloudinary.com/andersonscreekps/image/upload/v1631507024/assets/img/our-school/20180520-083149.jpg" alt_1="Learning shack" caption_1="Learning shack" src_2="https://res.cloudinary.com/andersonscreekps/image/upload/v1631507024/assets/img/our-school/20171218-191409.jpg" alt_2="Learning shack" caption_2="Learning shack" >}}
+
 {{< image-2 "/assets/img/our-school/20180520-083149.jpg" "Learning shack and surrounds" "/assets/img/our-school/20171218-191409.jpg" "Learning shack" >}}
 
 ## Children's garden and chook house
