@@ -130,9 +130,11 @@ _snippets:
         - key: caption
         - Full-width image with an optional caption below.
       gallery:
-        image:
-          - key: src_1
-          - key: src_2
+        values:
+          image:
+            - key: src_1
+          image:
+            - key: src_2
         text: No preview available
         fit: contain
       icon: image
