@@ -42,6 +42,12 @@ We are committed to developing strong links with the local community, hence our 
 
 {{< image "/assets/img/our-school/20200610-120917.jpg" "Addition strategies worksheet" >}}
 
-School reports including our Annual Reports and Strategic Plans can be found on our [publications page](/publications/ "Publications"). 
+School reports including our Annual Reports and Strategic Plans can be found on our [publications page](/publications/ "Publications").
 
 You can find out more about our school profile, NAPLAN results, attendance and finances on the [My School website](https://www.myschool.edu.au/school/45019 "Anderson's Creek Primary School - My School").
+
+## Find My  School
+
+[Findmyschool.vic.gov.au](http://findmyschool.vic.gov.au/) is a new website that shows the zones of all public schools in Victoria.
+
+You can use [findmyschool.vic.gov.au](https://www.findmyschool.vic.gov.au/ "https://www.findmyschool.vic.gov.au/") to see the schools in your local area by typing your home address. The website shows the school zone, information about the school and its location on a map.
