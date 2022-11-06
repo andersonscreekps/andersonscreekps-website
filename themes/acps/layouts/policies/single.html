@@ -5,7 +5,7 @@
       <div class="col-12 col-lg-9 mx-auto" >
         <h1 class="mb-4 text-center">{{ .Title }}</h1>
         {{ .Content }}
-	<p><a href="{{ .Params.link }}">{{ .Params.title }} policy</a>{{ with .Params.description }} - {{ . }}{{ end }}
+	<p><a href="{{ .Params.link }}">{{ .Params.title }} policy</a>{{ with .Params.description | markdownify }} - {{ . }}{{ end }}
       </div>
     </div>
   </div>
