@@ -1,4 +1,4 @@
-baseURL = "https://wwww.andersonscreekps.vic.edu.au"
+baseURL = "https://www.andersonscreekps.vic.edu.au"
 buildFuture = true
 disableAliases = true
 disableHugoGeneratorInject = true
