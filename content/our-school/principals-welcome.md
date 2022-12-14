@@ -1,19 +1,21 @@
 +++
 aliases = ["/about/our-school-principal"]
-date = 2018-12-26T13:00:13Z
+date = 2022-12-14T00:00:00Z
 title = "Principal's welcome"
 [menu.main]
 parent = "Our school"
 weight = 2
 
 +++
+<img align="right" width="200" height="300" src="https://res.cloudinary.com/andersonscreekps/image/upload/v1670976794/assets/img/our-school/20221213-092530.jpg">
+
 It is my absolute privilege to be at Andersons Creek Primary School (ACPS) in the role of Acting Principal. I have had a long association with the school since 1997.
 
 Our school provides an engaging, comprehensive program. We aim to create a safe and nurturing environment that is built on positive relationships. We develop the whole student - academically, emotionally and socially.
 
 Our community is wonderful and provides the opportunity for active participation of all members of the school community and is committed to working effectively together, to ensure an inclusive environment within which every learner feels safe, valued and understood.
 
-We live by our motto: “Learning through the community”. Our school values are Respect, Responsibility, Optimism and Honesty, with kindness always being at the forefront of all that we do!
+We live by our motto: “Learning with the community”. Our school values are Respect, Responsibility, Optimism and Honesty, with kindness always being at the forefront of all that we do!
 
 There is a strong focus on academic excellence as well as opportunities for students to explore new passions and become curious. confident learners.
 
