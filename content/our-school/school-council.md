@@ -1,6 +1,6 @@
 +++
-aliases = ["/about/school-council"]
-date = 2022-03-01T00:00:00Z
+aliases = [ "/about/school-council" ]
+date = 2022-12-14T00:00:00.000Z
 title = "School Council"
 
 [menu.main]
@@ -27,8 +27,7 @@ More information on the roles and responsibilities of school councils can be fou
 
 Department employees include staff members at the school. Members of this category may make up no more than one-third of the total membership of the school council. As the executive officer, the principal of the school is automatically one of these members.
 
-* Sue Dyos - School Principal, Executive Officer
-* Meredith Thornton - Acting Assistant Principal
+* Meredith Thornton - Acting Principal, Executive Officer
 * Amanda Callaway
 * Deidre Prior
 
