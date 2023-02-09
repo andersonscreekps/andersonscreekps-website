@@ -24,7 +24,10 @@ Our child safety and wellbeing policies outline the measures and strategies we h
 * [Volunteers Policy](volunteers "Volunteers Policy")
 * [Digital Learning Policy](digital-learning "Digital learning")
 
-  
 As valuable partners in promoting and maintaining child safety and wellbeing at ACPS we welcome and encourage your feedback.
 
 If you have any suggestions, comments or questions in relation to our child safe policies and practices, please contact the school principal on 9844 2757 or at [andersons.creek.ps@education.vic.gov.au](mailto:andersons.creek.ps@education.vic.gov.au).
+
+Our school collects, uses, discloses and stores student and parent personal information for standard school functions or where permitted by law, as stated in the Schools’ Privacy Policy.
+
+For more information about privacy, refer to: [Schools’ Privacy Policy — information for parents](https://www.education.vic.gov.au/Pages/Schools-Privacy-Policy-information-for-parents.aspx). 
