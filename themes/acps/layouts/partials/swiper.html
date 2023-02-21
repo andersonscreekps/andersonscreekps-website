@@ -1,0 +1,32 @@
+{{ $imageBreakpoints := slice "576" "768" "992" "1200" "1600" "1920" }}
+
+{{ "<!-- Swiper -->" | safeHTML }}
+
+<!-- Swiper -->
+<div class="js-swiper-autoplay swiper-container">
+  <div class="swiper-wrapper">
+    {{ range $key, $value := .Params.swiper }}
+    <div class="swiper-slide">
+        <img class="img-fluid w-100" 
+	     width="16"
+	     height="9"
+          srcset="
+          {{- range $i, $e := $imageBreakpoints -}}
+          {{- if $i -}}, {{ end -}}
+          {{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_{{ . }}{{ $value.image }} {{ . }}w
+          {{- end }}" sizes="100vw" src="{{ $.Site.Params.cloudinary_base_url }}/{{ $.Site.Params.front_page_transforms }},w_1920{{ $value.image }}" alt="{{ .title }}">
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Arrows -->
+  <div class="js-swiper-autoplay-button-next"></div>
+  <div class="js-swiper-autoplay-button-prev"></div>
+</div>
+<!-- End Swiper -->
+
+<!-- Swiper Pagination -->
+<div class="js-swiper-autoplay-pagination swiper-pagination">
+</div>
+
+{{ "<!-- End Swiper -->" | safeHTML }}

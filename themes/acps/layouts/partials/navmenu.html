@@ -1,0 +1,59 @@
+{{/* layouts/partials/main_nav.html */}}
+<div class="main-nav">
+	{{ with .Site.Menus.main }}
+	<ul>
+		{{ range . }}
+			{{ template "main_nav_item" . }}
+		{{ end }}
+	</ul>
+	{{ end }}
+</div>
+
+{{ define "main_nav_item" }}
+<li>
+	<a href="{{ .URL }}">{{ .Name }}</a>
+	{{ if .HasChildren }}
+		<ul>
+			{{ range .Children }}
+				{{ template "main_nav_item" . }}
+			{{ end }}
+		</ul>
+	{{ end }}
+</li>
+{{ end }}
+
+<aside>
+    <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+                <li>{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}
+                    <a href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li>{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                <li>
+                    <a href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+        <li>
+            <a href="#" target="_blank">Hardcoded Link 1</a>
+        </li>
+        <li>
+            <a href="#" target="_blank">Hardcoded Link 2</a>
+        </li>
+    </ul>
+</aside>
