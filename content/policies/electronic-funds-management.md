@@ -1,7 +1,7 @@
 +++
 date = 2022-04-01T00:00:00Z
 description = ""
-link = "/v1653271258/policies/Electronic_Funds_Management_Policy_2022.pdf"
+link = "/v1680774994/policies/ACPS_Electronic_funds_management-2023.pdf"
 title = "Electronic funds management"
 
 +++
