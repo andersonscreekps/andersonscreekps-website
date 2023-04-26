@@ -11,13 +11,13 @@ Please [contact us](/our-school/contact-us/ "Contact us") to find out more infor
 
 ## Foundation (Prep) enrolments
 
-Our school follows the Department of Education’s <a href="https://www2.education.vic.gov.au/pal/enrolment/policy">Enrolment Policy</a> for the enrolment, placement, and transfer of students.
+Our school follows the Department of Education’s [Enrolment Policy](https://www2.education.vic.gov.au/pal/enrolment/policy) for the enrolment, placement, and transfer of students.
 
 The Department of Education has a statewide Foundation (Prep) enrolment timeline.
 
 The timeline advises families when and how to enrol their child into Foundation (Prep) at a Victorian government primary school, including Andersons Creek Primary School.
 
-You can find information and resources about the enrolment timeline at: <a href="https://www.vic.gov.au/enrolling-foundation-prep">Enrolling in Foundation (Prep)</a>.
+You can find information and resources about the enrolment timeline at: [Enrolling in Foundation (Prep)](https://www.vic.gov.au/enrolling-foundation-prep).
 
 ## Enrolling your child
 
@@ -35,9 +35,9 @@ Starting school is a big change for a child (as well as parents and carers). You
 
 We offer a variety of programs to introduce children to our school. You can find details of these on our [Foundation page](/learning/foundation/ "Foundation").
 
-Please contact the school office at <a href="mailto:andersons.creek.ps@education.vic.gov.au">andersons.creek.ps@education.vic.gov.au</a> or on 03 9844 2757 for more information about our transition programs.
+Please contact the school office at [andersons.creek.ps@education.vic.gov.au](mailto:andersons.creek.ps@education.vic.gov.au) or on 03 9844 2757 for more information about our transition programs.
 
-The Victorian Government also has a [guide to starting primary school ](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
+The Victorian Government also has a [guide to starting primary school](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
 
 ## Enrolments in years 1-6
 
@@ -46,11 +46,11 @@ We invite you to contact us to discuss enrolment of your child when transferring
 Enrolments for students transferring from another school are processed in accordance with the department’s Placement Policy.
 
 Further information is available on the Department of Education's website.
-<a href="https://www.vic.gov.au/changing-schools">Changing schools | Victorian Government</a>
+[Changing schools | Victorian Government](https://www.vic.gov.au/changing-schools)
 
 ## Our school zone
 
-Our school zone is available on findmyschool.vic.gov.au which hosts the most up-to-date information on school zones in Victoria.
+Our school zone is available on [findmyschool.vic.gov.au](findmyschool.vic.gov.au) which hosts the most up-to-date information on school zones in Victoria.
 
 Students residing within our school zone are guaranteed a place at our school, which is determined based on your permanent residential address.
 
@@ -60,4 +60,4 @@ For more information, you can:
 
   * visit School zones for answers to frequently asked questions
   * call the Victorian School Building Authority (VSBA) on 1800 896 950
-  * email the VSBA at <a href="mailto:vsba@education.vic.gov.au">vsba@education.vic.gov.au</a>
+  * email the VSBA at [vsba@education.vic.gov.au](mailto:vsba@education.vic.gov.au)
