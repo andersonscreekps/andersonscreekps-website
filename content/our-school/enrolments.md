@@ -37,7 +37,7 @@ We offer a variety of programs to introduce children to our school. You can find
 
 Please contact the school office at [andersons.creek.ps@education.vic.gov.au](mailto:andersons.creek.ps@education.vic.gov.au) or on 03 9844 2757 for more information about our transition programs.
 
-The Victorian Government also has a [guide to starting primary school](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide")and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
+The Victorian Government also has a [guide to starting primary school](https://www.vic.gov.au/starting-primary-school-guide "Starting primary school guide") and a [Transition to school information sheet](https://www.education.vic.gov.au/Documents/childhood/professionals/learning/translations/English-information-sheet-transition-to-school.pdf "Transition to school information sheet") that you may find helpful.
 
 ## Enrolments in years 1-6
 
@@ -50,7 +50,7 @@ Further information is available on the Department of Education's website.
 
 ## Our school zone
 
-Our school zone is available on [findmyschool.vic.gov.au](findmyschool.vic.gov.au) which hosts the most up-to-date information on school zones in Victoria.
+Our school zone is available on [findmyschool.vic.gov.au](https://findmyschool.vic.gov.au) which hosts the most up-to-date information on school zones in Victoria.
 
 Students residing within our school zone are guaranteed a place at our school, which is determined based on your permanent residential address.
 
