@@ -3,6 +3,12 @@ date = 2021-09-01T00:00:00Z
 title = "Enrolments"
 
 +++
+Thank you for considering enrolment into Andersons Creek Primary School.
+
+We understand that the process of selecting where your child will engage in their primary aged schooling is a significant decision and important milestone for all families.
+
+The enrolment and transition team at Andersons Creek Primary School are here to provide support and guidance from initial enrolment through to transition into our wonderful school community. 
+
 ## 2024 enrolments
 
 Enrolments for 2024 are now being accepted.
