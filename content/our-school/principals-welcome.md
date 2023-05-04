@@ -7,7 +7,7 @@ parent = "Our school"
 weight = 2
 
 +++
-<img align="right" width="200" height="300" src="https://res.cloudinary.com/andersonscreekps/image/upload/v1683231727/assets/img/our-school/20230326-155626.jpg">
+<img align="right" width="300" height="200" src="https://res.cloudinary.com/andersonscreekps/image/upload/v1683231727/assets/img/our-school/20230326-155626.jpg">
 
 It is my pleasure to introduce myself as the Principal of Andersons Creek Primary School, a place where we couple community connection with a high-quality, comprehensive and holistic education.
 
