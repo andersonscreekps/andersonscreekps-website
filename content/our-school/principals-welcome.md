@@ -28,4 +28,6 @@ As Principal, my door is always open for current and prospective families. I war
 Kind Regards,
 
 Daniel Webber
-Principal, Andersons Creek Primary School
+
+Principal,<br />
+Andersons Creek Primary School
